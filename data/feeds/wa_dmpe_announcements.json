@@ -1,6 +1,6 @@
 {
  "feed": "wa_dmpe_announcements",
- "generated_at": "2026-11-27T08:30:14+11:00",
+ "generated_at": "2026-11-27T08:32:02+11:00",
  "records": [
   {
    "feed": "wa_dmpe_announcements",
@@ -25,7 +25,7 @@
     "summary": "The department has marked its first year of operation with the release of its inaugural Annual Report 2025–26, highlighting faster mining approvals, modernised digital services, new regulatory pathways for emerging industries and advances in geoscience.",
     "agency": "DMPE"
    },
-   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "fetched_at": "2026-11-27T08:32:02+11:00",
    "record_id": "9e18418d235ac1de"
   },
   {
@@ -51,7 +51,7 @@
     "summary": "The department's latest report is a deep dive into performance against its target timeframes for environmental applications.",
     "agency": "DMPE"
    },
-   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "fetched_at": "2026-11-27T08:32:02+11:00",
    "record_id": "fcacb89a34bbc429"
   },
   {
@@ -77,7 +77,7 @@
     "summary": "Seven areas released for petroleum exploration across four WA basins.",
     "agency": "DMPE"
    },
-   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "fetched_at": "2026-11-27T08:32:02+11:00",
    "record_id": "19a27bdfa34dec17"
   },
   {
@@ -103,7 +103,7 @@
     "summary": "Mining employment hits a record 141,531 full-time equivalent jobs in 2025-26.",
     "agency": "DMPE"
    },
-   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "fetched_at": "2026-11-27T08:32:02+11:00",
    "record_id": "f3dc933da401b95a"
   }
  ]
