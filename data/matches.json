@@ -1,0 +1,59 @@
+{
+ "note": "Matches record that a commercial event and a policy event sit close together in time with shared scope. They do not show cause and are not recommendations. Only matches with a sourced commercial record are listed; the brief's Northern Minerals example is a synthetic test fixture and is not shown.",
+ "matches": [
+  {
+   "id": "m-bhp-cmrg-2026",
+   "rank": 1,
+   "window_days": 0,
+   "commercial": {
+    "entity": "BHP",
+    "date": "2026-04-22",
+    "title": "BHP quarterly operational review: iron ore sales contract negotiations with CMRG concluded",
+    "source": "https://announcements.asx.com.au/asxpdf/20260422/pdf/06yqmv8hfrhgk9.pdf"
+   },
+   "policy": {
+    "ref": "cmrg-halt-2025",
+    "title": "CMRG purchase restrictions on BHP products (Sep-Nov 2025), lifted on conclusion"
+   },
+   "rationale": "BHP's own ASX filing reports the end of the CMRG negotiations on the day the restriction episode closed; same entity, same commodity (iron ore).",
+   "flags": [
+    "boundary_event_policy_or_commercial",
+    "policy_side_from_reporting"
+   ],
+   "verify": true,
+   "score_inputs": {
+    "lag_days": 0,
+    "entity_overlap": "same_entity",
+    "commodity_match": true,
+    "policy_volatility": "high"
+   }
+  },
+  {
+   "id": "m-chinaenergy-coal-2023",
+   "rank": 2,
+   "window_days": 1,
+   "commercial": {
+    "entity": "China Energy Investment Corp",
+    "date": "2023-01-06",
+    "title": "China Energy places order for Australian coal (Reuters, sources)",
+    "source": "https://www.reuters.com/business/energy/china-energy-places-order-import-australian-coal-sources-say-2023-01-06/"
+   },
+   "policy": {
+    "ref": "coal-easing-2023",
+    "title": "China lets four state firms resume Australian coal imports (reported 5 Jan 2023)"
+   },
+   "rationale": "A state buyer's first reported order came one day after the reported easing for state firms; same commodity (coal).",
+   "flags": [
+    "both_sides_from_reporting"
+   ],
+   "verify": true,
+   "score_inputs": {
+    "lag_days": 1,
+    "entity_overlap": "named_counterparty",
+    "commodity_match": true,
+    "policy_volatility": "high"
+   }
+  }
+ ],
+ "scoring": "temporal = 1 - |lag_days|/30; entity = 1.0 same entity, 0.6 named counterparty; commodity = 1.0 match else 0; volatility weight = 1.0 low, 0.9 medium, 0.8 high; score = mean(temporal, entity, commodity) x volatility weight. Computed in the browser from these inputs, not hand-set."
+}

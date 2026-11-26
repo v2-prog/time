@@ -1,0 +1,14 @@
+{
+ "note": "US export-control events and NVIDIA commercial events. US data, kept for the chip correlator; the Australian site's scope is unchanged. Only items with a checked source are shown.",
+ "events": [
+  {"date": "2025-04-09", "side": "policy", "title": "US Government informs NVIDIA that H20 exports to China (incl. HK, Macau) require a licence; on 14 Apr says indefinitely", "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm", "ref": "nvidia-h20-licence", "verify": false},
+  {"date": "2025-04-15", "side": "commercial", "title": "NVIDIA 8-K: up to US$5.5bn Q1 FY26 charges for H20 inventory, purchase commitments and reserves", "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000082/nvda-20250409.htm", "ref": "nvidia-h20-licence", "verify": false},
+  {"date": "2025-08-22", "side": "commercial", "title": "Reported: NVIDIA tells suppliers to halt H20 work after Chinese authorities discourage purchases", "source": "https://www.reuters.com/world/china/nvidia-orders-suppliers-halt-work-china-focussed-h20-ai-chip-information-says-2025-08-22/", "ref": "nvidia-h20-halt", "verify": true}
+ ],
+ "feeds": [
+  {"id": "bis_federal_register", "label": "US BIS rules (Federal Register)", "status": "never_run"},
+  {"id": "bis_entity_list", "label": "BIS Entity List additions", "status": "never_run"},
+  {"id": "sec_edgar", "label": "SEC EDGAR 8-K/10-Q for NVIDIA, TSMC ADR", "status": "never_run"},
+  {"id": "tsmc_monthly", "label": "TSMC monthly revenue", "status": "never_run"}
+ ]
+}

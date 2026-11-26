@@ -34,7 +34,11 @@ Checked 26 Nov 2026.
 | No advice | A banner on every page. Matches are worded as timing plus shared scope, never as cause or recommendation. | — |
 | FIRB: policy or commercial? | **Policy event with `boundary_class: true`.** A FIRB decision is a government act, so it belongs on the policy timeline and gets a lifecycle. Every match against it carries the `boundary_event_policy_or_commercial` flag. A company's *own* announcement of FIRB approval comes in through the ASX adapter as the commercial event `firb_approval_received`, so the two sides can still be matched against each other. CMRG directives get the same treatment, because a state buyer's instruction is the same kind of boundary case. | Set `boundary_class` per policy, or filter on the flag |
 
-## Items still marked `verify: true`
+## Verification pass, 27 Nov 2026
+
+Every item below and every date above was rechecked against primary sources. Results, with source URLs, are in `data/verification.json`. The main corrections were: Qld NRMMRRD dates from 1 Nov 2024, NT DME from Sep 2024 and NSW DPIRD from 1 Jul 2024, so only the WA change is 1 Jul 2025; the coal easing was reported on 5 Jan 2023, not 3 Jan; wine provisional measures applied from 28 Nov 2020; and the CMRG halt was first reported on 19 Sep 2025. CMPTI received Royal Assent on 14 Feb 2025.
+
+## Items still marked `verify: true` (as of 26 Nov; see verification.json for current state)
 
 - The coal restriction dates: May 2020 verbal notice, October 2020 start, 3 Jan 2023 easing, 14 Mar 2023 full removal. These come from reporting only, because the measure was never announced.
 - The provisional wine deposits from late Nov 2020. This date came from memory.
