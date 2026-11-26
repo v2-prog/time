@@ -1,4 +1,4 @@
-# Time.viol.au
+# Time.vilo.au
 
 Temporal event correlator for Australian resources, semiconductors, and ASX sector rotation verification.
 
