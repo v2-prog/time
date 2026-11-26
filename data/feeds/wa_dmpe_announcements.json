@@ -1,6 +1,6 @@
 {
  "feed": "wa_dmpe_announcements",
- "generated_at": "2026-11-27T08:37:26+11:00",
+ "generated_at": "2026-11-27T08:39:47+11:00",
  "records": [
   {
    "feed": "wa_dmpe_announcements",
@@ -29,7 +29,7 @@
      "periodic_report"
     ]
    },
-   "fetched_at": "2026-11-27T08:37:25+11:00",
+   "fetched_at": "2026-11-27T08:39:46+11:00",
    "record_id": "9e18418d235ac1de"
   },
   {
@@ -58,7 +58,7 @@
      "approval"
     ]
    },
-   "fetched_at": "2026-11-27T08:37:25+11:00",
+   "fetched_at": "2026-11-27T08:39:46+11:00",
    "record_id": "fcacb89a34bbc429"
   },
   {
@@ -85,7 +85,7 @@
     "agency": "DMPE",
     "topics": []
    },
-   "fetched_at": "2026-11-27T08:37:25+11:00",
+   "fetched_at": "2026-11-27T08:39:46+11:00",
    "record_id": "19a27bdfa34dec17"
   },
   {
@@ -112,7 +112,7 @@
     "agency": "DMPE",
     "topics": []
    },
-   "fetched_at": "2026-11-27T08:37:25+11:00",
+   "fetched_at": "2026-11-27T08:39:46+11:00",
    "record_id": "f3dc933da401b95a"
   }
  ]
