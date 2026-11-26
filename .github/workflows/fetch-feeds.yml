@@ -1,0 +1,35 @@
+name: Fetch feeds
+on:
+  schedule:
+    # 19:30 UTC Sun-Thu = 06:30 AEDT / 05:30 AEST Mon-Fri; 07:30 UTC Mon-Fri = evening Sydney refresh
+    - cron: "30 19 * * 0-4"
+    - cron: "30 7 * * 1-5"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: fetch-feeds
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: |
+          python -m unittest discover -s tests -p "test_*.py" -v
+          node tests/test_logic.js
+      - name: Run fetchers
+        run: python fetchers/run_all.py
+      - name: Commit data if changed
+        run: |
+          git config user.name "time-feeds-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/feeds data/feed_health.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Feeds: scheduled refresh $(TZ=Australia/Sydney date '+%Y-%m-%d %H:%M %Z')"
+          git push
