@@ -4,7 +4,7 @@
   const main = document.getElementById("main"), live = document.getElementById("live");
   const KEY = "time.vilo.au/rotation/v1";
   let state = load(), history = [];
-  let verification = { items: [] }, health = { feeds: [] };
+  let verification = { items: [] }, health = { feeds: [] }, matches = { engine: [], seeded: [], bracket_activity: {} };
 
   function load() { try { return JSON.parse(localStorage.getItem(KEY)) || { reviewed: {}, notes: {} }; } catch (e) { return { reviewed: {}, notes: {} }; } }
   function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
@@ -23,7 +23,21 @@
       <table><thead><tr><th>Gap</th><th>Status</th><th>Where</th></tr></thead><tbody>
       ${D.designFixes.map((f) => `<tr><td>${esc(f.gap)}</td><td>${esc(f.status)}</td><td><code>${esc(f.where)}</code></td></tr>`).join("")}
       </tbody></table>
+      <h2>Engine activity by bracket</h2>
+      ${activity()}
       <h2>Scope</h2><p>Brackets are measured against S&amp;P/ASX 200 sector indices. Outside scope (watch list only): ${D.watchListOutsideScope.map((w) => `${esc(w.code)} (${esc(w.why)})`).join("; ")}.</p></section>`;
+  }
+
+  function activity() {
+    const ba = matches.bracket_activity || {}, names = Object.keys(ba);
+    if (!names.length) return `<p class="meta">No engine matches yet.</p>`;
+    return `<table><thead><tr><th>Bracket</th><th>Matches per ${esc(ba[names[0]].window_days)}-day window (non-overlapping, oldest first)</th><th>Latest window z-score</th><th>Direction tags (policy side)</th></tr></thead><tbody>` +
+      names.map((b) => {
+        const c = ba[b].counts, z = L.intensityZ(c[c.length - 1], c.slice(0, -1));
+        const dirs = {};
+        (matches.engine || []).filter((m) => m.bracket === b).forEach((m) => { const d = m.policy.direction || "unassigned"; dirs[d] = (dirs[d] || 0) + 1; });
+        return `<tr><td>${esc(b)}</td><td>${c.map(esc).join(" · ")} <span class="meta">from ${esc(ba[b].start)}</span></td><td>${z == null ? "n/a (needs 4+ past windows)" : z.toFixed(2)}</td><td>${Object.entries(dirs).map(([k, v]) => `${esc(k)} ${v}`).join(", ")}</td></tr>`;
+      }).join("") + `</tbody></table><p class="meta">Counts come from engine matches in <code>/data/matches.json</code>. They measure activity, not direction or outcome, and are not a signal to act.</p>`;
   }
 
   function queues() {
@@ -119,6 +133,7 @@
   Promise.all([
     fetch("../data/verification.json").then((r) => r.json()).catch(() => ({ items: [] })),
     fetch("../data/feed_health.json").then((r) => r.json()).catch(() => ({ feeds: [] })),
-  ]).then(([v, h]) => { verification = v; health = h; render(); });
+    fetch("../data/matches.json").then((r) => r.json()).catch(() => ({ engine: [] })),
+  ]).then(([v, h, m]) => { verification = v; health = h; matches = m; render(); });
   render();
 })();

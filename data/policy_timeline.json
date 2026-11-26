@@ -1,19 +1,380 @@
 {
- "note": "Policy and regulatory events for the Resources correlator. Dates come from data/verification.json; anything still flagged there carries verify:true here. Effective dates matter more than announcement dates.",
+ "note": "Policy and regulatory events for the Resources correlator. Dates come from data/verification.json; anything still flagged there carries verify:true here. Effective dates matter more than announcement dates. Each event lists the entities and topic tags it affects; the matching engine uses these.",
  "events": [
-  {"id": "coal-ban-2020", "date": "2020-10-09", "date_kind": "reported", "title": "China state buyers given verbal notice to stop importing Australian coal", "commodity": ["thermal_coal", "met_coal"], "jurisdiction": "CN", "lifecycle": "effective", "volatility": "high", "direction_for_resources": "negative", "verify": true, "ref": "coal-restriction-dates"},
-  {"id": "wine-provisional-2020", "date": "2020-11-28", "date_kind": "effective", "title": "China provisional anti-dumping deposits on Australian wine", "commodity": ["wine"], "jurisdiction": "CN", "lifecycle": "effective", "volatility": "high", "direction_for_resources": "n/a (agriculture precedent)", "verify": false, "ref": "wine-provisional-deposits"},
-  {"id": "coal-easing-2023", "date": "2023-01-05", "date_kind": "reported", "title": "China lets four state firms resume Australian coal imports", "commodity": ["thermal_coal", "met_coal"], "jurisdiction": "CN", "lifecycle": "amended", "volatility": "high", "direction_for_resources": "positive", "verify": true, "ref": "coal-restriction-dates"},
-  {"id": "coal-full-2023", "date": "2023-03-14", "date_kind": "reported", "title": "China allows all companies to import Australian coal", "commodity": ["thermal_coal", "met_coal"], "jurisdiction": "CN", "lifecycle": "repealed", "volatility": "high", "direction_for_resources": "positive", "verify": true, "ref": "coal-restriction-dates"},
-  {"id": "cms-2023", "date": "2023-06-20", "date_kind": "announced", "title": "Critical Minerals Strategy 2023-2030 released", "commodity": ["rare_earths", "lithium"], "jurisdiction": "AU", "lifecycle": "final", "volatility": "low", "direction_for_resources": "positive", "verify": false, "ref": "critical-minerals-strategy"},
-  {"id": "barley-2023", "date": "2023-08-05", "date_kind": "effective", "title": "China ends duties on Australian barley (MOFCOM Ann. 29/2023)", "commodity": ["barley"], "jurisdiction": "CN", "lifecycle": "repealed", "volatility": "high", "direction_for_resources": "n/a (agriculture precedent)", "verify": false, "ref": "barley-duties-removed"},
-  {"id": "wine-2024", "date": "2024-03-29", "date_kind": "effective", "title": "China ends duties on Australian wine (MOFCOM Ann. 11/2024)", "commodity": ["wine"], "jurisdiction": "CN", "lifecycle": "repealed", "volatility": "high", "direction_for_resources": "n/a (agriculture precedent)", "verify": false, "ref": "wine-duties-removed"},
-  {"id": "cmpti-budget-2024", "date": "2024-05-14", "date_kind": "announced", "title": "CMPTI announced in 2024-25 Budget", "commodity": ["rare_earths", "lithium"], "jurisdiction": "AU", "lifecycle": "proposed", "volatility": "low", "direction_for_resources": "positive", "verify": false, "ref": "cmpti-announced"},
-  {"id": "cmpti-law-2025", "date": "2025-02-14", "date_kind": "assent", "title": "CMPTI law assented (passed 11 Feb 2025); applies 1 Jul 2027 to 30 Jun 2040", "commodity": ["rare_earths", "lithium"], "jurisdiction": "AU", "lifecycle": "final", "volatility": "low", "direction_for_resources": "positive", "verify": false, "ref": "cmpti-passed"},
-  {"id": "cmrg-halt-2025", "date": "2025-09-19", "date_kind": "reported", "title": "CMRG asks buyers to halt BHP Jimblebar fines", "commodity": ["iron_ore"], "jurisdiction": "CN", "lifecycle": "effective", "volatility": "high", "boundary_class": true, "direction_for_resources": "negative", "verify": true, "ref": "cmrg-start"},
-  {"id": "ree-suspension-2025", "date": "2025-11-10", "date_kind": "effective", "title": "China suspends Oct 2025 rare earth export controls (Ann. 70/2025) to 10 Nov 2026", "commodity": ["rare_earths"], "jurisdiction": "CN", "lifecycle": "suspended", "volatility": "high", "direction_for_resources": "mixed", "verify": true, "ref": "rare-earth-suspension", "note": "Ann. 70/2025 start date taken from secondary summary"},
-  {"id": "epbc-2025", "date": "2025-12-01", "date_kind": "assent", "title": "Environment Protection Reform Act 2025 assented", "commodity": ["all"], "jurisdiction": "AU", "lifecycle": "final", "volatility": "medium", "direction_for_resources": "mixed", "verify": false, "ref": "epbc-assent"},
-  {"id": "ntu-firb-2026", "date": "2026-06-18", "date_kind": "effective", "title": "Northern Minerals disposal orders (No. 1) 2026 commence", "commodity": ["rare_earths"], "jurisdiction": "AU", "lifecycle": "effective", "volatility": "medium", "boundary_class": true, "direction_for_resources": "mixed", "verify": true, "ref": "ntu-firb-2026"},
-  {"id": "ree-extension-2026", "date": "2026-11-11", "date_kind": "effective", "title": "China extends rare earth control suspension to 10 Jan 2027 (Ann. 58/2026)", "commodity": ["rare_earths"], "jurisdiction": "CN", "lifecycle": "suspended", "volatility": "high", "direction_for_resources": "mixed", "verify": false, "ref": "rare-earth-suspension", "watch": "2027-01-10"}
+  {
+   "id": "coal-ban-2020",
+   "date": "2020-10-09",
+   "date_kind": "reported",
+   "title": "China state buyers given verbal notice to stop importing Australian coal",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "effective",
+   "volatility": "high",
+   "direction_for_resources": "negative",
+   "verify": true,
+   "ref": "coal-restriction-dates",
+   "entities": [
+    "WHC"
+   ],
+   "topics": [
+    "china_trade",
+    "coal"
+   ]
+  },
+  {
+   "id": "wine-provisional-2020",
+   "date": "2020-11-28",
+   "date_kind": "effective",
+   "title": "China provisional anti-dumping deposits on Australian wine",
+   "commodity": [
+    "wine"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "effective",
+   "volatility": "high",
+   "direction_for_resources": "n/a (agriculture precedent)",
+   "verify": false,
+   "ref": "wine-provisional-deposits",
+   "entities": [],
+   "topics": [
+    "china_trade"
+   ]
+  },
+  {
+   "id": "coal-easing-2023",
+   "date": "2023-01-05",
+   "date_kind": "reported",
+   "title": "China lets four state firms resume Australian coal imports",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "amended",
+   "volatility": "high",
+   "direction_for_resources": "positive",
+   "verify": true,
+   "ref": "coal-restriction-dates",
+   "entities": [
+    "WHC"
+   ],
+   "topics": [
+    "china_trade",
+    "coal"
+   ]
+  },
+  {
+   "id": "coal-full-2023",
+   "date": "2023-03-14",
+   "date_kind": "reported",
+   "title": "China allows all companies to import Australian coal",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "repealed",
+   "volatility": "high",
+   "direction_for_resources": "positive",
+   "verify": true,
+   "ref": "coal-restriction-dates",
+   "entities": [
+    "WHC"
+   ],
+   "topics": [
+    "china_trade",
+    "coal"
+   ]
+  },
+  {
+   "id": "cms-2023",
+   "date": "2023-06-20",
+   "date_kind": "announced",
+   "title": "Critical Minerals Strategy 2023-2030 released",
+   "commodity": [
+    "rare_earths",
+    "lithium"
+   ],
+   "jurisdiction": "AU",
+   "lifecycle": "final",
+   "volatility": "low",
+   "direction_for_resources": "positive",
+   "verify": false,
+   "ref": "critical-minerals-strategy",
+   "entities": [
+    "LYC",
+    "ARU",
+    "NTU"
+   ],
+   "topics": [
+    "rare_earths",
+    "funding",
+    "lithium",
+    "offtake"
+   ]
+  },
+  {
+   "id": "barley-2023",
+   "date": "2023-08-05",
+   "date_kind": "effective",
+   "title": "China ends duties on Australian barley (MOFCOM Ann. 29/2023)",
+   "commodity": [
+    "barley"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "repealed",
+   "volatility": "high",
+   "direction_for_resources": "n/a (agriculture precedent)",
+   "verify": false,
+   "ref": "barley-duties-removed",
+   "entities": [],
+   "topics": [
+    "china_trade"
+   ]
+  },
+  {
+   "id": "wine-2024",
+   "date": "2024-03-29",
+   "date_kind": "effective",
+   "title": "China ends duties on Australian wine (MOFCOM Ann. 11/2024)",
+   "commodity": [
+    "wine"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "repealed",
+   "volatility": "high",
+   "direction_for_resources": "n/a (agriculture precedent)",
+   "verify": false,
+   "ref": "wine-duties-removed",
+   "entities": [],
+   "topics": [
+    "china_trade"
+   ]
+  },
+  {
+   "id": "cmpti-budget-2024",
+   "date": "2024-05-14",
+   "date_kind": "announced",
+   "title": "CMPTI announced in 2024-25 Budget",
+   "commodity": [
+    "rare_earths",
+    "lithium"
+   ],
+   "jurisdiction": "AU",
+   "lifecycle": "proposed",
+   "volatility": "low",
+   "direction_for_resources": "positive",
+   "verify": false,
+   "ref": "cmpti-announced",
+   "entities": [
+    "LYC",
+    "ARU",
+    "NTU"
+   ],
+   "topics": [
+    "rare_earths",
+    "funding",
+    "offtake"
+   ]
+  },
+  {
+   "id": "cmpti-law-2025",
+   "date": "2025-02-14",
+   "date_kind": "assent",
+   "title": "CMPTI law assented (passed 11 Feb 2025); applies 1 Jul 2027 to 30 Jun 2040",
+   "commodity": [
+    "rare_earths",
+    "lithium"
+   ],
+   "jurisdiction": "AU",
+   "lifecycle": "final",
+   "volatility": "low",
+   "direction_for_resources": "positive",
+   "verify": false,
+   "ref": "cmpti-passed",
+   "entities": [
+    "LYC",
+    "ARU",
+    "NTU"
+   ],
+   "topics": [
+    "rare_earths",
+    "funding",
+    "offtake"
+   ]
+  },
+  {
+   "id": "cmrg-halt-2025",
+   "date": "2025-09-19",
+   "date_kind": "reported",
+   "title": "CMRG asks buyers to halt BHP Jimblebar fines",
+   "commodity": [
+    "iron_ore"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "effective",
+   "volatility": "high",
+   "boundary_class": true,
+   "direction_for_resources": "negative",
+   "verify": true,
+   "ref": "cmrg-start",
+   "entities": [
+    "BHP"
+   ],
+   "topics": [
+    "china_trade",
+    "iron_ore",
+    "pricing_contract"
+   ]
+  },
+  {
+   "id": "ree-suspension-2025",
+   "date": "2025-11-10",
+   "date_kind": "effective",
+   "title": "China suspends Oct 2025 rare earth export controls (Ann. 70/2025) to 10 Nov 2026",
+   "commodity": [
+    "rare_earths"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "suspended",
+   "volatility": "high",
+   "direction_for_resources": "mixed",
+   "verify": true,
+   "ref": "rare-earth-suspension",
+   "note": "Ann. 70/2025 start date taken from secondary summary",
+   "entities": [
+    "LYC",
+    "ARU",
+    "NTU"
+   ],
+   "topics": [
+    "export_controls",
+    "rare_earths",
+    "china_trade",
+    "offtake"
+   ]
+  },
+  {
+   "id": "epbc-2025",
+   "date": "2025-12-01",
+   "date_kind": "assent",
+   "title": "Environment Protection Reform Act 2025 assented",
+   "commodity": [
+    "all"
+   ],
+   "jurisdiction": "AU",
+   "lifecycle": "final",
+   "volatility": "medium",
+   "direction_for_resources": "mixed",
+   "verify": false,
+   "ref": "epbc-assent",
+   "entities": [],
+   "topics": [
+    "approval"
+   ]
+  },
+  {
+   "id": "cmrg-concluded-2026",
+   "date": "2026-04-22",
+   "date_kind": "reported",
+   "title": "BHP reports CMRG iron ore sales negotiations concluded",
+   "commodity": [
+    "iron_ore"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "repealed",
+   "volatility": "high",
+   "boundary_class": true,
+   "direction_for_resources": "positive",
+   "verify": false,
+   "ref": "cmrg-bhp-resolved",
+   "entities": [
+    "BHP"
+   ],
+   "topics": [
+    "china_trade",
+    "iron_ore",
+    "pricing_contract"
+   ]
+  },
+  {
+   "id": "ntu-firb-2026",
+   "date": "2026-06-18",
+   "date_kind": "effective",
+   "title": "Northern Minerals disposal orders (No. 1) 2026 commence",
+   "commodity": [
+    "rare_earths"
+   ],
+   "jurisdiction": "AU",
+   "lifecycle": "effective",
+   "volatility": "medium",
+   "boundary_class": true,
+   "direction_for_resources": "mixed",
+   "verify": true,
+   "ref": "ntu-firb-2026",
+   "entities": [
+    "NTU"
+   ],
+   "topics": [
+    "firb"
+   ]
+  },
+  {
+   "id": "ree-extension-2026",
+   "date": "2026-11-11",
+   "date_kind": "effective",
+   "title": "China extends rare earth control suspension to 10 Jan 2027 (Ann. 58/2026)",
+   "commodity": [
+    "rare_earths"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "suspended",
+   "volatility": "high",
+   "direction_for_resources": "mixed",
+   "verify": false,
+   "ref": "rare-earth-suspension",
+   "watch": "2027-01-10",
+   "entities": [
+    "LYC",
+    "ARU",
+    "NTU"
+   ],
+   "topics": [
+    "export_controls",
+    "rare_earths",
+    "china_trade",
+    "offtake"
+   ]
+  },
+  {
+   "id": "ree-suspension-expiry-2027",
+   "date": "2027-01-10",
+   "date_kind": "scheduled",
+   "title": "Scheduled end of China's suspension of the Oct 2025 rare earth export controls (unless extended again)",
+   "commodity": [
+    "rare_earths"
+   ],
+   "jurisdiction": "CN",
+   "lifecycle": "scheduled",
+   "volatility": "high",
+   "direction_for_resources": "mixed",
+   "verify": false,
+   "ref": "rare-earth-suspension",
+   "entities": [
+    "LYC",
+    "ARU",
+    "NTU"
+   ],
+   "topics": [
+    "export_controls",
+    "rare_earths",
+    "china_trade",
+    "offtake"
+   ],
+   "watch": "2027-01-10"
+  }
  ]
 }

@@ -23,11 +23,25 @@
         return `<tr><td>${esc(f.label)}</td><td>${pill(st)}${f.errors && f.errors.length ? `<details><summary>errors</summary>${f.errors.map(esc).join("<br>")}</details>` : ""}</td><td>${syd(f.last_success)}</td><td>${f.records || ""}</td><td>${syd(f.latest_event)}</td></tr>`; }).join("")}</tbody></table>`;
     } else $("health").innerHTML = `<h2>Feed health</h2><p class="pill bad">feed_health.json missing</p>`;
 
-    if (matches) $("matches").innerHTML = `<h2>Matches</h2><p class="meta">${esc(matches.note)}</p><p class="meta">Scoring: ${esc(matches.scoring)}</p>` + matches.matches.map((m) => `
-      <div class="card"><strong>#${m.rank} · score ${score(m.score_inputs)}</strong> ${m.verify ? '<span class="pill warn">verify</span>' : ""}
-      <p><b>Commercial:</b> ${esc(m.commercial.date)} · ${esc(m.commercial.entity)} · ${esc(m.commercial.title)} · <a href="${esc(m.commercial.source)}" target="_blank" rel="noopener">source</a></p>
-      <p><b>Policy:</b> ${esc(m.policy.title)}</p><p><b>Why linked:</b> ${esc(m.rationale)}</p>
-      <p class="meta">Window ±${m.window_days} days · lag ${m.score_inputs.lag_days} d · flags: ${m.flags.map(esc).join(", ")}</p></div>`).join("");
+    if (matches) {
+      const seeded = matches.seeded || matches.matches || [], engine = matches.engine || [];
+      const card = (m) => {
+        const isEng = m.origin === "engine";
+        const sc = isEng ? m.score : score(m.score_inputs);
+        const parts = isEng ? Object.entries(m.parts).map(([k, v]) => `${esc(k)} ${esc(v)}`).join(" · ") : "";
+        const rec = isEng ? m.record : m.commercial;
+        return `<div class="card"><strong>${isEng ? "Engine" : "Seeded"} #${m.rank} · score ${sc}${isEng ? ` · confidence ${m.confidence}` : ""}</strong> <span class="pill ${isEng ? "ok" : ""}">${isEng ? "engine-generated" : "hand-seeded"}</span> ${m.verify ? '<span class="pill warn">verify</span>' : ""}${m.archived ? ' <span class="pill">archived</span>' : ""}
+        <p><b>Record:</b> ${syd(rec.date)} · ${esc(rec.entity)} · <a href="${esc(rec.source)}" target="_blank" rel="noopener">${esc(rec.title)}</a>${isEng && rec.tags ? ` <span class="meta">tags: ${rec.tags.map(esc).join(", ")}</span>` : ""}</p>
+        <p><b>Policy:</b> ${esc(m.policy.title)}${isEng ? ` (${esc(m.policy.date)}, direction for Resources: ${esc(m.policy.direction)})` : ""}</p>
+        <p><b>Why linked:</b> ${esc(m.rationale)}</p>
+        <p class="meta">${isEng ? `Lag ${m.lag_days} d (window ±${m.window_days}) · ${parts} · ` : `Window ±${m.window_days} days · `}flags: ${(m.flags || []).map(esc).join(", ")}</p></div>`;
+      };
+      $("matches").innerHTML = `<h2>Matches</h2><p class="meta">${esc(matches.note)}</p>
+        <h3>Engine-generated (${engine.length})</h3><p class="meta">Scored automatically after each feed run${matches.generated_at ? ", last " + syd(matches.generated_at) : ""}. ${esc(matches.licensing || "")}</p>
+        <details><summary>How the score works</summary><pre style="white-space:pre-wrap">${esc(matches.scoring)}</pre></details>
+        ${engine.length ? engine.slice(0, 30).map(card).join("") : "<p>No live record cleared the gates this run.</p>"}
+        <h3>Hand-seeded (${seeded.length})</h3>${seeded.map(card).join("")}`;
+    }
 
     const recs = [].concat((asx && asx.records) || [], (dmpeA && dmpeA.records) || [], (dmpeT && dmpeT.records) || [])
       .sort((a, b) => new Date(b.occurred_at) - new Date(a.occurred_at));

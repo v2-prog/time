@@ -25,6 +25,18 @@ Feed health for every feed (live or never run) goes to `data/feed_health.json`. 
 
 Record shape: `fetchers/schema.py` (`NormalisedRecord`).
 
+## Matching engine
+
+`python3 fetchers/correlator.py` (run by the workflow after the fetchers) scores every record in `data/feeds/` against `data/policy_timeline.json` and writes `data/matches.json`:
+
+- `engine`: ranked, engine-generated matches. Each one has a score with its parts (temporal, entity, topic, source, volatility weight, verification factor), a separate mechanical confidence, the lag and window, shared tags, a one-line rationale, flags and a link to the source. Earlier engine matches stay for 400 days, marked `archived` once their record leaves the feed.
+- `seeded`: the hand-seeded matches, kept unchanged and labelled as seeded.
+- `bracket_activity`: engine match counts per Rotation bracket in non-overlapping 30-day windows. The Rotation page uses these for the z-score.
+
+Entities come from `fetchers/schema.py` (`WATCHED`, aliases included). Policy events list the entities and topic tags they affect. ASX headlines are never published: the fetcher turns each headline into coarse topic tags in memory (`fetchers/topics.py`), and the engine matches on ticker, time, type, price-sensitive flag and those tags.
+
+Formula and gates: see the docstring at the top of `fetchers/correlator.py`.
+
 ## Tests
 
 ```

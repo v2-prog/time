@@ -25,11 +25,13 @@ jobs:
           node tests/test_logic.js
       - name: Run fetchers
         run: python fetchers/run_all.py
+      - name: Run matching engine
+        run: python fetchers/correlator.py
       - name: Commit data if changed
         run: |
           git config user.name "time-feeds-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/feeds data/feed_health.json
+          git add data/feeds data/feed_health.json data/matches.json
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Feeds: scheduled refresh $(TZ=Australia/Sydney date '+%Y-%m-%d %H:%M %Z')"
           git push
