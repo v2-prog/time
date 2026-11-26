@@ -1,0 +1,110 @@
+{
+ "feed": "wa_dmpe_announcements",
+ "generated_at": "2026-11-27T08:30:14+11:00",
+ "records": [
+  {
+   "feed": "wa_dmpe_announcements",
+   "entity": null,
+   "entity_name": null,
+   "event_type": "agency_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-23T16:09:48+08:00",
+   "published_at": "2026-11-23T16:09:48+08:00",
+   "title": "DMPE marks first year with major resources achievements",
+   "source_url": "https://www.wa.gov.au/government/announcements/dmpe-marks-first-year-major-resources-achievements",
+   "jurisdiction": "AU-WA",
+   "commodity": [],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.95,
+   "price_sensitive": null,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "summary": "The department has marked its first year of operation with the release of its inaugural Annual Report 2025–26, highlighting faster mining approvals, modernised digital services, new regulatory pathways for emerging industries and advances in geoscience.",
+    "agency": "DMPE"
+   },
+   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "record_id": "9e18418d235ac1de"
+  },
+  {
+   "feed": "wa_dmpe_announcements",
+   "entity": null,
+   "entity_name": null,
+   "event_type": "agency_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-25T08:58:40+08:00",
+   "published_at": "2026-11-25T08:58:40+08:00",
+   "title": "Release of annual environmental approvals analysis for FY 2025–26",
+   "source_url": "https://www.wa.gov.au/government/announcements/release-of-annual-environmental-approvals-analysis-fy-2025-26",
+   "jurisdiction": "AU-WA",
+   "commodity": [],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.95,
+   "price_sensitive": null,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "summary": "The department's latest report is a deep dive into performance against its target timeframes for environmental applications.",
+    "agency": "DMPE"
+   },
+   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "record_id": "fcacb89a34bbc429"
+  },
+  {
+   "feed": "wa_dmpe_announcements",
+   "entity": null,
+   "entity_name": null,
+   "event_type": "agency_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-23T16:03:00+08:00",
+   "published_at": "2026-11-23T16:03:00+08:00",
+   "title": "Acreage release to boost exploration and greenhouse gas storage",
+   "source_url": "https://www.wa.gov.au/government/announcements/acreage-release-boost-exploration-and-greenhouse-gas-storage",
+   "jurisdiction": "AU-WA",
+   "commodity": [],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.95,
+   "price_sensitive": null,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "summary": "Seven areas released for petroleum exploration across four WA basins.",
+    "agency": "DMPE"
+   },
+   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "record_id": "19a27bdfa34dec17"
+  },
+  {
+   "feed": "wa_dmpe_announcements",
+   "entity": null,
+   "entity_name": null,
+   "event_type": "agency_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-20T10:37:22+08:00",
+   "published_at": "2026-11-20T10:37:22+08:00",
+   "title": "Record jobs propel WA resources sector to new heights",
+   "source_url": "https://www.wa.gov.au/government/announcements/record-jobs-propel-wa-resources-sector-new-heights",
+   "jurisdiction": "AU-WA",
+   "commodity": [],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.95,
+   "price_sensitive": null,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "summary": "Mining employment hits a record 141,531 full-time equivalent jobs in 2025-26.",
+    "agency": "DMPE"
+   },
+   "fetched_at": "2026-11-27T08:30:13+11:00",
+   "record_id": "f3dc933da401b95a"
+  }
+ ]
+}

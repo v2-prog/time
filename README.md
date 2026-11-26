@@ -1,25 +1,41 @@
 # Time.vilo.au
 
 Temporal event correlator for Australian resources, semiconductors, and ASX sector rotation verification.
+Live at https://time.vilo.au (Cloudflare Pages project `time`, production branch `main`).
 
-Static multi-page site combining:
+- **Resources** (`resources/aus-dashboard.html`): live ASX and WA DMPE records, feed health for all 23 spec feeds, sourced matches, policy timeline.
+- **Semiconductors** (`chips/chip-dashboard.html`): verified H20 export-control and NVIDIA items.
+- **Rotation Verification** (`rotation/`): verification queues (iteration 042) plus the iteration 040 measurement fixes in `rotation/logic.js`.
 
-- **Resources**: AusResourcesCorrelator dashboard (commercial events matched to policy timelines)
-- **Semiconductors**: ChipCorrelator dashboard (BIS export controls, NVIDIA/TSMC events)
-- **Rotation Verification**: Client-side queues for claims needing verification (iteration 042)
+Matches record temporal proximity and shared scope only. No causation, no advice, no broker recommendations or entry points. Australia only; general information, not personal financial advice.
 
-## Overview
+## Data pipeline
 
-Matches record temporal proximity + shared scope only. No causation, no advice. See disclaimer on every page.
+`python3 fetchers/run_all.py` runs the live fetchers and writes same-origin JSON:
 
-## Deployment
+| Feed | Source | Output |
+|---|---|---|
+| `asx_announcements` | asx.com.au announcements list (links, times, price-sensitive flag) plus the markitdigital JSON the ASX site uses (announcement type) | `data/feeds/asx_announcements.json` |
+| `wa_dmpe_announcements` | wa.gov.au DMPE organisation page and announcement pages | `data/feeds/wa_dmpe_announcements.json` |
+| `wa_dmpe_tenements` | SLIP ArcGIS REST, Mining Tenements DMIRS-003 (CC BY 4.0), grants in the last 60 days, company holders only | `data/feeds/wa_dmpe_tenements.json` |
 
-Suitable for Cloudflare Pages. Point DNS (time.vilo.au or equivalent) at the Pages project.
+Feed health for every feed (live or never run) goes to `data/feed_health.json`. A failed run keeps the last good data and marks the feed error/stale.
 
-## Next steps
+`.github/workflows/fetch-feeds.yml` runs the tests and fetchers on weekdays (about 06:30 and 18:30 Sydney time), commits changed JSON, and Pages redeploys. No secrets are needed, and the browser makes no cross-origin calls.
 
-- Live fetchers for ASX announcements and WA DMPE (then EPBC, Qld, customs)
-- Clear remaining verify: true flags against primary sources
-- Fold Rotation design-gap fixes (relative returns vs ASX 200 sector indices, direction tags, mechanical confidence, momentum baseline, T+2, ETF entities)
+Record shape: `fetchers/schema.py` (`NormalisedRecord`).
+
+## Tests
+
+```
+python3 -m unittest discover -s tests -p "test_*.py"
+node tests/test_logic.js
+```
+
+## Terms and limits
+
+- ASX: the announcement endpoints are not a documented public API. ASX's site terms restrict use to personal, non-commercial purposes. We republish nothing by default: the public JSON holds code, time, type, price-sensitive flag and an ASX link, with headlines withheld (set `TIME_PUBLISH_ASX_HEADLINES=1` only with ASX consent or behind access control). Requests are low rate (one request per code, 1.5 s apart, twice a day). Get an ASX data licence before any commercial or redistributed use.
+- WA data: © State of Western Australia (DMPE), CC BY 4.0. Attribution is in the dashboard footer.
+- S&P/ASX index levels are licensed, so none are shipped. The Rotation spread calculator takes reader-entered returns.
 
 General information only.

@@ -1,0 +1,4137 @@
+{
+ "feed": "asx_announcements",
+ "generated_at": "2026-11-27T08:30:14+11:00",
+ "records": [
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "periodic_reports",
+   "occurred_at": "2026-11-23T08:24:00+11:00",
+   "published_at": "2026-11-23T08:24:00+11:00",
+   "title": "BHP periodic reports: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03168852",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03168852",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "b22cc22c410a4ace"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "company_administration",
+   "occurred_at": "2026-11-12T08:36:00+11:00",
+   "published_at": "2026-11-12T08:36:00+11:00",
+   "title": "BHP company administration: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164875",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03164875",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "6a2d6465f65cf94f"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-11T10:34:00+11:00",
+   "published_at": "2026-11-11T10:34:00+11:00",
+   "title": "BHP security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164532",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03164532",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "46c8dfd3cdb316ab"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-11-11T10:31:00+11:00",
+   "published_at": "2026-11-11T10:31:00+11:00",
+   "title": "BHP issued capital: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164531",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03164531",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "0ce711e40325fa26"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "notice_of_meeting",
+   "occurred_at": "2026-10-22T14:38:00+11:00",
+   "published_at": "2026-10-22T14:38:00+11:00",
+   "title": "BHP notice of meeting: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155799",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155799",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "f480ee133e881ae9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-22T09:45:00+11:00",
+   "published_at": "2026-10-22T09:45:00+11:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155647",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155647",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "5e17efc9dc0261f6"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-20T08:24:00+11:00",
+   "published_at": "2026-10-20T08:24:00+11:00",
+   "title": "BHP announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03154361",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03154361",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "498e1fc06c1c263a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-14T16:31:00+11:00",
+   "published_at": "2026-10-14T16:31:00+11:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152400",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03152400",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "f6bd58512e69037d"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-13T16:58:00+11:00",
+   "published_at": "2026-10-13T16:58:00+11:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151816",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151816",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "7a6201fa671d921b"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-12T12:40:00+11:00",
+   "published_at": "2026-10-12T12:40:00+11:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151179",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151179",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "6ff880e760ac5b31"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-08T09:23:00+11:00",
+   "published_at": "2026-10-08T09:23:00+11:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03149953",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03149953",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "1116efe138958984"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-07T18:28:00+11:00",
+   "published_at": "2026-10-07T18:28:00+11:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03149756",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03149756",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "30a0bf6746e6f8d4"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-16T08:55:00+10:00",
+   "published_at": "2026-09-16T08:55:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03139976",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03139976",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "3dc6425fd272568a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-15T08:14:00+10:00",
+   "published_at": "2026-09-15T08:14:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03139444",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03139444",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "adbfdfdec4a03ff8"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-15T08:14:00+10:00",
+   "published_at": "2026-09-15T08:14:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03139438",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03139438",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "16ed1a96665617aa"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-14T17:45:00+10:00",
+   "published_at": "2026-09-14T17:45:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03139368",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03139368",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "51342bcfb9c80f3a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-07T08:22:00+10:00",
+   "published_at": "2026-09-07T08:22:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03136273",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03136273",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "872ba71ca6294c5c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-04T19:17:00+10:00",
+   "published_at": "2026-09-04T19:17:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03136215",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03136215",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "f6b3a22c0609869f"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-28T14:40:00+10:00",
+   "published_at": "2026-08-28T14:40:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03132396",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03132396",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "562ce7323aea8fc2"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "BHP",
+   "entity_name": "BHP Group Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-27T17:04:00+10:00",
+   "published_at": "2026-08-27T17:04:00+10:00",
+   "title": "BHP announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03131661",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "copper",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03131661",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:36+11:00",
+   "record_id": "73ac955e41cfec51"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-25T08:24:00+11:00",
+   "published_at": "2026-11-25T08:24:00+11:00",
+   "title": "RIO security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170154",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170154",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "690b653f78628126"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-19T08:21:00+11:00",
+   "published_at": "2026-11-19T08:21:00+11:00",
+   "title": "RIO security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03167556",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03167556",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "67540469d00f377c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "company_administration",
+   "occurred_at": "2026-11-02T08:18:00+11:00",
+   "published_at": "2026-11-02T08:18:00+11:00",
+   "title": "RIO company administration: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03160808",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03160808",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "caf507b58b54428a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "progress_report",
+   "occurred_at": "2026-10-23T08:21:00+11:00",
+   "published_at": "2026-10-23T08:21:00+11:00",
+   "title": "RIO progress report: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03156027",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03156027",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "8cc28665be9daf70"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-10-23T08:17:00+11:00",
+   "published_at": "2026-10-23T08:17:00+11:00",
+   "title": "RIO security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155994",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155994",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "0cbb3d036ae80331"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-14T08:23:00+11:00",
+   "published_at": "2026-10-14T08:23:00+11:00",
+   "title": "RIO announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151969",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151969",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "79219b819ca47ecf"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-13T16:52:00+11:00",
+   "published_at": "2026-10-13T16:52:00+11:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151806",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151806",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "2675f09286dd7527"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-13T16:49:00+11:00",
+   "published_at": "2026-10-13T16:49:00+11:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151803",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151803",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "fbbfede19386b3ef"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-13T16:45:00+11:00",
+   "published_at": "2026-10-13T16:45:00+11:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151798",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151798",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "f98117cd13942194"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-09T08:15:00+11:00",
+   "published_at": "2026-10-09T08:15:00+11:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03150344",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03150344",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "b26149ccd5e39a39"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-08T08:24:00+11:00",
+   "published_at": "2026-10-08T08:24:00+11:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03149846",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03149846",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "04fd0f8d7882e994"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-07T08:18:00+11:00",
+   "published_at": "2026-10-07T08:18:00+11:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03149213",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03149213",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "6bc0d4dd56c0373f"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-05T08:11:00+11:00",
+   "published_at": "2026-10-05T08:11:00+11:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03148155",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03148155",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "13c896e289e5df25"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-30T08:21:00+10:00",
+   "published_at": "2026-09-30T08:21:00+10:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03145750",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03145750",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "cc1303336b0076da"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-29T08:03:00+10:00",
+   "published_at": "2026-09-29T08:03:00+10:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03144987",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03144987",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "53d74ff67492c8ce"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-23T08:16:00+10:00",
+   "published_at": "2026-09-23T08:16:00+10:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03142477",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03142477",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "bfc97f14e8501499"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-17T19:01:00+10:00",
+   "published_at": "2026-09-17T19:01:00+10:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03140781",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03140781",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "4d2b076aa014eea4"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-16T08:20:00+10:00",
+   "published_at": "2026-09-16T08:20:00+10:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03139880",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03139880",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "ccd4db0abd852ba4"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-15T18:11:00+10:00",
+   "published_at": "2026-09-15T18:11:00+10:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03139811",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03139811",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "dbab7283adfde42c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "RIO",
+   "entity_name": "Rio Tinto Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-15T18:02:00+10:00",
+   "published_at": "2026-09-15T18:02:00+10:00",
+   "title": "RIO announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03139810",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore",
+    "aluminium",
+    "copper"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03139810",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:40+11:00",
+   "record_id": "f33938f462cdb2a7"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-11T13:52:00+11:00",
+   "published_at": "2026-11-11T13:52:00+11:00",
+   "title": "FMG security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164614",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03164614",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "e42754266603052d"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-11T13:26:00+11:00",
+   "published_at": "2026-11-11T13:26:00+11:00",
+   "title": "FMG security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164604",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03164604",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "5173ecf45a1a6fe6"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-09T20:03:00+11:00",
+   "published_at": "2026-11-09T20:03:00+11:00",
+   "title": "FMG security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03163801",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03163801",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "5a59a5bdceea8f06"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-11-05T09:36:00+11:00",
+   "published_at": "2026-11-05T09:36:00+11:00",
+   "title": "FMG issued capital (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03162344",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03162344",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "00f6f6401363502f"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": "notice_of_meeting",
+   "occurred_at": "2026-10-28T18:35:00+11:00",
+   "published_at": "2026-10-28T18:35:00+11:00",
+   "title": "FMG notice of meeting: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03158696",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03158696",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "a8de46aaf2ceeb4c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-28T13:07:00+11:00",
+   "published_at": "2026-10-28T13:07:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03158479",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03158479",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "9fd9db0dce28dce6"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-22T08:56:00+11:00",
+   "published_at": "2026-10-22T08:56:00+11:00",
+   "title": "FMG announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155548",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155548",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "694c2c5e06169175"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-20T08:23:00+11:00",
+   "published_at": "2026-10-20T08:23:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03154346",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03154346",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "439d6117ee1de670"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-20T08:23:00+11:00",
+   "published_at": "2026-10-20T08:23:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03154343",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03154343",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "d0ec805fe9d2a7fb"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-14T08:24:00+11:00",
+   "published_at": "2026-10-14T08:24:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151976",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151976",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "d0152f5a7f24d434"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-13T12:32:00+11:00",
+   "published_at": "2026-10-13T12:32:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151698",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151698",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "44d745c9bc97b9b9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-13T12:32:00+11:00",
+   "published_at": "2026-10-13T12:32:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151696",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151696",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "512f3f88f9078b8b"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-13T12:30:00+11:00",
+   "published_at": "2026-10-13T12:30:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151694",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151694",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "cebc72d47a4f54a4"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-12T08:18:00+11:00",
+   "published_at": "2026-10-12T08:18:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03150888",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03150888",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "11fd1428edb38ecb"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-08T09:04:00+11:00",
+   "published_at": "2026-10-08T09:04:00+11:00",
+   "title": "FMG announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03149918",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03149918",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "637a03ca5f4e6a49"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-05T13:53:00+11:00",
+   "published_at": "2026-10-05T13:53:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03148426",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03148426",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "38b4e12af24a001a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-05T13:52:00+11:00",
+   "published_at": "2026-10-05T13:52:00+11:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03148425",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03148425",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "f3c629e821bf3293"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-30T08:21:00+10:00",
+   "published_at": "2026-09-30T08:21:00+10:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03145753",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03145753",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "03843e0f5e37dd6c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-29T08:10:00+10:00",
+   "published_at": "2026-09-29T08:10:00+10:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03145018",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03145018",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "df01eb07e4f2e9ce"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "FMG",
+   "entity_name": "Fortescue Ltd",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-25T08:26:00+10:00",
+   "published_at": "2026-09-25T08:26:00+10:00",
+   "title": "FMG announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03143760",
+   "jurisdiction": "AU",
+   "commodity": [
+    "iron_ore"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03143760",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:45+11:00",
+   "record_id": "6971a909d204ad2a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "notice_of_meeting",
+   "occurred_at": "2026-11-25T17:42:00+11:00",
+   "published_at": "2026-11-25T17:42:00+11:00",
+   "title": "LYC notice of meeting: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170708",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170708",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "81e88dc919f20fdf"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "chairman's_address",
+   "occurred_at": "2026-11-25T09:25:00+11:00",
+   "published_at": "2026-11-25T09:25:00+11:00",
+   "title": "LYC chairman's address: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170291",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170291",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "9b5ea9d33e5fa8f7"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "chairman's_address",
+   "occurred_at": "2026-11-25T09:21:00+11:00",
+   "published_at": "2026-11-25T09:21:00+11:00",
+   "title": "LYC chairman's address: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170278",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170278",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "c061f943ce90e650"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "periodic_reports",
+   "occurred_at": "2026-11-25T09:20:00+11:00",
+   "published_at": "2026-11-25T09:20:00+11:00",
+   "title": "LYC periodic reports: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170274",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170274",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "99e23b215e6c81c0"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "periodic_reports",
+   "occurred_at": "2026-10-30T18:24:00+11:00",
+   "published_at": "2026-10-30T18:24:00+11:00",
+   "title": "LYC periodic reports: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03160631",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03160631",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "4095198c89f35440"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-29T08:12:00+11:00",
+   "published_at": "2026-10-29T08:12:00+11:00",
+   "title": "LYC announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03158807",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03158807",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "e390ab1b64f9797b"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-20T08:17:00+11:00",
+   "published_at": "2026-10-20T08:17:00+11:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03154306",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03154306",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "4aa042a0788575b9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-19T08:08:00+11:00",
+   "published_at": "2026-10-19T08:08:00+11:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03153722",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03153722",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "37159972d761d60e"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-14T18:54:00+11:00",
+   "published_at": "2026-10-14T18:54:00+11:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152502",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03152502",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "87842480f353a530"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-14T18:29:00+11:00",
+   "published_at": "2026-10-14T18:29:00+11:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152488",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03152488",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "a799854012a298b3"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-14T18:17:00+11:00",
+   "published_at": "2026-10-14T18:17:00+11:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152485",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03152485",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "2cb9bec1c8892946"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-14T18:13:00+11:00",
+   "published_at": "2026-10-14T18:13:00+11:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03152479",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03152479",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "4ef3c34f5df0ff69"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-01T08:39:00+10:00",
+   "published_at": "2026-10-01T08:39:00+10:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03146971",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03146971",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "bcec1a0946d6de4b"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-01T08:39:00+10:00",
+   "published_at": "2026-10-01T08:39:00+10:00",
+   "title": "LYC announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03146970",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03146970",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "84abdefcfcf20652"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-01T08:39:00+10:00",
+   "published_at": "2026-10-01T08:39:00+10:00",
+   "title": "LYC announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03146969",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03146969",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "c510431cc56d988a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-25T17:10:00+10:00",
+   "published_at": "2026-09-25T17:10:00+10:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03144212",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03144212",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "0beccb96111007a9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-26T10:04:00+10:00",
+   "published_at": "2026-08-26T10:04:00+10:00",
+   "title": "LYC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03130430",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03130430",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "a7cec34df2a605c7"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-26T10:03:00+10:00",
+   "published_at": "2026-08-26T10:03:00+10:00",
+   "title": "LYC announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03130429",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03130429",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "20c1cb5a9b8253dc"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-26T10:02:00+10:00",
+   "published_at": "2026-08-26T10:02:00+10:00",
+   "title": "LYC announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03130427",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03130427",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "f3502e8663416780"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "LYC",
+   "entity_name": "Lynas Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-26T09:46:00+10:00",
+   "published_at": "2026-08-26T09:46:00+10:00",
+   "title": "LYC announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03130363",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03130363",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:49+11:00",
+   "record_id": "c5c6315afcdeb0c9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-11-26T08:59:00+11:00",
+   "published_at": "2026-11-26T08:59:00+11:00",
+   "title": "WHC issued capital: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170945",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170945",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "9d66fbe772e57c4b"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-11-25T09:11:00+11:00",
+   "published_at": "2026-11-25T09:11:00+11:00",
+   "title": "WHC issued capital: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170263",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170263",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "59b6555bcf9c9c8e"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-11-24T09:09:00+11:00",
+   "published_at": "2026-11-24T09:09:00+11:00",
+   "title": "WHC issued capital: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03169564",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03169564",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "8a8c4ae2eca5ac7e"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-11-23T17:21:00+11:00",
+   "published_at": "2026-11-23T17:21:00+11:00",
+   "title": "WHC issued capital: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03169310",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03169310",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "a2e498f0f0dfa2c0"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-23T16:36:00+11:00",
+   "published_at": "2026-11-23T16:36:00+11:00",
+   "title": "WHC security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03169273",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03169273",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "875abcbf94d9e5cb"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-23T09:10:00+11:00",
+   "published_at": "2026-11-23T09:10:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03168967",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03168967",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "df322d178df237a6"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-20T08:59:00+11:00",
+   "published_at": "2026-11-20T08:59:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03168279",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03168279",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "e7a5344283ceeda5"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-19T09:13:00+11:00",
+   "published_at": "2026-11-19T09:13:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03167682",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03167682",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "a10d809be3292b50"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-18T09:09:00+11:00",
+   "published_at": "2026-11-18T09:09:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03167064",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03167064",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "70b616a202730713"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-17T08:55:00+11:00",
+   "published_at": "2026-11-17T08:55:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03166436",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03166436",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "34196b07eee5e255"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-16T09:16:00+11:00",
+   "published_at": "2026-11-16T09:16:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03165917",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03165917",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "12a4c3c48cdf6d10"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-13T08:56:00+11:00",
+   "published_at": "2026-11-13T08:56:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03165387",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03165387",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "6e956e00d42908ba"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-12T09:18:00+11:00",
+   "published_at": "2026-11-12T09:18:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164942",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03164942",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "d1e9109c671d0049"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-11T09:08:00+11:00",
+   "published_at": "2026-11-11T09:08:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03164421",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03164421",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "b44d05a71cfd6b06"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-10T08:43:00+11:00",
+   "published_at": "2026-11-10T08:43:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03163904",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03163904",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "c0dbc6e616b52488"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-09T09:18:00+11:00",
+   "published_at": "2026-11-09T09:18:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03163472",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03163472",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "8fb4b564a16695dc"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-06T09:05:00+11:00",
+   "published_at": "2026-11-06T09:05:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03162826",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03162826",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "eb2ed9d6b73b39b7"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-05T14:01:00+11:00",
+   "published_at": "2026-11-05T14:01:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03162513",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03162513",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "6a9b404001ea8506"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-05T08:42:00+11:00",
+   "published_at": "2026-11-05T08:42:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03162255",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03162255",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "f27a3ba8967510e7"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "WHC",
+   "entity_name": "Whitehaven Coal Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-11-05T08:22:00+11:00",
+   "published_at": "2026-11-05T08:22:00+11:00",
+   "title": "WHC announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03162223",
+   "jurisdiction": "AU",
+   "commodity": [
+    "thermal_coal",
+    "met_coal"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03162223",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:54+11:00",
+   "record_id": "5a79f721c7386a8a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-26T18:11:00+11:00",
+   "published_at": "2026-11-26T18:11:00+11:00",
+   "title": "ARU security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03171488",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03171488",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "0cf26a10c41312f0"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "security_holder_details",
+   "occurred_at": "2026-11-26T08:21:00+11:00",
+   "published_at": "2026-11-26T08:21:00+11:00",
+   "title": "ARU security holder details: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03170863",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03170863",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "1964823ff7df4800"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "quarterly_activities_report",
+   "occurred_at": "2026-10-30T11:28:00+11:00",
+   "published_at": "2026-10-30T11:28:00+11:00",
+   "title": "ARU quarterly activities report (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03160132",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03160132",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "82d26a549c1535b6"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-10-27T18:19:00+11:00",
+   "published_at": "2026-10-27T18:19:00+11:00",
+   "title": "ARU issued capital: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03157949",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03157949",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "d64d50207bf67a21"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "issued_capital",
+   "occurred_at": "2026-10-27T17:56:00+11:00",
+   "published_at": "2026-10-27T17:56:00+11:00",
+   "title": "ARU issued capital: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03157935",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03157935",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "3d84188239f1882a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-26T11:35:00+11:00",
+   "published_at": "2026-10-26T11:35:00+11:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03157072",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03157072",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "786de2c3bc7d06be"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-22T16:09:00+11:00",
+   "published_at": "2026-10-22T16:09:00+11:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155859",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155859",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "7d3f1678e5d07d33"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-22T13:01:00+11:00",
+   "published_at": "2026-10-22T13:01:00+11:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155744",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155744",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "0d61e8cec351ae6a"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-22T13:00:00+11:00",
+   "published_at": "2026-10-22T13:00:00+11:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155742",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155742",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "51bcf40e33ec153f"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-22T12:59:00+11:00",
+   "published_at": "2026-10-22T12:59:00+11:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03155741",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03155741",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "2a84a19d949de662"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-12T09:33:00+11:00",
+   "published_at": "2026-10-12T09:33:00+11:00",
+   "title": "ARU announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03151051",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03151051",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "c4bfb4bc5a9b602c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-10-09T09:44:00+11:00",
+   "published_at": "2026-10-09T09:44:00+11:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03150513",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03150513",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "55bd96be57a9636e"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-22T18:03:00+10:00",
+   "published_at": "2026-09-22T18:03:00+10:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03142359",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03142359",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "42b4cb4236d9a3f5"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-21T12:28:00+10:00",
+   "published_at": "2026-09-21T12:28:00+10:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03141678",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03141678",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "7bfb9ddbb955e259"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-21T12:26:00+10:00",
+   "published_at": "2026-09-21T12:26:00+10:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03141677",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03141677",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "32e4e204a83fd6e2"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-18T09:23:00+10:00",
+   "published_at": "2026-09-18T09:23:00+10:00",
+   "title": "ARU announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03140935",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03140935",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "e0c3f30ec0486e1e"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-17T12:25:00+10:00",
+   "published_at": "2026-09-17T12:25:00+10:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03140602",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03140602",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "0730c9143778caf3"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-09T18:16:00+10:00",
+   "published_at": "2026-09-09T18:16:00+10:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03137833",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03137833",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "86e85db2b54a8a11"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-03T17:44:00+10:00",
+   "published_at": "2026-09-03T17:44:00+10:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03135559",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03135559",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "1cb3a488f8b212e9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "ARU",
+   "entity_name": "Arafura Rare Earths Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-02T18:01:00+10:00",
+   "published_at": "2026-09-02T18:01:00+10:00",
+   "title": "ARU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03135006",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03135006",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:29:57+11:00",
+   "record_id": "08f1416fb02e4f4c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "quarterly_activities_report",
+   "occurred_at": "2026-10-30T15:55:00+11:00",
+   "published_at": "2026-10-30T15:55:00+11:00",
+   "title": "NTU quarterly activities report (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03160382",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03160382",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "8af21c1efbe1c4ec"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "quarterly_cash_flow_report",
+   "occurred_at": "2026-10-30T15:38:00+11:00",
+   "published_at": "2026-10-30T15:38:00+11:00",
+   "title": "NTU quarterly cash flow report (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03160362",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03160362",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "f25ab097f7e62e5b"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "periodic_reports",
+   "occurred_at": "2026-10-30T08:11:00+11:00",
+   "published_at": "2026-10-30T08:11:00+11:00",
+   "title": "NTU periodic reports: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03159661",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03159661",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "f7b3a084f85d5fd3"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "periodic_reports",
+   "occurred_at": "2026-10-30T08:11:00+11:00",
+   "published_at": "2026-10-30T08:11:00+11:00",
+   "title": "NTU periodic reports: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03159659",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03159659",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "b85c5d0332dafaa6"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": "notice_of_meeting",
+   "occurred_at": "2026-10-19T09:16:00+11:00",
+   "published_at": "2026-10-19T09:16:00+11:00",
+   "title": "NTU notice of meeting (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03153845",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03153845",
+    "via": "asx_html+markit",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "84dc6fee428aaea1"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-30T10:02:00+10:00",
+   "published_at": "2026-09-30T10:02:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03145981",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03145981",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "5202d7af43763871"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-30T09:51:00+10:00",
+   "published_at": "2026-09-30T09:51:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03145963",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03145963",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "8bdafbd0f3e41c95"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-09-30T09:46:00+10:00",
+   "published_at": "2026-09-30T09:46:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03145957",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03145957",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "af516dceaa14f05e"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-13T09:49:00+10:00",
+   "published_at": "2026-08-13T09:49:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03124828",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03124828",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "a43e0ea4f28283ae"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-10T09:51:00+10:00",
+   "published_at": "2026-08-10T09:51:00+10:00",
+   "title": "NTU announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03123503",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03123503",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "d8ea53f50700ba09"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-08-05T12:54:00+10:00",
+   "published_at": "2026-08-05T12:54:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03122185",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03122185",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "ee7adeacd214270b"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-07-31T11:29:00+10:00",
+   "published_at": "2026-07-31T11:29:00+10:00",
+   "title": "NTU announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03120562",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03120562",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "255b03f2cf6680f9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-07-31T11:26:00+10:00",
+   "published_at": "2026-07-31T11:26:00+10:00",
+   "title": "NTU announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03120558",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03120558",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "4c094120e6844be9"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-07-23T10:54:00+10:00",
+   "published_at": "2026-07-23T10:54:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03117558",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03117558",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "dbaa1c680043c165"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-07-14T09:40:00+10:00",
+   "published_at": "2026-07-14T09:40:00+10:00",
+   "title": "NTU announcement (price sensitive): headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03114720",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": true,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03114720",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "70d447cff37b4ad4"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-07-07T10:27:00+10:00",
+   "published_at": "2026-07-07T10:27:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03112504",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03112504",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "f4c2bf2c92ec052c"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-07-06T09:30:00+10:00",
+   "published_at": "2026-07-06T09:30:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03111960",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03111960",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "e7ccdc81ad97ae8f"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-06-25T17:11:00+10:00",
+   "published_at": "2026-06-25T17:11:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03107924",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03107924",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "bcb2475d09feaabc"
+  },
+  {
+   "feed": "asx_announcements",
+   "entity": "NTU",
+   "entity_name": "Northern Minerals Limited",
+   "event_type": "asx_announcement",
+   "event_subtype": null,
+   "occurred_at": "2026-06-17T08:34:00+10:00",
+   "published_at": "2026-06-17T08:34:00+10:00",
+   "title": "NTU announcement: headline on ASX",
+   "source_url": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03104840",
+   "jurisdiction": "AU",
+   "commodity": [
+    "rare_earths"
+   ],
+   "value_aud": null,
+   "origin": null,
+   "destination": null,
+   "raw_confidence": 0.9,
+   "price_sensitive": false,
+   "needs_verification": true,
+   "direction": "unassigned",
+   "extra": {
+    "ids_id": "03104840",
+    "via": "asx_html",
+    "headline_withheld": true
+   },
+   "fetched_at": "2026-11-27T08:30:01+11:00",
+   "record_id": "c211af66d93b7c32"
+  }
+ ]
+}

@@ -1,0 +1,8 @@
+table { width: 100%; border-collapse: collapse; background: #fff; font-size: 14px; }
+th, td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+.pill { display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 10px; border: 1px solid var(--line); }
+.pill.ok { color: var(--forest); border-color: var(--forest); }
+.pill.warn { color: var(--warn); border-color: var(--warn); }
+.pill.bad { color: var(--bad); border-color: var(--bad); }
+.controls { display: flex; gap: 10px; flex-wrap: wrap; margin: 8px 0; }
+details summary { cursor: pointer; color: var(--muted); }
