@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Time.viol.au — Temporal Event Correlator</title>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+  <h1>Time.viol.au</h1>
+  <p class="sub">Temporal correlation of commercial events with policy and regulatory signals · Australian resources, semiconductors, and ASX sector rotation</p>
+  <nav>
+    <a href="index.html" class="active">Overview</a>
+    <a href="resources/aus-dashboard.html">Resources</a>
+    <a href="chips/chip-dashboard.html">Semiconductors</a>
+    <a href="rotation/index.html">Rotation Verification</a>
+  </nav>
+</header>
+<main>
+  <div class="banner">
+    General information only — not financial, legal, or tax advice. Matches record that two confirmed events sit close together in time with shared scope; they do not establish causation or recommend action.
+  </div>
+
+  <h2>Review summary (26 Nov 2026)</h2>
+  <div class="card">
+    <p>Reviewed AusResourcesCorrelator, ChipCorrelator, Rotation verification queues (iteration 042), the Rotation fork review (iteration 040), and CORRECTIONS.md.</p>
+    <ul>
+      <li><strong>Agency names updated:</strong> WA DMIRS/DEMIRS → Department of Mines, Petroleum and Exploration (DMPE) from 1 Jul 2025. Qld → NRMMRRD. NT split into Mining & Energy and Lands/Planning/Environment. NSW Resources within DPI RD.</li>
+      <li><strong>Date corrections:</strong> China barley duties removed 5 Aug 2023 (not 2024). Wine duties removed 29 Mar 2024. CMPTI passed 11 Feb 2025, effective 1 Jul 2027. EPBC reforms Royal Assent 1 Dec 2025.</li>
+      <li><strong>Entity notes:</strong> BHP Chinese name is 必和必拓 (not 比利顿). Arafura likely now Arafura Rare Earths. Northern Minerals and Arafura are outside ASX 200 for Rotation scope; Whitehaven is Energy (GICS), not Materials.</li>
+      <li><strong>Design gaps flagged in Rotation:</strong> Outcomes must be measured vs ASX 200 sector indices (spread, not absolute). Events need direction tags. Score against historical baseline (z-score). Mechanical confidence (feed freshness, market-cap coverage, silence). Momentum baseline required. Non-overlapping windows for hit rates. Spillover to cash/bonds/offshore is a hypothesis, not assumption. T+2 settlement. Entity graph needs sector ETFs if used.</li>
+      <li><strong>Seed status:</strong> Many feeds silent or never_run (ASX announcements, state regulators, EPBC, customs, etc.). Two real commercial matches in AusResources (BHP/CMRG 22 Apr 2026 same-day; China Energy coal ~6 Jan 2023). Chip signals include NVIDIA shipment halts and H20 licence requirements. All high-confidence items still carry verification flags.</li>
+      <li><strong>Time-sensitive:</strong> China rare earth export controls suspension extended to 10 Jan 2027. CMRG/BHP dispute resolved Apr 2026. Second Northern Minerals FIRB disposal orders from 18 Jun 2026.</li>
+    </ul>
+  </div>
+
+  <h2>What this app contains</h2>
+  <div class="grid">
+    <div class="card">
+      <h3 style="margin-top:0">Resources Correlator</h3>
+      <p>Matches offtakes, approvals, and trade flows in Australian iron ore, coal, heavy rare earths, etc., against policy timelines (China informal bans, CMPTI, FIRB orders, EPBC).</p>
+      <p class="meta">6 ranked matches · 23 feeds (all need attention) · static HTML from pipeline</p>
+      <p><a href="resources/aus-dashboard.html">Open Resources dashboard →</a></p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Semiconductor / Chip Correlator</h3>
+      <p>Links US BIS export controls, Entity List additions, and is-informed letters to commercial events at NVIDIA, TSMC, and related (shipment halts, revenue impacts).</p>
+      <p class="meta">Seeded signals with full evidence trails · feed health shows API key and proxy issues</p>
+      <p><a href="chips/chip-dashboard.html">Open Chip dashboard →</a></p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Rotation Verification Queues</h3>
+      <p>Client-side queues for every claim flagged “needs verification” in the ASX sector rotation system. Tracks evidence quality and effect on bracket confidence. Iteration 042.</p>
+      <p class="meta">Seed facts, parked entities, signals, rules · everything stays in the browser</p>
+      <p><a href="rotation/index.html">Open Rotation queues →</a></p>
+    </div>
+  </div>
+
+  <h2>Implementation notes</h2>
+  <div class="card">
+    <p>This is a static multi-page site suitable for Cloudflare Pages. The Resources and Chip dashboards are the pipeline-generated HTML (or adapted). Rotation is the original client-side verification app. Shared disclaimer and review findings sit on the overview.</p>
+    <p>Next practical steps from the source reviews:</p>
+    <ol>
+      <li>Build live ASX announcements and WA DMPE fetchers (highest priority for Resources).</li>
+      <li>Verify every item marked <code>verify: true</code> or <code>needs_human_verification</code> against primary sources.</li>
+      <li>Fold the Rotation design-gap fixes (relative returns, direction tags, mechanical confidence, momentum baseline, T+2) into the next iteration.</li>
+      <li>Add sector ETF entities if rotation is executed via ETFs.</li>
+      <li>Point DNS for time.vilo.au (or chosen subdomain) and deploy.</li>
+    </ol>
+  </div>
+</main>
+<footer>
+  Time.viol.au · Generated for review and implementation · 26 Nov 2026 · General information only
+</footer>
+</body>
+</html>
