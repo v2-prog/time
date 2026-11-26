@@ -1,6 +1,6 @@
 {
  "feed": "asx_announcements",
- "generated_at": "2026-11-27T08:32:02+11:00",
+ "generated_at": "2026-11-27T08:37:26+11:00",
  "records": [
   {
    "feed": "asx_announcements",
@@ -28,9 +28,12 @@
    "extra": {
     "ids_id": "03168852",
     "via": "asx_html+markit",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "b22cc22c410a4ace"
   },
   {
@@ -59,9 +62,10 @@
    "extra": {
     "ids_id": "03164875",
     "via": "asx_html+markit",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "6a2d6465f65cf94f"
   },
   {
@@ -90,9 +94,12 @@
    "extra": {
     "ids_id": "03164532",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "46c8dfd3cdb316ab"
   },
   {
@@ -121,9 +128,12 @@
    "extra": {
     "ids_id": "03164531",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "0ce711e40325fa26"
   },
   {
@@ -152,9 +162,12 @@
    "extra": {
     "ids_id": "03155799",
     "via": "asx_html+markit",
+    "topics": [
+     "periodic_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "f480ee133e881ae9"
   },
   {
@@ -183,9 +196,12 @@
    "extra": {
     "ids_id": "03155647",
     "via": "asx_html",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "5e17efc9dc0261f6"
   },
   {
@@ -214,9 +230,12 @@
    "extra": {
     "ids_id": "03154361",
     "via": "asx_html",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "498e1fc06c1c263a"
   },
   {
@@ -245,9 +264,12 @@
    "extra": {
     "ids_id": "03152400",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "f6bd58512e69037d"
   },
   {
@@ -276,9 +298,12 @@
    "extra": {
     "ids_id": "03151816",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "7a6201fa671d921b"
   },
   {
@@ -307,9 +332,12 @@
    "extra": {
     "ids_id": "03151179",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "6ff880e760ac5b31"
   },
   {
@@ -338,9 +366,12 @@
    "extra": {
     "ids_id": "03149953",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "1116efe138958984"
   },
   {
@@ -369,9 +400,10 @@
    "extra": {
     "ids_id": "03149756",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "30a0bf6746e6f8d4"
   },
   {
@@ -400,9 +432,10 @@
    "extra": {
     "ids_id": "03139976",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "3dc6425fd272568a"
   },
   {
@@ -431,9 +464,12 @@
    "extra": {
     "ids_id": "03139444",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "adbfdfdec4a03ff8"
   },
   {
@@ -462,9 +498,12 @@
    "extra": {
     "ids_id": "03139438",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "16ed1a96665617aa"
   },
   {
@@ -493,9 +532,12 @@
    "extra": {
     "ids_id": "03139368",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "51342bcfb9c80f3a"
   },
   {
@@ -524,9 +566,12 @@
    "extra": {
     "ids_id": "03136273",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "872ba71ca6294c5c"
   },
   {
@@ -555,9 +600,12 @@
    "extra": {
     "ids_id": "03136215",
     "via": "asx_html",
+    "topics": [
+     "iron_ore"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "f6b3a22c0609869f"
   },
   {
@@ -586,9 +634,12 @@
    "extra": {
     "ids_id": "03132396",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "562ce7323aea8fc2"
   },
   {
@@ -617,9 +668,12 @@
    "extra": {
     "ids_id": "03131661",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:29+11:00",
+   "fetched_at": "2026-11-27T08:36:51+11:00",
    "record_id": "73ac955e41cfec51"
   },
   {
@@ -648,9 +702,12 @@
    "extra": {
     "ids_id": "03170154",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "690b653f78628126"
   },
   {
@@ -679,9 +736,12 @@
    "extra": {
     "ids_id": "03167556",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "67540469d00f377c"
   },
   {
@@ -710,9 +770,10 @@
    "extra": {
     "ids_id": "03160808",
     "via": "asx_html+markit",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "caf507b58b54428a"
   },
   {
@@ -741,9 +802,10 @@
    "extra": {
     "ids_id": "03156027",
     "via": "asx_html+markit",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "8cc28665be9daf70"
   },
   {
@@ -772,9 +834,10 @@
    "extra": {
     "ids_id": "03155994",
     "via": "asx_html+markit",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "0cbb3d036ae80331"
   },
   {
@@ -803,9 +866,12 @@
    "extra": {
     "ids_id": "03151969",
     "via": "asx_html",
+    "topics": [
+     "periodic_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "79219b819ca47ecf"
   },
   {
@@ -834,9 +900,12 @@
    "extra": {
     "ids_id": "03151806",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "2675f09286dd7527"
   },
   {
@@ -865,9 +934,12 @@
    "extra": {
     "ids_id": "03151803",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "fbbfede19386b3ef"
   },
   {
@@ -896,9 +968,12 @@
    "extra": {
     "ids_id": "03151798",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "f98117cd13942194"
   },
   {
@@ -927,9 +1002,10 @@
    "extra": {
     "ids_id": "03150344",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "b26149ccd5e39a39"
   },
   {
@@ -958,9 +1034,12 @@
    "extra": {
     "ids_id": "03149846",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "04fd0f8d7882e994"
   },
   {
@@ -989,9 +1068,12 @@
    "extra": {
     "ids_id": "03149213",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "6bc0d4dd56c0373f"
   },
   {
@@ -1020,9 +1102,10 @@
    "extra": {
     "ids_id": "03148155",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "13c896e289e5df25"
   },
   {
@@ -1051,9 +1134,10 @@
    "extra": {
     "ids_id": "03145750",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "cc1303336b0076da"
   },
   {
@@ -1082,9 +1166,12 @@
    "extra": {
     "ids_id": "03144987",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "53d74ff67492c8ce"
   },
   {
@@ -1113,9 +1200,12 @@
    "extra": {
     "ids_id": "03142477",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "bfc97f14e8501499"
   },
   {
@@ -1144,9 +1234,12 @@
    "extra": {
     "ids_id": "03140781",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "4d2b076aa014eea4"
   },
   {
@@ -1175,9 +1268,12 @@
    "extra": {
     "ids_id": "03139880",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "ccd4db0abd852ba4"
   },
   {
@@ -1206,9 +1302,12 @@
    "extra": {
     "ids_id": "03139811",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "dbab7283adfde42c"
   },
   {
@@ -1237,9 +1336,12 @@
    "extra": {
     "ids_id": "03139810",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:33+11:00",
+   "fetched_at": "2026-11-27T08:36:55+11:00",
    "record_id": "f33938f462cdb2a7"
   },
   {
@@ -1266,9 +1368,12 @@
    "extra": {
     "ids_id": "03164614",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "e42754266603052d"
   },
   {
@@ -1295,9 +1400,12 @@
    "extra": {
     "ids_id": "03164604",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "5173ecf45a1a6fe6"
   },
   {
@@ -1324,9 +1432,12 @@
    "extra": {
     "ids_id": "03163801",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "5a59a5bdceea8f06"
   },
   {
@@ -1353,9 +1464,12 @@
    "extra": {
     "ids_id": "03162344",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "00f6f6401363502f"
   },
   {
@@ -1382,9 +1496,12 @@
    "extra": {
     "ids_id": "03158696",
     "via": "asx_html+markit",
+    "topics": [
+     "periodic_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "a8de46aaf2ceeb4c"
   },
   {
@@ -1411,9 +1528,12 @@
    "extra": {
     "ids_id": "03158479",
     "via": "asx_html",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "9fd9db0dce28dce6"
   },
   {
@@ -1440,9 +1560,12 @@
    "extra": {
     "ids_id": "03155548",
     "via": "asx_html",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "694c2c5e06169175"
   },
   {
@@ -1469,9 +1592,12 @@
    "extra": {
     "ids_id": "03154346",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "439d6117ee1de670"
   },
   {
@@ -1498,9 +1624,12 @@
    "extra": {
     "ids_id": "03154343",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "d0ec805fe9d2a7fb"
   },
   {
@@ -1527,9 +1656,12 @@
    "extra": {
     "ids_id": "03151976",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "d0152f5a7f24d434"
   },
   {
@@ -1556,9 +1688,12 @@
    "extra": {
     "ids_id": "03151698",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "44d745c9bc97b9b9"
   },
   {
@@ -1585,9 +1720,12 @@
    "extra": {
     "ids_id": "03151696",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "512f3f88f9078b8b"
   },
   {
@@ -1614,9 +1752,12 @@
    "extra": {
     "ids_id": "03151694",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "cebc72d47a4f54a4"
   },
   {
@@ -1643,9 +1784,12 @@
    "extra": {
     "ids_id": "03150888",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "11fd1428edb38ecb"
   },
   {
@@ -1672,9 +1816,12 @@
    "extra": {
     "ids_id": "03149918",
     "via": "asx_html",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "637a03ca5f4e6a49"
   },
   {
@@ -1701,9 +1848,12 @@
    "extra": {
     "ids_id": "03148426",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "38b4e12af24a001a"
   },
   {
@@ -1730,9 +1880,12 @@
    "extra": {
     "ids_id": "03148425",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "f3c629e821bf3293"
   },
   {
@@ -1759,9 +1912,12 @@
    "extra": {
     "ids_id": "03145753",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "03843e0f5e37dd6c"
   },
   {
@@ -1788,9 +1944,12 @@
    "extra": {
     "ids_id": "03145018",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "df01eb07e4f2e9ce"
   },
   {
@@ -1817,9 +1976,12 @@
    "extra": {
     "ids_id": "03143760",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:37+11:00",
+   "fetched_at": "2026-11-27T08:36:59+11:00",
    "record_id": "6971a909d204ad2a"
   },
   {
@@ -1846,9 +2008,12 @@
    "extra": {
     "ids_id": "03170708",
     "via": "asx_html+markit",
+    "topics": [
+     "periodic_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "81e88dc919f20fdf"
   },
   {
@@ -1875,9 +2040,12 @@
    "extra": {
     "ids_id": "03170291",
     "via": "asx_html+markit",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "9b5ea9d33e5fa8f7"
   },
   {
@@ -1904,9 +2072,12 @@
    "extra": {
     "ids_id": "03170278",
     "via": "asx_html+markit",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "c061f943ce90e650"
   },
   {
@@ -1933,9 +2104,12 @@
    "extra": {
     "ids_id": "03170274",
     "via": "asx_html+markit",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "99e23b215e6c81c0"
   },
   {
@@ -1962,9 +2136,10 @@
    "extra": {
     "ids_id": "03160631",
     "via": "asx_html+markit",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "4095198c89f35440"
   },
   {
@@ -1991,9 +2166,12 @@
    "extra": {
     "ids_id": "03158807",
     "via": "asx_html",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "e390ab1b64f9797b"
   },
   {
@@ -2020,9 +2198,12 @@
    "extra": {
     "ids_id": "03154306",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "4aa042a0788575b9"
   },
   {
@@ -2049,9 +2230,13 @@
    "extra": {
     "ids_id": "03153722",
     "via": "asx_html",
+    "topics": [
+     "investor_event",
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "37159972d761d60e"
   },
   {
@@ -2078,9 +2263,10 @@
    "extra": {
     "ids_id": "03152502",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "87842480f353a530"
   },
   {
@@ -2107,9 +2293,12 @@
    "extra": {
     "ids_id": "03152488",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "a799854012a298b3"
   },
   {
@@ -2136,9 +2325,10 @@
    "extra": {
     "ids_id": "03152485",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "2cb9bec1c8892946"
   },
   {
@@ -2165,9 +2355,10 @@
    "extra": {
     "ids_id": "03152479",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "4ef3c34f5df0ff69"
   },
   {
@@ -2194,9 +2385,10 @@
    "extra": {
     "ids_id": "03146971",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "bcec1a0946d6de4b"
   },
   {
@@ -2223,9 +2415,13 @@
    "extra": {
     "ids_id": "03146970",
     "via": "asx_html",
+    "topics": [
+     "investor_event",
+     "rare_earths"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "84abdefcfcf20652"
   },
   {
@@ -2252,9 +2448,12 @@
    "extra": {
     "ids_id": "03146969",
     "via": "asx_html",
+    "topics": [
+     "rare_earths"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "c510431cc56d988a"
   },
   {
@@ -2281,9 +2480,10 @@
    "extra": {
     "ids_id": "03144212",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "0beccb96111007a9"
   },
   {
@@ -2310,9 +2510,10 @@
    "extra": {
     "ids_id": "03130430",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "a7cec34df2a605c7"
   },
   {
@@ -2339,9 +2540,14 @@
    "extra": {
     "ids_id": "03130429",
     "via": "asx_html",
+    "topics": [
+     "investor_event",
+     "periodic_report",
+     "rare_earths"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "20c1cb5a9b8253dc"
   },
   {
@@ -2368,9 +2574,13 @@
    "extra": {
     "ids_id": "03130427",
     "via": "asx_html",
+    "topics": [
+     "periodic_report",
+     "rare_earths"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "f3502e8663416780"
   },
   {
@@ -2397,9 +2607,12 @@
    "extra": {
     "ids_id": "03130363",
     "via": "asx_html",
+    "topics": [
+     "periodic_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:41+11:00",
+   "fetched_at": "2026-11-27T08:37:04+11:00",
    "record_id": "c5c6315afcdeb0c9"
   },
   {
@@ -2427,9 +2640,12 @@
    "extra": {
     "ids_id": "03170945",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "9d66fbe772e57c4b"
   },
   {
@@ -2457,9 +2673,12 @@
    "extra": {
     "ids_id": "03170263",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "59b6555bcf9c9c8e"
   },
   {
@@ -2487,9 +2706,12 @@
    "extra": {
     "ids_id": "03169564",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "8a8c4ae2eca5ac7e"
   },
   {
@@ -2517,9 +2739,12 @@
    "extra": {
     "ids_id": "03169310",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "a2e498f0f0dfa2c0"
   },
   {
@@ -2547,9 +2772,12 @@
    "extra": {
     "ids_id": "03169273",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "875abcbf94d9e5cb"
   },
   {
@@ -2577,9 +2805,12 @@
    "extra": {
     "ids_id": "03168967",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "df322d178df237a6"
   },
   {
@@ -2607,9 +2838,12 @@
    "extra": {
     "ids_id": "03168279",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "e7a5344283ceeda5"
   },
   {
@@ -2637,9 +2871,12 @@
    "extra": {
     "ids_id": "03167682",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "a10d809be3292b50"
   },
   {
@@ -2667,9 +2904,12 @@
    "extra": {
     "ids_id": "03167064",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "70b616a202730713"
   },
   {
@@ -2697,9 +2937,12 @@
    "extra": {
     "ids_id": "03166436",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "34196b07eee5e255"
   },
   {
@@ -2727,9 +2970,12 @@
    "extra": {
     "ids_id": "03165917",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "12a4c3c48cdf6d10"
   },
   {
@@ -2757,9 +3003,12 @@
    "extra": {
     "ids_id": "03165387",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "6e956e00d42908ba"
   },
   {
@@ -2787,9 +3036,12 @@
    "extra": {
     "ids_id": "03164942",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "d1e9109c671d0049"
   },
   {
@@ -2817,9 +3069,12 @@
    "extra": {
     "ids_id": "03164421",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "b44d05a71cfd6b06"
   },
   {
@@ -2847,9 +3102,12 @@
    "extra": {
     "ids_id": "03163904",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "c0dbc6e616b52488"
   },
   {
@@ -2877,9 +3135,12 @@
    "extra": {
     "ids_id": "03163472",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "8fb4b564a16695dc"
   },
   {
@@ -2907,9 +3168,12 @@
    "extra": {
     "ids_id": "03162826",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "eb2ed9d6b73b39b7"
   },
   {
@@ -2937,9 +3201,12 @@
    "extra": {
     "ids_id": "03162513",
     "via": "asx_html",
+    "topics": [
+     "periodic_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "6a9b404001ea8506"
   },
   {
@@ -2967,9 +3234,12 @@
    "extra": {
     "ids_id": "03162255",
     "via": "asx_html",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "f27a3ba8967510e7"
   },
   {
@@ -2997,9 +3267,12 @@
    "extra": {
     "ids_id": "03162223",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:46+11:00",
+   "fetched_at": "2026-11-27T08:37:08+11:00",
    "record_id": "5a79f721c7386a8a"
   },
   {
@@ -3026,9 +3299,12 @@
    "extra": {
     "ids_id": "03171488",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "0cf26a10c41312f0"
   },
   {
@@ -3055,9 +3331,12 @@
    "extra": {
     "ids_id": "03170863",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "1964823ff7df4800"
   },
   {
@@ -3084,9 +3363,12 @@
    "extra": {
     "ids_id": "03160132",
     "via": "asx_html+markit",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "82d26a549c1535b6"
   },
   {
@@ -3113,9 +3395,12 @@
    "extra": {
     "ids_id": "03157949",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "d64d50207bf67a21"
   },
   {
@@ -3142,9 +3427,12 @@
    "extra": {
     "ids_id": "03157935",
     "via": "asx_html+markit",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "3d84188239f1882a"
   },
   {
@@ -3171,9 +3459,12 @@
    "extra": {
     "ids_id": "03157072",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "786de2c3bc7d06be"
   },
   {
@@ -3200,9 +3491,13 @@
    "extra": {
     "ids_id": "03155859",
     "via": "asx_html",
+    "topics": [
+     "periodic_report",
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "7d3f1678e5d07d33"
   },
   {
@@ -3229,9 +3524,12 @@
    "extra": {
     "ids_id": "03155744",
     "via": "asx_html",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "0d61e8cec351ae6a"
   },
   {
@@ -3258,9 +3556,12 @@
    "extra": {
     "ids_id": "03155742",
     "via": "asx_html",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "51bcf40e33ec153f"
   },
   {
@@ -3287,9 +3588,10 @@
    "extra": {
     "ids_id": "03155741",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "2a84a19d949de662"
   },
   {
@@ -3316,9 +3618,12 @@
    "extra": {
     "ids_id": "03151051",
     "via": "asx_html",
+    "topics": [
+     "offtake"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "c4bfb4bc5a9b602c"
   },
   {
@@ -3345,9 +3650,10 @@
    "extra": {
     "ids_id": "03150513",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "55bd96be57a9636e"
   },
   {
@@ -3374,9 +3680,12 @@
    "extra": {
     "ids_id": "03142359",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "42b4cb4236d9a3f5"
   },
   {
@@ -3403,9 +3712,12 @@
    "extra": {
     "ids_id": "03141678",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "7bfb9ddbb955e259"
   },
   {
@@ -3432,9 +3744,12 @@
    "extra": {
     "ids_id": "03141677",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "32e4e204a83fd6e2"
   },
   {
@@ -3461,9 +3776,12 @@
    "extra": {
     "ids_id": "03140935",
     "via": "asx_html",
+    "topics": [
+     "offtake"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "e0c3f30ec0486e1e"
   },
   {
@@ -3490,9 +3808,10 @@
    "extra": {
     "ids_id": "03140602",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "0730c9143778caf3"
   },
   {
@@ -3519,9 +3838,12 @@
    "extra": {
     "ids_id": "03137833",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "86e85db2b54a8a11"
   },
   {
@@ -3548,9 +3870,12 @@
    "extra": {
     "ids_id": "03135559",
     "via": "asx_html",
+    "topics": [
+     "routine"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "1cb3a488f8b212e9"
   },
   {
@@ -3577,9 +3902,12 @@
    "extra": {
     "ids_id": "03135006",
     "via": "asx_html",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:50+11:00",
+   "fetched_at": "2026-11-27T08:37:12+11:00",
    "record_id": "08f1416fb02e4f4c"
   },
   {
@@ -3606,9 +3934,12 @@
    "extra": {
     "ids_id": "03160382",
     "via": "asx_html+markit",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "8af21c1efbe1c4ec"
   },
   {
@@ -3635,9 +3966,12 @@
    "extra": {
     "ids_id": "03160362",
     "via": "asx_html+markit",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "f25ab097f7e62e5b"
   },
   {
@@ -3664,9 +3998,10 @@
    "extra": {
     "ids_id": "03159661",
     "via": "asx_html+markit",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "f7b3a084f85d5fd3"
   },
   {
@@ -3693,9 +4028,12 @@
    "extra": {
     "ids_id": "03159659",
     "via": "asx_html+markit",
+    "topics": [
+     "periodic_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "b85c5d0332dafaa6"
   },
   {
@@ -3722,9 +4060,10 @@
    "extra": {
     "ids_id": "03153845",
     "via": "asx_html+markit",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "84dc6fee428aaea1"
   },
   {
@@ -3751,9 +4090,10 @@
    "extra": {
     "ids_id": "03145981",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "5202d7af43763871"
   },
   {
@@ -3780,9 +4120,10 @@
    "extra": {
     "ids_id": "03145963",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "8bdafbd0f3e41c95"
   },
   {
@@ -3809,9 +4150,10 @@
    "extra": {
     "ids_id": "03145957",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "af516dceaa14f05e"
   },
   {
@@ -3838,9 +4180,10 @@
    "extra": {
     "ids_id": "03124828",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "a43e0ea4f28283ae"
   },
   {
@@ -3867,9 +4210,12 @@
    "extra": {
     "ids_id": "03123503",
     "via": "asx_html",
+    "topics": [
+     "firb"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "d8ea53f50700ba09"
   },
   {
@@ -3896,9 +4242,10 @@
    "extra": {
     "ids_id": "03122185",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "ee7adeacd214270b"
   },
   {
@@ -3925,9 +4272,12 @@
    "extra": {
     "ids_id": "03120562",
     "via": "asx_html",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "255b03f2cf6680f9"
   },
   {
@@ -3954,9 +4304,12 @@
    "extra": {
     "ids_id": "03120558",
     "via": "asx_html",
+    "topics": [
+     "quarterly_report"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "4c094120e6844be9"
   },
   {
@@ -3983,9 +4336,12 @@
    "extra": {
     "ids_id": "03117558",
     "via": "asx_html",
+    "topics": [
+     "investor_event"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "dbaa1c680043c165"
   },
   {
@@ -4012,9 +4368,12 @@
    "extra": {
     "ids_id": "03114720",
     "via": "asx_html",
+    "topics": [
+     "firb"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "70d447cff37b4ad4"
   },
   {
@@ -4041,9 +4400,12 @@
    "extra": {
     "ids_id": "03112504",
     "via": "asx_html",
+    "topics": [
+     "firb"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "f4c2bf2c92ec052c"
   },
   {
@@ -4070,9 +4432,12 @@
    "extra": {
     "ids_id": "03111960",
     "via": "asx_html",
+    "topics": [
+     "firb"
+    ],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "e7ccdc81ad97ae8f"
   },
   {
@@ -4099,9 +4464,10 @@
    "extra": {
     "ids_id": "03107924",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "bcb2475d09feaabc"
   },
   {
@@ -4128,9 +4494,10 @@
    "extra": {
     "ids_id": "03104840",
     "via": "asx_html",
+    "topics": [],
     "headline_withheld": true
    },
-   "fetched_at": "2026-11-27T08:31:54+11:00",
+   "fetched_at": "2026-11-27T08:37:16+11:00",
    "record_id": "c211af66d93b7c32"
   }
  ]

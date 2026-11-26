@@ -1,6 +1,24 @@
 {
  "note": "Matches record that a commercial event and a policy event sit close together in time with shared scope. They do not show cause and are not recommendations. Only matches with a sourced commercial record are listed; the brief's Northern Minerals example is a synthetic test fixture and is not shown.",
- "matches": [
+ "generated_at": "2026-11-27T08:38:36+11:00",
+ "scoring": "temporal  = 1 - |lag_days| / 31          (lead-lag windows of 7, 14 and 30 days either side)\n  entity    = 1.0 if the record's canonical entity is named by the policy event,\n              0.5 if it only shares a commodity with the event, else 0 (no match)\n  topic     = shared topic/commodity tags / min(3, tags on the policy event), capped at 1\n  source    = the feed's raw_confidence (how authoritative the feed is)\n  base      = 0.30 temporal + 0.30 entity + 0.25 topic + 0.15 source\n  score     = base x volatility weight (low 1.0, medium 0.9, high 0.8)\n                   x verification factor (0.85 if the policy event still carries verify: true)\nGates: entity > 0; at least one non-routine shared topic, or a binary event\n(tenement grant) for the same entity; score >= MIN_SCORE. If a rationale\ncan't be written from the parts, the match is dropped.\n\nConfidence is separate from score and mechanical:\n  0.4 x feed freshness + 0.3 x (policy verified) + 0.3 x (record verified)\nLive records are unverified until someone opens the source, so their confidence\ntops out at 0.7.",
+ "seeded_scoring": "Seeded matches: temporal = 1 - |lag_days|/30; entity = 1.0 same entity, 0.6 named counterparty; commodity = 1.0 match else 0; x volatility weight (low 1.0, medium 0.9, high 0.8). Computed in the browser from score_inputs.",
+ "licensing": "ASX headlines are not used or published; engine matches use ticker, time, type, price-sensitive flag and topic tags.",
+ "counts": {
+  "seeded": 2,
+  "engine": 3,
+  "engine_live": 3
+ },
+ "bracket_activity": {
+  "Resources": {
+   "window_days": 30,
+   "start": "2026-07-06",
+   "counts": [
+    3
+   ]
+  }
+ },
+ "seeded": [
   {
    "id": "m-bhp-cmrg-2026",
    "rank": 1,
@@ -26,7 +44,8 @@
     "entity_overlap": "same_entity",
     "commodity_match": true,
     "policy_volatility": "high"
-   }
+   },
+   "origin": "seeded"
   },
   {
    "id": "m-chinaenergy-coal-2023",
@@ -52,8 +71,175 @@
     "entity_overlap": "named_counterparty",
     "commodity_match": true,
     "policy_volatility": "high"
-   }
+   },
+   "origin": "seeded"
   }
  ],
- "scoring": "temporal = 1 - |lag_days|/30; entity = 1.0 same entity, 0.6 named counterparty; commodity = 1.0 match else 0; volatility weight = 1.0 low, 0.9 medium, 0.8 high; score = mean(temporal, entity, commodity) x volatility weight. Computed in the browser from these inputs, not hand-set."
+ "engine": [
+  {
+   "id": "e-e7ccdc81ad97ae8f-ntu-firb-2026",
+   "origin": "engine",
+   "record": {
+    "record_id": "e7ccdc81ad97ae8f",
+    "feed": "asx_announcements",
+    "entity": "NTU",
+    "entity_name": "Northern Minerals Limited",
+    "event_type": "asx_announcement",
+    "event_subtype": null,
+    "date": "2026-07-06T09:30:00+10:00",
+    "title": "NTU announcement: headline on ASX",
+    "source": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03111960",
+    "price_sensitive": false,
+    "tags": [
+     "firb",
+     "rare_earths"
+    ]
+   },
+   "policy": {
+    "ref": "ntu-firb-2026",
+    "title": "Northern Minerals disposal orders (No. 1) 2026 commence",
+    "date": "2026-06-18",
+    "direction": "mixed",
+    "verify": true,
+    "verification_ref": "ntu-firb-2026"
+   },
+   "lag_days": 18,
+   "window_days": 30,
+   "score": 0.62,
+   "parts": {
+    "temporal": 0.419,
+    "entity": 1.0,
+    "topic": 1.0,
+    "source": 0.9,
+    "volatility_weight": 0.9,
+    "verification_factor": 0.85
+   },
+   "confidence": 0.4,
+   "bracket": "Resources",
+   "in_asx200_scope": false,
+   "shared_tags": [
+    "firb",
+    "rare_earths"
+   ],
+   "rationale": "NTU asx announcement on 2026-07-06 came 18 days after \"Northern Minerals disposal orders (No. 1) 2026 commence\" (effective 2026-06-18); linked by named entity NTU and shared tags firb, rare_earths.",
+   "flags": [
+    "record_unverified",
+    "policy_verify",
+    "boundary_event_policy_or_commercial",
+    "matched_on_metadata_and_tags"
+   ],
+   "verify": true,
+   "rank": 1
+  },
+  {
+   "id": "e-f4c2bf2c92ec052c-ntu-firb-2026",
+   "origin": "engine",
+   "record": {
+    "record_id": "f4c2bf2c92ec052c",
+    "feed": "asx_announcements",
+    "entity": "NTU",
+    "entity_name": "Northern Minerals Limited",
+    "event_type": "asx_announcement",
+    "event_subtype": null,
+    "date": "2026-07-07T10:27:00+10:00",
+    "title": "NTU announcement: headline on ASX",
+    "source": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03112504",
+    "price_sensitive": false,
+    "tags": [
+     "firb",
+     "rare_earths"
+    ]
+   },
+   "policy": {
+    "ref": "ntu-firb-2026",
+    "title": "Northern Minerals disposal orders (No. 1) 2026 commence",
+    "date": "2026-06-18",
+    "direction": "mixed",
+    "verify": true,
+    "verification_ref": "ntu-firb-2026"
+   },
+   "lag_days": 19,
+   "window_days": 30,
+   "score": 0.613,
+   "parts": {
+    "temporal": 0.387,
+    "entity": 1.0,
+    "topic": 1.0,
+    "source": 0.9,
+    "volatility_weight": 0.9,
+    "verification_factor": 0.85
+   },
+   "confidence": 0.4,
+   "bracket": "Resources",
+   "in_asx200_scope": false,
+   "shared_tags": [
+    "firb",
+    "rare_earths"
+   ],
+   "rationale": "NTU asx announcement on 2026-07-07 came 19 days after \"Northern Minerals disposal orders (No. 1) 2026 commence\" (effective 2026-06-18); linked by named entity NTU and shared tags firb, rare_earths.",
+   "flags": [
+    "record_unverified",
+    "policy_verify",
+    "boundary_event_policy_or_commercial",
+    "matched_on_metadata_and_tags"
+   ],
+   "verify": true,
+   "rank": 2
+  },
+  {
+   "id": "e-70d447cff37b4ad4-ntu-firb-2026",
+   "origin": "engine",
+   "record": {
+    "record_id": "70d447cff37b4ad4",
+    "feed": "asx_announcements",
+    "entity": "NTU",
+    "entity_name": "Northern Minerals Limited",
+    "event_type": "asx_announcement",
+    "event_subtype": null,
+    "date": "2026-07-14T09:40:00+10:00",
+    "title": "NTU announcement (price sensitive): headline on ASX",
+    "source": "https://www.asx.com.au/asx/v2/statistics/displayAnnouncement.do?display=pdf&idsId=03114720",
+    "price_sensitive": true,
+    "tags": [
+     "firb",
+     "rare_earths"
+    ]
+   },
+   "policy": {
+    "ref": "ntu-firb-2026",
+    "title": "Northern Minerals disposal orders (No. 1) 2026 commence",
+    "date": "2026-06-18",
+    "direction": "mixed",
+    "verify": true,
+    "verification_ref": "ntu-firb-2026"
+   },
+   "lag_days": 26,
+   "window_days": 30,
+   "score": 0.561,
+   "parts": {
+    "temporal": 0.161,
+    "entity": 1.0,
+    "topic": 1.0,
+    "source": 0.9,
+    "volatility_weight": 0.9,
+    "verification_factor": 0.85
+   },
+   "confidence": 0.4,
+   "bracket": "Resources",
+   "in_asx200_scope": false,
+   "shared_tags": [
+    "firb",
+    "rare_earths"
+   ],
+   "rationale": "NTU price-sensitive asx announcement on 2026-07-14 came 26 days after \"Northern Minerals disposal orders (No. 1) 2026 commence\" (effective 2026-06-18); linked by named entity NTU and shared tags firb, rare_earths.",
+   "flags": [
+    "record_unverified",
+    "policy_verify",
+    "boundary_event_policy_or_commercial",
+    "matched_on_metadata_and_tags"
+   ],
+   "verify": true,
+   "rank": 3
+  }
+ ]
 }
