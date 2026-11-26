@@ -1,0 +1,22 @@
+@import url("../css/main.css");
+body { font-family: "IBM Plex Sans", system-ui, sans-serif; }
+h1, h2 { font-family: "Newsreader", Georgia, serif; }
+code { font-family: "IBM Plex Mono", monospace; font-size: 12px; }
+.band { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+.top { background: #fff; border-bottom: 1px solid var(--line); padding: 16px 20px; max-width: none; }
+.head { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; max-width: 1100px; margin: 0 auto; }
+.lede { color: var(--muted); margin: 4px 0; }
+.tools { display: flex; gap: 8px; align-items: center; }
+.tabs { max-width: 1100px; margin: 12px auto 0; }
+.btn { background: var(--forest); color: #fff; border: 0; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+.btn.ghost { background: #fff; color: var(--forest); border: 1px solid var(--forest); }
+table { width: 100%; border-collapse: collapse; background: #fff; font-size: 14px; }
+th, td { border: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+.q h3 { margin: 0 0 6px; font-size: 15px; }
+.q.flag { border-left: 4px solid var(--warn); }
+.q textarea { width: 100%; margin-top: 6px; font: inherit; }
+.calc { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-end; }
+.calc fieldset { border: 1px solid var(--line); background: #fff; display: grid; gap: 6px; }
+.calc input { width: 8em; }
+.sr { position: absolute; left: -9999px; }
+.foot { text-align: center; color: var(--muted); font-size: 12px; padding: 20px; border-top: 1px solid var(--line); margin-top: 40px; }
