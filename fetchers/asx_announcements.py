@@ -33,6 +33,7 @@ from typing import List, Dict, Tuple
 if __package__ in (None, ""):
     sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.dirname(__file__)))
 from fetchers.schema import NormalisedRecord, WATCHED, AEST, http_json, http_get  # noqa: E402
+from fetchers.topics import topics_for  # noqa: E402
 
 FEED = "asx_announcements"
 MARKIT = "https://asx.api.markitdigital.com/asx-research/1.0/companies/{code}/announcements?count={count}"
@@ -121,6 +122,8 @@ def fetch(codes: List[str] = None, count: int = 20) -> Tuple[List[Dict], Dict]:
         if errs:
             errors[code] = " | ".join(errs)
         per_code[code] = len(got)
+        for r in got:  # topic tags come from the headline in memory, before any withholding
+            r.extra["topics"] = topics_for(r.title, (r.event_subtype or "").replace("_", " "))
         if os.environ.get("TIME_PUBLISH_ASX_HEADLINES") != "1":
             for r in got:
                 r.finalise()  # record_id is computed from the real headline first

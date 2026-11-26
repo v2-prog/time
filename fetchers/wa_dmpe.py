@@ -28,6 +28,7 @@ from typing import List, Dict, Tuple
 if __package__ in (None, ""):
     sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.dirname(__file__)))
 from fetchers.schema import NormalisedRecord, AEST, http_get, http_json, resolve_entity, WATCHED  # noqa: E402
+from fetchers.topics import topics_for  # noqa: E402
 
 FEED_ANN = "wa_dmpe_announcements"
 FEED_TEN = "wa_dmpe_tenements"
@@ -62,7 +63,7 @@ def parse_announcement(url: str, page: str) -> NormalisedRecord:
         event_type="agency_announcement", event_subtype=None,
         occurred_at=when.isoformat() if when else "", published_at=when.isoformat() if when else "",
         title=title, source_url=url, jurisdiction="AU-WA", raw_confidence=0.95,
-        extra={"summary": desc[:400], "agency": "DMPE"},
+        extra={"summary": desc[:400], "agency": "DMPE", "topics": topics_for(title, desc)},
     )
 
 
@@ -109,7 +110,8 @@ def normalise_tenement(attrs: Dict) -> NormalisedRecord | None:
         raw_confidence=0.95,
         extra={"tenement_id": tid, "status": attrs.get("tenstatus"), "holders": holders,
                "area": attrs.get("legal_area"), "area_unit": (attrs.get("unit_of_me") or "").strip(),
-               "agency": "DMPE", "licence": "CC BY 4.0 (data.wa.gov.au, DMIRS-003)"},
+               "agency": "DMPE", "licence": "CC BY 4.0 (data.wa.gov.au, DMIRS-003)",
+               "topics": ["approval", "mining_lease"] if (attrs.get("type") or "").upper() == "MINING LEASE" else ["approval"]},
     )
 
 
