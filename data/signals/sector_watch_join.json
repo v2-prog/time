@@ -1,0 +1,268 @@
+{
+ "note": "Minimal subset of ASX 200 Sector Watch cells used for the join (no prices, summaries or sources). Refresh with --sector-watch.",
+ "source_file": "signals-2026-11-27.json",
+ "generated_at": "2026-11-28T10:00:21+11:00",
+ "session_as_of": "2026-11-27",
+ "signals": [
+  {
+   "id": "xjo-days",
+   "instrument": "XJO",
+   "sector": "Index",
+   "timeframe": "days",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xjo-weeks",
+   "instrument": "XJO",
+   "sector": "Index",
+   "timeframe": "weeks",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "xjo-months",
+   "instrument": "XJO",
+   "sector": "Index",
+   "timeframe": "months",
+   "colour": "amber",
+   "conviction": "low",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "xgd-days",
+   "instrument": "XGD",
+   "sector": "Materials",
+   "timeframe": "days",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xgd-weeks",
+   "instrument": "XGD",
+   "sector": "Materials",
+   "timeframe": "weeks",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": true
+  },
+  {
+   "id": "xmj-days",
+   "instrument": "XMJ",
+   "sector": "Materials",
+   "timeframe": "days",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xmj-weeks",
+   "instrument": "XMJ",
+   "sector": "Materials",
+   "timeframe": "weeks",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "copper-days",
+   "instrument": "COPPER",
+   "sector": "Materials",
+   "timeframe": "days",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "copper-weeks",
+   "instrument": "COPPER",
+   "sector": "Materials",
+   "timeframe": "weeks",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "position_building",
+   "needs_verification": true
+  },
+  {
+   "id": "lithium-weeks",
+   "instrument": "LITHIUM",
+   "sector": "Materials",
+   "timeframe": "weeks",
+   "colour": "red",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "lithium-months",
+   "instrument": "LITHIUM",
+   "sector": "Materials",
+   "timeframe": "months",
+   "colour": "amber",
+   "conviction": "low",
+   "horizon_type": "position_building",
+   "needs_verification": true
+  },
+  {
+   "id": "xej-days",
+   "instrument": "XEJ",
+   "sector": "Energy",
+   "timeframe": "days",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xej-weeks",
+   "instrument": "XEJ",
+   "sector": "Energy",
+   "timeframe": "weeks",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "xhj-days",
+   "instrument": "XHJ",
+   "sector": "Health Care",
+   "timeframe": "days",
+   "colour": "amber",
+   "conviction": "low",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xhj-weeks",
+   "instrument": "XHJ",
+   "sector": "Health Care",
+   "timeframe": "weeks",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "rhc-weeks",
+   "instrument": "RHC",
+   "sector": "Health Care",
+   "timeframe": "weeks",
+   "colour": "red",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": true
+  },
+  {
+   "id": "neu-days",
+   "instrument": "NEU",
+   "sector": "Health Care",
+   "timeframe": "days",
+   "colour": "red",
+   "conviction": "high",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "neu-weeks",
+   "instrument": "NEU",
+   "sector": "Health Care",
+   "timeframe": "weeks",
+   "colour": "red",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "xij-days",
+   "instrument": "XIJ",
+   "sector": "Information Technology",
+   "timeframe": "days",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xij-weeks",
+   "instrument": "XIJ",
+   "sector": "Information Technology",
+   "timeframe": "weeks",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "wtc-days",
+   "instrument": "WTC",
+   "sector": "Information Technology",
+   "timeframe": "days",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "near_term",
+   "needs_verification": true
+  },
+  {
+   "id": "wtc-weeks",
+   "instrument": "WTC",
+   "sector": "Information Technology",
+   "timeframe": "weeks",
+   "colour": "green",
+   "conviction": "high",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "xfj-days",
+   "instrument": "XFJ",
+   "sector": "Financials",
+   "timeframe": "days",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xfj-weeks",
+   "instrument": "XFJ",
+   "sector": "Financials",
+   "timeframe": "weeks",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  },
+  {
+   "id": "xsj-days",
+   "instrument": "XSJ",
+   "sector": "Consumer Staples",
+   "timeframe": "days",
+   "colour": "blue",
+   "conviction": "low",
+   "horizon_type": "near_term",
+   "needs_verification": false
+  },
+  {
+   "id": "xsj-weeks",
+   "instrument": "XSJ",
+   "sector": "Consumer Staples",
+   "timeframe": "weeks",
+   "colour": "amber",
+   "conviction": "low",
+   "horizon_type": "position_building",
+   "needs_verification": false
+  }
+ ]
+}

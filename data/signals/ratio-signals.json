@@ -1,0 +1,926 @@
+{
+ "schema": "ratio.signal.v1",
+ "generated_at": "2026-11-28T10:30:00+11:00",
+ "example": false,
+ "experimental": true,
+ "source_feed": "v2-prog/time data/signals/signals.json (gov.signal.v1)",
+ "_note": "EXPERIMENTAL, INFORMATION ONLY. Real government and regulatory events, strength-rated and verified as labelled. Not a recommendation to buy, sell or hold. score = rubric weighted score (0..1); confidence: high = primary source and named party, medium = primary source but ticker exposure not stated in source, low = secondary or needs human verification. window_months=3 for bracket rows follows Tic BRACKET_PRIMARY_WINDOW; expires_at = date + 30 days (Ratio L4 maximum lead-lag window) [verify, Doug].",
+ "disclaimer": "General information only, Australia only. Not personal financial or legal advice. No buy, sell or hold calls, entry points or ladders. Verify against the linked primary source before relying on any item.",
+ "signals": [
+  {
+   "id": "gov-gas-dgrs-exporters-sto",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "STO",
+    "market": "ASX",
+    "name": "SANTOS LIMITED"
+   },
+   "bracket": "Energy",
+   "score": 0.83,
+   "confidence": {
+    "tag": "medium"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "A binding domestic supply obligation on east-coast exporters can lower the price they realise on reserved volumes. The impact depends on licence terms that are not set yet, and the obligation starts in 2028.",
+    "contributing_records": [
+     "gas-dgrs-exporters"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 4,
+    "direction_tag": "headwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+    "event": "Domestic Gas Reservation Scheme law passed: exporters must supply up to 20% of annual export volumes to the domestic market from 1 Jan 2028",
+    "timeframe": "years",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-gas-dgrs-exporters-org",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "ORG",
+    "market": "ASX",
+    "name": "ORIGIN ENERGY LIMITED"
+   },
+   "score": 0.83,
+   "confidence": {
+    "tag": "medium"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "A binding domestic supply obligation on east-coast exporters can lower the price they realise on reserved volumes. The impact depends on licence terms that are not set yet, and the obligation starts in 2028.",
+    "contributing_records": [
+     "gas-dgrs-exporters"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 4,
+    "direction_tag": "headwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+    "event": "Domestic Gas Reservation Scheme law passed: exporters must supply up to 20% of annual export volumes to the domestic market from 1 Jan 2028",
+    "timeframe": "years",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-rhc-ramsay-sante-distribution-rhc",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "RHC",
+    "market": "ASX",
+    "name": "RAMSAY HEALTH CARE LIMITED"
+   },
+   "bracket": "Healthcare",
+   "score": 0.83,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-24T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-25T10:00:00+11:00",
+   "expires_at": "2026-12-24T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "RHC's structure changes when the Ramsay Santé stake is distributed as ASX CDIs. RHC's own price reflects the distribution, and CDI trading starts 1 Dec.",
+    "contributing_records": [
+     "rhc-ramsay-sante-distribution"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 4,
+    "direction_tag": "mixed",
+    "verification": "confirmed_primary",
+    "source_url": "https://press.ramsaysante.fr/news/ramsay-health-care-shareholders-approve-the-distribution-of-the-stake-of-ramsay-health-care-in-ramsay-sante-3bd03-48d84.html",
+    "event": "Ramsay Health Care: shareholders approved distribution of 52.79% Ramsay Santé stake (24 Nov); NSW Supreme Court hearing 27 Nov; distribution scheduled 9 Dec",
+    "timeframe": "weeks",
+    "heatmap_level": "ticker",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-myx-accc-general-pharma-myx",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "MYX",
+    "market": "ASX",
+    "name": "MAYNE PHARMA GROUP LIMITED"
+   },
+   "bracket": "Healthcare",
+   "score": 0.72,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-25T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "expires_at": "2026-12-25T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "ACCC clearance is a gating step for the sale. It combines Mayne's Australian generics with Evaris, so overlap in generics and OTC is the competition question.",
+    "contributing_records": [
+     "myx-accc-general-pharma"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 4,
+    "direction_tag": "mixed",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/general-pharma-mayne-pharma",
+    "event": "ACCC Phase 1: General Pharma (Genesis Capital) to acquire Mayne Pharma International from Mayne Pharma Group",
+    "timeframe": "months",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-pnv-fda-pma-submitted-pnv",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "PNV",
+    "market": "ASX",
+    "name": "POLYNOVO LIMITED"
+   },
+   "bracket": "Healthcare",
+   "score": 0.72,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-23T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-24T10:00:00+11:00",
+   "expires_at": "2026-12-23T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "The pivotal trial met non-inferiority and the filing is in. Approval and timing are uncertain, and the company says current sales are unaffected. This is a US regulator matter for an ASX-listed company.",
+    "contributing_records": [
+     "pnv-fda-pma-submitted"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 4,
+    "direction_tag": "mixed",
+    "verification": "confirmed_primary",
+    "source_url": "https://investors.polynovo.com/announcements/nJgvQ8-novosorb-btm-achieves-pivotal-trial-endpoints-pma-submitted",
+    "event": "PolyNovo submits FDA Premarket Approval application for NovoSorb BTM in full-thickness burns (US regulator; ASX-listed company event)",
+    "timeframe": "days",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-abs-cpi-october-financials",
+   "kind": "bracket",
+   "bracket": "Financials",
+   "direction": "neutral",
+   "window_months": 3,
+   "score": 0.63,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-25T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "expires_at": "2026-12-25T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "Higher inflation keeps rate pressure up ahead of the RBA on 8 Dec. For banks that is mixed: margins against credit quality.",
+    "contributing_records": [
+     "abs-cpi-october"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "mixed",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-49-year-october-2026",
+    "event": "October CPI 4.9% y/y (from 4.3%); trimmed mean 3.8%; RBA meets 7-8 Dec",
+    "timeframe": "days",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-gas-dgrs-users-ori",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "ORI",
+    "market": "ASX",
+    "name": "ORICA LIMITED"
+   },
+   "bracket": "Resources",
+   "score": 0.63,
+   "confidence": {
+    "tag": "medium"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "If the scheme does lower east-coast gas prices, large industrial users benefit. That depends on future price settings, and the companies' gas exposure is not verified here.",
+    "contributing_records": [
+     "gas-dgrs-users"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "tailwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+    "event": "Gas reservation law passed: policy aimed at domestic gas supply and prices for industry",
+    "timeframe": "years",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-gas-dgrs-users-dnl",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "DNL",
+    "market": "ASX",
+    "name": "DYNO NOBEL LIMITED."
+   },
+   "bracket": "Resources",
+   "score": 0.63,
+   "confidence": {
+    "tag": "medium"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "If the scheme does lower east-coast gas prices, large industrial users benefit. That depends on future price settings, and the companies' gas exposure is not verified here.",
+    "contributing_records": [
+     "gas-dgrs-users"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "tailwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+    "event": "Gas reservation law passed: policy aimed at domestic gas supply and prices for industry",
+    "timeframe": "years",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-gas-dgrs-users-bsl",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "BSL",
+    "market": "ASX",
+    "name": "BLUESCOPE STEEL LIMITED"
+   },
+   "bracket": "Resources",
+   "score": 0.63,
+   "confidence": {
+    "tag": "medium"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "If the scheme does lower east-coast gas prices, large industrial users benefit. That depends on future price settings, and the companies' gas exposure is not verified here.",
+    "contributing_records": [
+     "gas-dgrs-users"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "tailwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+    "event": "Gas reservation law passed: policy aimed at domestic gas supply and prices for industry",
+    "timeframe": "years",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-ald-accc-evie-ald",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "ALD",
+    "market": "ASX",
+    "name": "AMPOL LIMITED"
+   },
+   "bracket": "Energy",
+   "score": 0.6,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-13T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-16T10:00:00+11:00",
+   "expires_at": "2026-12-13T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "This is a strategic EV-charging step for Ampol. The deal size is not public and is likely small for the group. The ACCC decision is due 13 Jan 2027.",
+    "contributing_records": [
+     "ald-accc-evie"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "mixed",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/ampol-%E2%80%93-evie-networks",
+    "event": "ACCC Phase 1: Ampol to acquire Evie Networks (EV charging)",
+    "timeframe": "weeks",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-asic-cba-commbiz-cba",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "CBA",
+    "market": "ASX",
+    "name": "COMMONWEALTH BANK OF AUSTRALIA."
+   },
+   "bracket": "Financials",
+   "score": 0.6,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-27T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "expires_at": "2026-12-27T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "A named enforcement action with reputational and remediation cost. The amounts are not public, so the materiality is likely low for a bank of CBA's size.",
+    "contributing_records": [
+     "asic-cba-commbiz"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-27-november-2026",
+    "event": "ASIC civil penalty proceedings against Commonwealth Bank over CommBiz fees",
+    "timeframe": "days",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-gas-dgrs-wa-exempt-wds",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "WDS",
+    "market": "ASX",
+    "name": "WOODSIDE ENERGY GROUP LTD"
+   },
+   "bracket": "Energy",
+   "score": 0.6,
+   "confidence": {
+    "tag": "medium"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "WA's exemption limits the direct effect on WA-based LNG. The ABC reports the Coalition wanted safeguards on that exemption, so it may remain a political variable.",
+    "contributing_records": [
+     "gas-dgrs-wa-exempt"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "mixed",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+    "event": "Gas reservation law passed with Western Australia exempt (WA keeps its own policy)",
+    "timeframe": "years",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-asic-mqg-welcome-rate-mqg",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "MQG",
+    "market": "ASX",
+    "name": "MACQUARIE GROUP LIMITED"
+   },
+   "bracket": "Financials",
+   "score": 0.57,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-27T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "expires_at": "2026-12-27T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "The admission and agreed penalty make the outcome near-certain, but the amount is negligible for MQG. This is mainly a conduct-record item.",
+    "contributing_records": [
+     "asic-mqg-welcome-rate"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-275mr-macquarie-admits-failures-over-savings-account-welcome-rate-offer",
+    "event": "Macquarie admits Welcome Rate contravention; $14m penalty jointly proposed",
+    "timeframe": "months",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-asic-2027-priorities-financials",
+   "kind": "bracket",
+   "bracket": "Financials",
+   "direction": "decline",
+   "window_months": 3,
+   "score": 0.55,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-27T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "expires_at": "2026-12-27T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "ASIC says its posture will shift to enforcement in private credit. That raises compliance and distribution risk for managers and platforms in that segment. No listed firm is named.",
+    "contributing_records": [
+     "asic-2027-priorities"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-27-november-2026",
+    "event": "ASIC to the PJC: 2027 enforcement priorities are audit, private credit, superannuation and harmful lead generation; six interim stop orders on private credit funds",
+    "timeframe": "months",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-gmd-vault-scheme-implemented-gmd",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "GMD",
+    "market": "ASX",
+    "name": "GENESIS MINERALS LIMITED"
+   },
+   "bracket": "Resources",
+   "score": 0.9,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "The merger is complete, so deal risk is gone and integration risk takes over. The combined plan is due in the June quarter of 2027. Vault holders received GMD shares, which can bring register turnover.",
+    "contributing_records": [
+     "gmd-vault-scheme-implemented"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "mixed",
+    "verification": "secondary_only",
+    "source_url": "https://mining.com.au/genesis-minerals-completes-vault-gold-takeover/",
+    "event": "Genesis Minerals completes Vault Minerals scheme (court-approved): implemented 26 Nov; Vault delisted 27 Nov",
+    "timeframe": "days",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-cgf-tal-revised-proposal-cgf",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "CGF",
+    "market": "ASX",
+    "name": "CHALLENGER LIMITED"
+   },
+   "bracket": "Financials",
+   "score": 0.73,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-19T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-20T10:00:00+11:00",
+   "expires_at": "2026-12-19T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "A live control contest with a rejected improved offer. The next step depends on TAL and the board. Any deal would also need regulatory approvals (FIRB, APRA, ACCC) that are not yet sought publicly.",
+    "contributing_records": [
+     "cgf-tal-revised-proposal"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "mixed",
+    "verification": "secondary_only",
+    "source_url": "https://www.capitalbrief.com/briefing/tal-daiichi-life-lobs-improved-82b-bid-for-challenger-805c2389-9a56-4a8a-ae3f-32f553c3b263/",
+    "event": "TAL Dai-ichi lifts its Challenger proposal to $12.20 a share; board says it does not reflect fair value",
+    "timeframe": "days",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-wds-browse-epbc-wds",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "WDS",
+    "market": "ASX",
+    "name": "WOODSIDE ENERGY GROUP LTD"
+   },
+   "bracket": "Energy",
+   "score": 0.65,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-26T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "expires_at": "2026-12-26T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "A binary approval event for Woodside is due early 2027. Staying under the old rules avoids the tougher reformed tests, according to the minister as reported.",
+    "contributing_records": [
+     "wds-browse-epbc"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "mixed",
+    "verification": "secondary_only",
+    "source_url": "https://www.theguardian.com/australia-news/2026/nov/27/hugh-jackman-woodside-gas-project-wa-reef-murray-watt",
+    "event": "Woodside Browse: federal EPBC decision expected early 2027, assessed under pre-1 Dec rules",
+    "timeframe": "months",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-phi-rebate-changes-mpl",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "MPL",
+    "market": "ASX",
+    "name": "MEDIBANK PRIVATE LIMITED"
+   },
+   "bracket": "Financials",
+   "score": 0.62,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-25T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "expires_at": "2026-12-25T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "A lower rebate raises net premiums for affected members, which can push downgrades or lapses. The pensioner carve-out softens this, and start dates are not confirmed here.",
+    "contributing_records": [
+     "phi-rebate-changes"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "secondary_only",
+    "source_url": "https://www.abc.net.au/news/2026-11-25/pensioners-carved-out-of-cuts-to-private-health-insurance-rebate/107424452",
+    "event": "Private health insurance rebate changes passed both houses with a pensioner carve-out",
+    "timeframe": "days",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-phi-rebate-changes-nhf",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "NHF",
+    "market": "ASX",
+    "name": "NIB HOLDINGS LIMITED"
+   },
+   "bracket": "Financials",
+   "score": 0.62,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-25T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "expires_at": "2026-12-25T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "A lower rebate raises net premiums for affected members, which can push downgrades or lapses. The pensioner carve-out softens this, and start dates are not confirmed here.",
+    "contributing_records": [
+     "phi-rebate-changes"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "secondary_only",
+    "source_url": "https://www.abc.net.au/news/2026-11-25/pensioners-carved-out-of-cuts-to-private-health-insurance-rebate/107424452",
+    "event": "Private health insurance rebate changes passed both houses with a pensioner carve-out",
+    "timeframe": "days",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-pilbara-ports-october-bhp",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "BHP",
+    "market": "ASX",
+    "name": "BHP GROUP LIMITED"
+   },
+   "bracket": "Resources",
+   "score": 0.5,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-16T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-17T10:00:00+11:00",
+   "expires_at": "2026-12-16T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "This is a soft monthly volume read for the Pilbara iron ore chain. One month is noisy and does not split by company.",
+    "contributing_records": [
+     "pilbara-ports-october"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "secondary_only",
+    "source_url": "https://www.thedcn.com.au/news/pilbara-ports-tonnage-down-in-october",
+    "event": "Pilbara Ports October throughput 69.7 Mt, down 2% y/y (Port Hedland 48.6 Mt, down 4%)",
+    "timeframe": "weeks",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-pilbara-ports-october-rio",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "RIO",
+    "market": "ASX",
+    "name": "RIO TINTO LIMITED"
+   },
+   "bracket": "Resources",
+   "score": 0.5,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-16T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-17T10:00:00+11:00",
+   "expires_at": "2026-12-16T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "This is a soft monthly volume read for the Pilbara iron ore chain. One month is noisy and does not split by company.",
+    "contributing_records": [
+     "pilbara-ports-october"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "secondary_only",
+    "source_url": "https://www.thedcn.com.au/news/pilbara-ports-tonnage-down-in-october",
+    "event": "Pilbara Ports October throughput 69.7 Mt, down 2% y/y (Port Hedland 48.6 Mt, down 4%)",
+    "timeframe": "weeks",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-pilbara-ports-october-fmg",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "FMG",
+    "market": "ASX",
+    "name": "FORTESCUE LTD"
+   },
+   "bracket": "Resources",
+   "score": 0.5,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-16T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-17T10:00:00+11:00",
+   "expires_at": "2026-12-16T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "This is a soft monthly volume read for the Pilbara iron ore chain. One month is noisy and does not split by company.",
+    "contributing_records": [
+     "pilbara-ports-october"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "headwind",
+    "verification": "secondary_only",
+    "source_url": "https://www.thedcn.com.au/news/pilbara-ports-tonnage-down-in-october",
+    "event": "Pilbara Ports October throughput 69.7 Mt, down 2% y/y (Port Hedland 48.6 Mt, down 4%)",
+    "timeframe": "weeks",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-bhp-copper-sa-northern-water-bhp",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "BHP",
+    "market": "ASX",
+    "name": "BHP GROUP LIMITED"
+   },
+   "bracket": "Resources",
+   "score": 0.45,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-23T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-24T10:00:00+11:00",
+   "expires_at": "2026-12-23T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "Timing of the expansion is tied to government infrastructure decisions, including the SA Northern Water FID next year. Delays there would push the project back.",
+    "contributing_records": [
+     "bhp-copper-sa-northern-water"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 3,
+    "direction_tag": "mixed",
+    "verification": "secondary_only",
+    "source_url": "https://mining.com.au/bhp-unveils-26-billion-plan-to-double-south-australian-copper-output-by-2040/",
+    "event": "BHP Copper South Australia expansion depends on Northern Water (SA FID due 2027) and transmission upgrades not yet committed by governments",
+    "timeframe": "months",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-ato-debt-rft-financials",
+   "kind": "bracket",
+   "bracket": "Financials",
+   "direction": "incline",
+   "window_months": 3,
+   "score": 0.35,
+   "confidence": {
+    "tag": "high"
+   },
+   "signal_fired_at": "2026-11-23T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-24T10:00:00+11:00",
+   "expires_at": "2026-12-23T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "Government debt-collection work runs from Jul 2027 to as late as 2032 with extensions. This matters only to collection firms that bid, and none are public.",
+    "contributing_records": [
+     "ato-debt-rft"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 2,
+    "direction_tag": "tailwind",
+    "verification": "confirmed_primary",
+    "source_url": "https://www.tenders.gov.au/Atm/Show/a94e7587-7471-40f8-9351-1a37c93a64d1",
+    "event": "ATO request for tender PROC-17649: External Collection Agency mercantile debt management services",
+    "timeframe": "weeks",
+    "heatmap_level": "sector",
+    "information_only": true
+   }
+  },
+  {
+   "id": "gov-neu-fda-pitt-hopkins-neu",
+   "kind": "entity",
+   "instrument": {
+    "symbol": "NEU",
+    "market": "ASX",
+    "name": "NEUREN PHARMACEUTICALS LIMITED"
+   },
+   "bracket": "Healthcare",
+   "score": 0.73,
+   "confidence": {
+    "tag": "low"
+   },
+   "signal_fired_at": "2026-11-27T00:00:00+11:00",
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "expires_at": "2026-12-27T16:00:00+11:00",
+   "friction": {
+    "publication_lag_days": 0
+   },
+   "rationale": {
+    "sentence": "If the FDA requires a trial design Neuren cannot run, the Pitt Hopkins pathway is delayed or uncertain. This is a US regulatory matter for an ASX-listed company, not an Australian government action.",
+    "contributing_records": [
+     "neu-fda-pitt-hopkins"
+    ],
+    "aggregation_rule_version": "strength-rubric-v1"
+   },
+   "gov": {
+    "strength": 2,
+    "direction_tag": "headwind",
+    "verification": "needs_human_verification",
+    "source_url": "https://www.marketindex.com.au/asx/neu/announcements/neuren-updates-on-pitt-hopkins-phase-3-development-program-2A1713364",
+    "event": "Neuren update on Pitt Hopkins Phase 3: FDA reportedly prefers a placebo-controlled design Neuren says is not executable (US regulator; ASX-listed company event)",
+    "timeframe": "days",
+    "heatmap_level": "ticker",
+    "information_only": true
+   }
+  }
+ ]
+}

@@ -37,6 +37,10 @@ Entities come from `fetchers/schema.py` (`WATCHED`, aliases included). Policy ev
 
 Formula and gates: see the docstring at the top of `fetchers/correlator.py`.
 
+## Gov signals feed (sketch, information only)
+
+`python3 fetchers/signals.py [--sector-watch DIR]` turns hand-checked government and regulatory events (`data/signals/events.json`) into `data/signals/signals.json` (`gov.signal.v1`). Each signal has a source, a verification status, a direction tag, a 1–5 strength rating from a written rubric and plain reasoning. The script joins signals to ASX 200 Sector Watch heat-map cells by ticker or GICS sector and timeframe. It also writes `data/signals/ratio-signals.json` (tt's `ratio.signal.v1`, intersections only). Tic and tt consume these files. The rubric, join contract and what is needed from Sector Watch are in `data/signals/README.md`. No buy, sell or hold calls, entry points or ladders.
+
 ## Tests
 
 ```
