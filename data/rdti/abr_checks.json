@@ -1,0 +1,203 @@
+{
+ "_note": "Manual low-volume checks of the public ABN Lookup page (abr.business.gov.au/ABN/View), 27 Nov 2026 AEDT. Confirms the ABN's current entity name and status only; it does not prove ASX listing.",
+ "002594872": {
+  "abn": "57002594872",
+  "abr_entity_name": "FORTESCUE LTD",
+  "abr_status": "Active from 01 Jul 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "002618073": {
+  "abn": "96002618073",
+  "abr_entity_name": "COCHLEAR LIMITED",
+  "abr_status": "Active from 27 Mar 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "051588348": {
+  "abn": "99051588348",
+  "abr_entity_name": "CSL LIMITED",
+  "abr_status": "Active from 19 Apr 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "004458404": {
+  "abn": "96004458404",
+  "abr_entity_name": "RIO TINTO LIMITED",
+  "abr_status": "Active from 01 Nov 1999",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "003765133": {
+  "abn": "28003765133",
+  "abr_entity_name": "RESMED HOLDINGS PTY LTD",
+  "abr_status": "Active from 23 Jan 2000",
+  "abr_entity_type": "Australian Private Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "004898962": {
+  "abn": "55004898962",
+  "abr_entity_name": "WOODSIDE ENERGY GROUP LTD",
+  "abr_status": "Active from 19 May 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "010487180": {
+  "abn": "84010487180",
+  "abr_entity_name": "TECHNOLOGY ONE LIMITED",
+  "abr_status": "Active from 03 Feb 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "115061375": {
+  "abn": "74115061375",
+  "abr_entity_name": "AGL ENERGY LIMITED",
+  "abr_status": "Active from 01 Jul 2005",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "662327237": {
+  "abn": "39662327237",
+  "abr_entity_name": "TAMBORAN (B1) PTY LIMITED",
+  "abr_status": "Active from 09 Sep 2022",
+  "abr_entity_type": "Australian Private Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "009656740": {
+  "abn": "32009656740",
+  "abr_entity_name": "BANK OF QUEENSLAND LIMITED",
+  "abr_status": "Active from 31 Mar 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "065894724": {
+  "abn": "41065894724",
+  "abr_entity_name": "WISETECH GLOBAL LIMITED",
+  "abr_status": "Active from 01 Feb 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "080075314": {
+  "abn": "46080075314",
+  "abr_entity_name": "SEEK LIMITED",
+  "abr_status": "Active from 01 Apr 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "004089936": {
+  "abn": "11004089936",
+  "abr_entity_name": "COLES GROUP LIMITED",
+  "abr_status": "Active from 09 Feb 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "650620303": {
+  "abn": "56650620303",
+  "abr_entity_name": "TELSTRA GROUP LIMITED",
+  "abr_status": "Active from 31 May 2021",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "098391961": {
+  "abn": "48098391961",
+  "abr_entity_name": "PYC THERAPEUTICS LIMITED",
+  "abr_status": "Active from 09 Oct 2001",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "068349066": {
+  "abn": "54068349066",
+  "abr_entity_name": "REA GROUP LTD",
+  "abr_status": "Active from 30 Jun 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "101155220": {
+  "abn": "74101155220",
+  "abr_entity_name": "CLEANAWAY WASTE MANAGEMENT LIMITED",
+  "abr_status": "Active from 28 Jun 2002",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "009173611": {
+  "abn": "52009173611",
+  "abr_entity_name": "LATROBE MAGNESIUM LIMITED",
+  "abr_status": "Active from 07 Jun 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "000011058": {
+  "abn": "16000011058",
+  "abr_entity_name": "BLUESCOPE STEEL LIMITED",
+  "abr_status": "Active from 01 Nov 1999",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "093732597": {
+  "abn": "84093732597",
+  "abr_entity_name": "SOUTH32 LIMITED",
+  "abr_status": "Active from 12 Jul 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "063780709": {
+  "abn": "66063780709",
+  "abr_entity_name": "TABCORP HOLDINGS LIMITED",
+  "abr_status": "Active from 13 Apr 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "076513034": {
+  "abn": "67076513034",
+  "abr_entity_name": "GLENCORE INVESTMENT PTY LIMITED",
+  "abr_status": "Active from 01 Apr 2000",
+  "abr_entity_type": "Australian Private Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "004196909": {
+  "abn": "24004196909",
+  "abr_entity_name": "SONIC HEALTHCARE LIMITED",
+  "abr_status": "Active from 07 May 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "095076896": {
+  "abn": "11095076896",
+  "abr_entity_name": "NANOSONICS LIMITED",
+  "abr_status": "Active from 14 Nov 2000",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ },
+ "008984049": {
+  "abn": "28008984049",
+  "abr_entity_name": "WESFARMERS LIMITED",
+  "abr_status": "Active from 01 Nov 1999",
+  "abr_entity_type": "Australian Public Company",
+  "checked": "2026-11-27",
+  "name_matches_ledger": true
+ }
+}

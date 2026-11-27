@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://time.vilo.au/data/rdti/schema.json",
+  "title": "R&D Tax Incentive base ledger (sketch, not live)",
+  "description": "One row per entity per income year from the ATO R&D Tax Incentive transparency reports (data.gov.au, CC BY 2.5 AU). Figures are the ATO's, unchanged. General information only, not personal financial advice.",
+  "$defs": {
+    "ledgerRow": {
+      "type": "object",
+      "required": ["entity_key", "company_name", "income_year", "rd_expenditure_effective", "source_report"],
+      "properties": {
+        "entity_key": {"type": "string", "description": "ACN (9 digits; direct, or digits 3-11 of the ABN when they form a valid ACN), else the 11-digit ABN, else 'name:<NAME>' when the ATO gave no identifier."},
+        "company_name": {"type": "string", "description": "Name as printed in the ATO report."},
+        "abn": {"type": ["string", "null"], "pattern": "^\\d{11}$", "description": "11-digit ABN, zero-padded; null when the ATO gave an ACN."},
+        "acn": {"type": ["string", "null"], "pattern": "^\\d{9}$", "description": "9-digit ACN: as given, or derived from the ABN when the ABN's last 9 digits pass the ACN checksum."},
+        "id_type": {"enum": ["ABN", "ACN", "unknown"], "description": "Which identifier the ATO printed in the ABN/ACN column."},
+        "id_checksum_valid": {"type": "boolean", "description": "ABN modulus-89 or ACN modulus-10 check passed. Not checked against the ABR register."},
+        "income_year": {"type": "string", "pattern": "^\\d{4}-\\d{2}$"},
+        "rd_expenditure": {"type": ["integer", "null"], "description": "AUD. Total R&D expenditure (notional deductions less feedstock adjustments) as first reported."},
+        "rd_expenditure_amended": {"type": ["integer", "null"], "description": "AUD. Total amended R&D expenditure when the company amended its claim; null when not amended."},
+        "rd_expenditure_effective": {"type": "integer", "description": "Amended figure when present, otherwise the reported figure. Use this for totals and trends."},
+        "amended_to_nil": {"type": "boolean"},
+        "source_report": {"type": "string", "description": "Which yearly ATO report the row came from. A later report supersedes an earlier one for the same entity and income year (late lodgements, amendments)."},
+        "asx_code": {"type": ["string", "null"], "description": "Inferred ASX ticker; see listed-matches.json for confidence and flags."},
+        "match_confidence": {"enum": ["high", "medium", "low", null]}
+      }
+    },
+    "listedMatch": {
+      "type": "object",
+      "properties": {
+        "asx_code": {"type": "string"}, "asx_name": {"type": "string"}, "gics_group": {"type": ["string", "null"]},
+        "confidence": {"enum": ["high", "medium", "low"], "description": "high = exact normalised legal-name match to a public company, or a reviewed override; medium = match after dropping generic words, or a reviewed subsidiary link; low = PTY entity whose name matches or starts with the listed company's name."},
+        "method": {"enum": ["exact_name", "core_name", "subsidiary_prefix", "override"]},
+        "flags": {"type": "array", "items": {"enum": ["abn_not_cross_checked", "name_only_match", "possible_subsidiary", "subsidiary", "foreign_registered_parent", "foreign_listed_parent", "group_multiple_entities", "group_restructure", "dual_listed_group", "renamed"]}},
+        "abr_check": {"type": ["object", "null"], "description": "Result of a manual ABN Lookup page check (name and status), when done."},
+        "rd_expenditure_effective": {"type": "object", "description": "Income year -> AUD or null when the entity has no row that year."},
+        "yoy_pct": {"type": "object"}, "yoy_null_reason": {"type": "object"},
+        "cagr_pct_2021_22_to_2023_24": {"type": ["number", "null"], "description": "Two-period CAGR; null when an endpoint is missing or not positive."},
+        "rd_share_of_revenue": {"type": "null"}, "rd_share_of_market_cap": {"type": "null"}, "ausindustry_registered_vs_ato_gap": {"type": "null"}
+      }
+    }
+  },
+  "files": {
+    "ledger-YYYY-YY.json": "{meta, rows: [ledgerRow]}",
+    "ledger-YYYY-YY.csv": "Same rows as CSV, same column order.",
+    "listed-matches.json": "{meta, matches: [listedMatch], excluded_not_asx_listed}",
+    "asx_overrides.json": "Hand-reviewed links, keyed by entity_key.",
+    "abr_checks.json": "Manual ABN Lookup spot checks.",
+    "sources.json": "Source URLs, CKAN metadata, SHA-256, retrieval time.",
+    "counts.json": "Row counts and totals per income year.",
+    "comparison.json": "Completeness check against Rand Advisory and the top-claimant check."
+  }
+}

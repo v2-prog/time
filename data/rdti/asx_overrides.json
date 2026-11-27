@@ -1,0 +1,98 @@
+{
+ "_note": "Hand-reviewed links between R&DTI claimant entities and ASX listings (sketch, not live). Keyed by entity key (ACN). Each entry still needs human verification before any publication beyond a sketch. Reviewed 27 Nov 2026 (AEDT).",
+ "166799542": {
+  "asx_code": null,
+  "asx_name": null,
+  "gics_group": null,
+  "confidence": "none",
+  "status": "not_asx_listed",
+  "flags": [
+   "foreign_listed_parent",
+   "subsidiary"
+  ],
+  "note": "Atlassian Australia 1 Pty Ltd. Parent Atlassian Corporation is listed on NASDAQ (TEAM), not ASX, so it is excluded from listed matches."
+ },
+ "003765133": {
+  "asx_code": "RMD",
+  "asx_name": "RESMED INC",
+  "gics_group": "Health Care Equipment & Services",
+  "confidence": "medium",
+  "flags": [
+   "subsidiary",
+   "foreign_registered_parent",
+   "abn_not_cross_checked"
+  ],
+  "note": "ResMed Holdings Pty Ltd, Australian subsidiary of ResMed Inc (US-incorporated; trades on ASX as CDIs). Spend is the subsidiary's, not the group's."
+ },
+ "002594872": {
+  "asx_code": "FMG",
+  "asx_name": "FORTESCUE LTD",
+  "gics_group": "Materials",
+  "confidence": "high",
+  "flags": [
+   "renamed"
+  ],
+  "note": "Formerly Fortescue Metals Group Ltd (renamed Fortescue Ltd in 2023). Same ABN 57 002 594 872."
+ },
+ "004458404": {
+  "asx_code": "RIO",
+  "asx_name": "RIO TINTO LIMITED",
+  "gics_group": "Materials",
+  "confidence": "high",
+  "flags": [
+   "dual_listed_group"
+  ],
+  "note": "Rio Tinto Limited (ASX: RIO), half of the Rio Tinto plc / Rio Tinto Limited dual-listed group. Other group entities may claim separately."
+ },
+ "662327237": {
+  "asx_code": "TBN",
+  "asx_name": "TAMBORAN RESOURCES CORPORATION",
+  "gics_group": "Energy",
+  "confidence": "low",
+  "flags": [
+   "subsidiary",
+   "foreign_registered_parent",
+   "name_only_match",
+   "abn_not_cross_checked"
+  ],
+  "note": "Tamboran (B1) Pty Limited; likely a subsidiary or joint-venture vehicle of the Tamboran group. Ownership not verified."
+ },
+ "135299062": {
+  "asx_code": "TBN",
+  "asx_name": "TAMBORAN RESOURCES CORPORATION",
+  "gics_group": "Energy",
+  "confidence": "low",
+  "flags": [
+   "subsidiary",
+   "foreign_registered_parent",
+   "name_only_match",
+   "abn_not_cross_checked"
+  ],
+  "note": "Tamboran Resources Pty Ltd; Australian subsidiary of the US-incorporated parent (CDIs on ASX). Not verified."
+ },
+ "076513034": {
+  "asx_code": "GLC",
+  "asx_name": "GLENCORE PLC",
+  "gics_group": "Materials",
+  "confidence": "low",
+  "flags": [
+   "subsidiary",
+   "foreign_registered_parent",
+   "name_only_match",
+   "abn_not_cross_checked"
+  ],
+  "note": "Glencore Investment Pty Limited; Australian holding entity of Glencore plc (Jersey; ASX secondary listing). Not verified."
+ },
+ "051775556": {
+  "asx_code": "TLS",
+  "asx_name": "TELSTRA GROUP LIMITED",
+  "gics_group": "Telecommunication Services",
+  "confidence": "medium",
+  "flags": [
+   "subsidiary",
+   "group_restructure",
+   "abn_not_cross_checked"
+  ],
+  "note": "Listed as 'TELSTRA' with ABN 33 051 775 556 (Telstra Corporation Limited). Telstra Group Limited (ABN 56 650 620 303) became the listed head company in the 2022 restructure; this entity is now a subsidiary. Do not add both entities' figures for the same year without checking for double counting."
+ }
+}

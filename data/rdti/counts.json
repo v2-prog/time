@@ -1,0 +1,44 @@
+{
+ "label": "sketch, not live",
+ "counts": {
+  "2021-22": {
+   "entities": 11709,
+   "with_positive_or_unamended_figure": 11616,
+   "amended_to_nil": 93,
+   "amended_rows": 340,
+   "late_or_amended_from_later_report": 262,
+   "total_effective_aud": 11415355455,
+   "effective_zero": 98,
+   "effective_20m_plus": 47,
+   "median_positive_aud": 331279,
+   "id_checksum_invalid_or_missing": 0
+  },
+  "2022-23": {
+   "entities": 13121,
+   "with_positive_or_unamended_figure": 13038,
+   "amended_to_nil": 83,
+   "amended_rows": 327,
+   "late_or_amended_from_later_report": 257,
+   "total_effective_aud": 16478171334,
+   "effective_zero": 86,
+   "effective_20m_plus": 88,
+   "median_positive_aud": 374712,
+   "id_checksum_invalid_or_missing": 2
+  },
+  "2023-24": {
+   "entities": 13490,
+   "with_positive_or_unamended_figure": 13432,
+   "amended_to_nil": 58,
+   "amended_rows": 269,
+   "late_or_amended_from_later_report": 0,
+   "total_effective_aud": 16671259291,
+   "effective_zero": 66,
+   "effective_20m_plus": 89,
+   "median_positive_aud": 374175.0,
+   "id_checksum_invalid_or_missing": 0
+  },
+  "_all_years": {
+   "distinct_entities": 18733
+  }
+ }
+}

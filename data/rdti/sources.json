@@ -1,0 +1,60 @@
+{
+ "label": "sketch, not live",
+ "dataset": "https://data.gov.au/data/dataset/research-and-development-tax-incentive",
+ "ckan_api": "https://data.gov.au/data/api/3/action/package_show?id=research-and-development-tax-incentive",
+ "licence": "Creative Commons Attribution 2.5 Australia (CC BY 2.5 AU). Source: Australian Taxation Office.",
+ "retrieved": "2026-11-27T15:19+11:00",
+ "reports": {
+  "2021-22": {
+   "resource_id": "72efe86d-3ae9-4f84-8446-1a98fed4a8be",
+   "url": "https://data.gov.au/data/dataset/7c356598-b048-4c1e-862f-c936041e3d81/resource/72efe86d-3ae9-4f84-8446-1a98fed4a8be/download/report-of-information-about-research-and-development-tax-incentive-entities.xlsx",
+   "bytes": 588023,
+   "sha256": "479a49f425395b3608225d6035fba7c9df10cd164bdf7700ba8f4c278e5427b5",
+   "ckan_name": "2021-22 Report of data about Research and Development tax incentive entities",
+   "ckan_last_modified_utc": "2024-10-03T00:00:00",
+   "sheet": "2021-22 income year",
+   "raw_rows": 11545,
+   "columns": [
+    "Name",
+    "ABN/ACN",
+    "Total R&D expenditure (notional deductions less feedstock adjustments) $",
+    "Total amended R&D expenditure (notional deductions less feedstock adjustments) $",
+    "Income Year"
+   ]
+  },
+  "2022-23": {
+   "resource_id": "e9c059c8-a801-4068-844e-9d4ee84a1d81",
+   "url": "https://data.gov.au/data/dataset/7c356598-b048-4c1e-862f-c936041e3d81/resource/e9c059c8-a801-4068-844e-9d4ee84a1d81/download/report-of-information-about-research-and-development-tax-incentive-entities.xlsx",
+   "bytes": 656173,
+   "sha256": "a2a05ddfacba084003daa098dcbfeb8c2c825f1d1eae10026676dbd6744d38cc",
+   "ckan_name": "2022-23 Report of data about Research and Development Tax Incentive entities",
+   "ckan_last_modified_utc": "2025-09-24T23:13:01.268519",
+   "sheet": "2022-23 Report",
+   "raw_rows": 13135,
+   "columns": [
+    "Company name",
+    "ABN/ACN",
+    "Total R&D expenditure (notional deductions less feedstock adjustments) $",
+    "Total amended R&D expenditure (notional deductions less feedstock adjustments) $",
+    "Income Year"
+   ]
+  },
+  "2023-24": {
+   "resource_id": "5f7d5cac-cfa8-4500-8468-1c396f3a08d1",
+   "url": "https://data.gov.au/data/dataset/7c356598-b048-4c1e-862f-c936041e3d81/resource/5f7d5cac-cfa8-4500-8468-1c396f3a08d1/download/report-of-information-about-research-and-development-tax-incentive-entities-2023-24.xlsx",
+   "bytes": 691115,
+   "sha256": "780fa813ee58d456001499b43331333cb913d940f44565a165188b3b18ce9fd0",
+   "ckan_name": "2023-24 Report of data about Research and Development Tax Incentive entities",
+   "ckan_last_modified_utc": "2026-09-22T23:31:11.991053",
+   "sheet": "2023-24 Report",
+   "raw_rows": 13832,
+   "columns": [
+    "Company name",
+    "ABN/ACN",
+    "Total R&D expenditure (notional deductions less feedstock adjustments) $",
+    "Total amended R&D expenditure (notional deductions less feedstock adjustments) $",
+    "Income Year"
+   ]
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "label": "sketch, not live",
+ "rand": {
+  "url": "https://randadvisory.com.au/rd-tax-incentive-statistics",
+  "note": "Rand Advisory publishes summary statistics and a search UI built on the same ATO reports; no bulk download, so only its published summary figures are compared (no scraping).",
+  "distinct_companies": 18733,
+  "years": {
+   "2021-22": {
+    "companies": 11709,
+    "total_aud_b": 11.2,
+    "20m_plus": 47,
+    "median_aud": 331279
+   },
+   "2022-23": {
+    "companies": 13121,
+    "total_aud_b": 16.2,
+    "20m_plus": 88,
+    "median_aud": 374712
+   },
+   "2023-24": {
+    "companies": 13490,
+    "total_aud_b": 16.7,
+    "20m_plus": 89,
+    "median_aud": 374175,
+    "amended_to_nil": 66
+   }
+  }
+ },
+ "years": {
+  "2021-22": {
+   "ours_entities": 11709,
+   "rand_companies": 11709,
+   "diff": 0,
+   "ours_total_aud_b": 11.42,
+   "rand_total_aud_b": 11.2,
+   "ours_20m_plus": 47,
+   "rand_20m_plus": 47,
+   "ours_median_positive": 331279,
+   "rand_median": 331279,
+   "ours_effective_zero": 98,
+   "rand_amended_to_nil": null
+  },
+  "2022-23": {
+   "ours_entities": 13121,
+   "rand_companies": 13121,
+   "diff": 0,
+   "ours_total_aud_b": 16.48,
+   "rand_total_aud_b": 16.2,
+   "ours_20m_plus": 88,
+   "rand_20m_plus": 88,
+   "ours_median_positive": 374712,
+   "rand_median": 374712,
+   "ours_effective_zero": 86,
+   "rand_amended_to_nil": null
+  },
+  "2023-24": {
+   "ours_entities": 13490,
+   "rand_companies": 13490,
+   "diff": 0,
+   "ours_total_aud_b": 16.67,
+   "rand_total_aud_b": 16.7,
+   "ours_20m_plus": 89,
+   "rand_20m_plus": 89,
+   "ours_median_positive": 374175.0,
+   "rand_median": 374175,
+   "ours_effective_zero": 66,
+   "rand_amended_to_nil": 66
+  }
+ },
+ "distinct_entities": {
+  "ours": 18733,
+  "rand": 18733
+ },
+ "top_claimants_2023_24": [
+  {
+   "claim": "Atlassian",
+   "claimed_aud": 236000000.0,
+   "entity": "ATLASSIAN AUSTRALIA 1 PTY LTD",
+   "abn": "98166799542",
+   "reported_aud": 236287319,
+   "amended_aud": null,
+   "effective_aud": 236287319,
+   "status": "Confirmed",
+   "asx_code": null,
+   "listing_note": "Atlassian Australia 1 Pty Ltd. Parent Atlassian Corporation is listed on NASDAQ (TEAM), not ASX, so it is excluded from listed matches."
+  },
+  {
+   "claim": "Fortescue",
+   "claimed_aud": 155000000.0,
+   "entity": "FORTESCUE LTD",
+   "abn": "57002594872",
+   "reported_aud": 155183626,
+   "amended_aud": null,
+   "effective_aud": 155183626,
+   "status": "Confirmed",
+   "asx_code": "FMG",
+   "listing_note": "Formerly Fortescue Metals Group Ltd (renamed Fortescue Ltd in 2023). Same ABN 57 002 594 872."
+  },
+  {
+   "claim": "Cochlear",
+   "claimed_aud": 146000000.0,
+   "entity": "COCHLEAR LIMITED",
+   "abn": "96002618073",
+   "reported_aud": 145768412,
+   "amended_aud": null,
+   "effective_aud": 145768412,
+   "status": "Confirmed",
+   "asx_code": "COH",
+   "listing_note": null
+  },
+  {
+   "claim": "CSL",
+   "claimed_aud": 114000000.0,
+   "entity": "CSL LIMITED",
+   "abn": "99051588348",
+   "reported_aud": 113700731,
+   "amended_aud": 111193525,
+   "effective_aud": 111193525,
+   "status": "Corrected",
+   "asx_code": "CSL",
+   "listing_note": null
+  },
+  {
+   "claim": "Rio Tinto",
+   "claimed_aud": 105000000.0,
+   "entity": "RIO TINTO LIMITED",
+   "abn": "96004458404",
+   "reported_aud": 105199647,
+   "amended_aud": null,
+   "effective_aud": 105199647,
+   "status": "Confirmed",
+   "asx_code": "RIO",
+   "listing_note": "Rio Tinto Limited (ASX: RIO), half of the Rio Tinto plc / Rio Tinto Limited dual-listed group. Other group entities may claim separately."
+  },
+  {
+   "claim": "ResMed",
+   "claimed_aud": 104000000.0,
+   "entity": "RESMED HOLDINGS PTY LTD",
+   "abn": "28003765133",
+   "reported_aud": 104015053,
+   "amended_aud": null,
+   "effective_aud": 104015053,
+   "status": "Confirmed",
+   "asx_code": "RMD",
+   "listing_note": "ResMed Holdings Pty Ltd, Australian subsidiary of ResMed Inc (US-incorporated; trades on ASX as CDIs). Spend is the subsidiary's, not the group's."
+  }
+ ]
+}
