@@ -37,7 +37,7 @@
         const dirs = {};
         (matches.engine || []).filter((m) => m.bracket === b).forEach((m) => { const d = m.policy.direction || "unassigned"; dirs[d] = (dirs[d] || 0) + 1; });
         return `<tr><td>${esc(b)}</td><td>${c.map(esc).join(" · ")} <span class="meta">from ${esc(ba[b].start)}</span></td><td>${z == null ? "n/a (needs 4+ past windows)" : z.toFixed(2)}</td><td>${Object.entries(dirs).map(([k, v]) => `${esc(k)} ${v}`).join(", ")}</td></tr>`;
-      }).join("") + `</tbody></table><p class="meta">Counts come from engine matches in <code>/data/matches.json</code>. They measure activity, not direction or outcome, and are not a signal to act.</p>`;
+      }).join("") + `</tbody></table><p class="meta">Counts come from engine matches in <code>/data/matches.json</code>. They measure activity, not direction or outcome.</p>`;
   }
 
   function queues() {
@@ -69,7 +69,7 @@
     const conf = L.mechanicalConfidence({ feedAgeHours: feedAgeHours(), staleHours: health.stale_after_hours || 36, capCoverage: Number(state.capCoverage || 0), keySources: ks });
     const opts = D.brackets.map((b) => `<option>${esc(b.name)}</option>`).join("");
     return `<section class="band"><h2>Spread calculator</h2>
-      <p class="meta">Enter window returns from your own licensed data. Nothing here is a recommendation; it only measures what happened.</p>
+      <p class="meta">Enter window returns from your own licensed data.</p>
       <form id="calc" class="calc">
         ${["a", "b"].map((k, n) => `<fieldset><legend>Bracket ${n + 1}</legend>
           <select name="${k}n">${opts}</select>

@@ -36,7 +36,7 @@
         <p><b>Why linked:</b> ${esc(m.rationale)}</p>
         <p class="meta">${isEng ? `Lag ${m.lag_days} d (window ±${m.window_days}) · ${parts} · ` : `Window ±${m.window_days} days · `}flags: ${(m.flags || []).map(esc).join(", ")}</p></div>`;
       };
-      $("matches").innerHTML = `<h2>Matches</h2><p class="meta">${esc(matches.note)}</p>
+      $("matches").innerHTML = `<h2>Matches</h2><p class="meta">Only matches with a sourced commercial record are listed; the Northern Minerals example in the brief is a synthetic test fixture and is not shown.</p>
         <h3>Engine-generated (${engine.length})</h3><p class="meta">Scored automatically after each feed run${matches.generated_at ? ", last " + syd(matches.generated_at) : ""}. ${esc(matches.licensing || "")}</p>
         <details><summary>How the score works</summary><pre style="white-space:pre-wrap">${esc(matches.scoring)}</pre></details>
         ${engine.length ? engine.slice(0, 30).map(card).join("") : "<p>No live record cleared the gates this run.</p>"}
