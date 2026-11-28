@@ -1,0 +1,174 @@
+{
+  "schema": "time.data-index.v1",
+  "generated_at": "2026-11-28T12:38:43+11:00",
+  "feeds": [
+    {
+      "id": "gov_signals",
+      "path": "/data/signals/signals.json",
+      "schema": "gov.signal.v1",
+      "updated_at": "2026-11-28T10:30:00+11:00",
+      "description": "Canonical government and regulatory signals: source, verification, direction, strength rating and reasoning. Frozen path and schema."
+    },
+    {
+      "id": "ratio_signals",
+      "path": "/data/signals/ratio-signals.json",
+      "schema": "ratio.signal.v1",
+      "updated_at": "2026-11-28T10:30:00+11:00",
+      "description": "The same signals in tt's contract, restricted to Sector Watch heat-map intersections."
+    },
+    {
+      "id": "gov_signal_events",
+      "path": "/data/signals/events.json",
+      "schema": "gov.signal.events",
+      "updated_at": "2026-11-28T10:30:00+11:00",
+      "description": "Hand-curated input events for the signals feed, including excluded items."
+    },
+    {
+      "id": "gov_signal_tickers",
+      "path": "/data/signals/tickers.json",
+      "schema": "gov.signal.tickers",
+      "updated_at": null,
+      "description": "ASX code, company name and GICS industry group for codes used in the signals feed."
+    },
+    {
+      "id": "gov_signal_schema",
+      "path": "/data/signals/schema.json",
+      "schema": "json-schema",
+      "updated_at": null,
+      "description": "JSON Schema for gov.signal.v1."
+    },
+    {
+      "id": "sector_watch_join",
+      "path": "/data/signals/sector_watch_join.json",
+      "schema": "sector_watch_join.v1",
+      "updated_at": "2026-11-28T10:00:21+11:00",
+      "description": "Minimal cached Sector Watch cells used for the join (no prices, summaries or move labels)."
+    },
+    {
+      "id": "matches",
+      "path": "/data/matches.json",
+      "schema": "time.matches.v1",
+      "updated_at": "2026-11-28T04:36:09+11:00",
+      "description": "Engine-generated and hand-seeded matches of commercial records to policy events, with scores and rationales."
+    },
+    {
+      "id": "verification",
+      "path": "/data/verification.json",
+      "schema": "time.verification.v1",
+      "updated_at": "2026-11-27",
+      "description": "Fact-check log of flagged claims against primary sources (confirmed, corrected, unverifiable)."
+    },
+    {
+      "id": "feed_health",
+      "path": "/data/feed_health.json",
+      "schema": "time.feed_health.v1",
+      "updated_at": "2026-11-28T04:36:09+11:00",
+      "description": "Status, last run and last success times for every fetcher, live or not yet built."
+    },
+    {
+      "id": "asx_announcements",
+      "path": "/data/feeds/asx_announcements.json",
+      "schema": "time.normalised_records.v1",
+      "updated_at": "2026-11-28T04:36:09+11:00",
+      "description": "Live ASX announcements for the watched resources codes (links, times, type, price-sensitive flag; headlines withheld)."
+    },
+    {
+      "id": "wa_dmpe_announcements",
+      "path": "/data/feeds/wa_dmpe_announcements.json",
+      "schema": "time.normalised_records.v1",
+      "updated_at": "2026-11-28T04:36:09+11:00",
+      "description": "Live WA Department of Mines, Petroleum and Exploration announcements."
+    },
+    {
+      "id": "wa_dmpe_tenements",
+      "path": "/data/feeds/wa_dmpe_tenements.json",
+      "schema": "time.normalised_records.v1",
+      "updated_at": "2026-11-28T04:36:09+11:00",
+      "description": "WA mining tenement grants (DMIRS-003, CC BY 4.0), company holders, last 60 days."
+    },
+    {
+      "id": "policy_timeline",
+      "path": "/data/policy_timeline.json",
+      "schema": "time.policy_timeline.v1",
+      "updated_at": null,
+      "description": "Policy and regulatory events for the Resources correlator, with entities and topic tags."
+    },
+    {
+      "id": "chips",
+      "path": "/data/chips.json",
+      "schema": "time.chips.v1",
+      "updated_at": null,
+      "description": "Seeded US export-control and NVIDIA events for the semiconductor correlator."
+    },
+    {
+      "id": "rdti_counts",
+      "path": "/data/rdti/counts.json",
+      "schema": "time.rdti.counts",
+      "updated_at": null,
+      "description": "R&D Tax Incentive ledger entity and spend totals by income year (sketch, not live)."
+    },
+    {
+      "id": "rdti_listed_matches",
+      "path": "/data/rdti/listed-matches.json",
+      "schema": "time.rdti.listed_matches",
+      "updated_at": "Fri Nov 27 15:05:45 AEDT 2026",
+      "description": "R&DTI claimants matched to ASX tickers, with confidence tiers (sketch, not live)."
+    },
+    {
+      "id": "rdti_ledger_2021_22",
+      "path": "/data/rdti/ledger-2021-22.json",
+      "schema": "time.rdti.ledger",
+      "updated_at": null,
+      "description": "ATO R&D Tax Incentive transparency report 2021-22, parsed ledger (sketch, not live)."
+    },
+    {
+      "id": "rdti_ledger_2022_23",
+      "path": "/data/rdti/ledger-2022-23.json",
+      "schema": "time.rdti.ledger",
+      "updated_at": null,
+      "description": "ATO R&D Tax Incentive transparency report 2022-23, parsed ledger (sketch, not live)."
+    },
+    {
+      "id": "rdti_ledger_2023_24",
+      "path": "/data/rdti/ledger-2023-24.json",
+      "schema": "time.rdti.ledger",
+      "updated_at": null,
+      "description": "ATO R&D Tax Incentive transparency report 2023-24, parsed ledger (sketch, not live)."
+    },
+    {
+      "id": "rdti_schema",
+      "path": "/data/rdti/schema.json",
+      "schema": "json-schema",
+      "updated_at": null,
+      "description": "JSON Schema for the R&DTI ledger files."
+    },
+    {
+      "id": "rdti_sources",
+      "path": "/data/rdti/sources.json",
+      "schema": "time.rdti.sources",
+      "updated_at": null,
+      "description": "Source URLs and licences for the R&DTI ledger."
+    },
+    {
+      "id": "rdti_ledger_2021_22_csv",
+      "path": "/data/rdti/ledger-2021-22.csv",
+      "schema": "csv",
+      "updated_at": null,
+      "description": "CSV export of the 2021-22 R&DTI ledger (sketch, not live)."
+    },
+    {
+      "id": "rdti_ledger_2022_23_csv",
+      "path": "/data/rdti/ledger-2022-23.csv",
+      "schema": "csv",
+      "updated_at": null,
+      "description": "CSV export of the 2022-23 R&DTI ledger (sketch, not live)."
+    },
+    {
+      "id": "rdti_ledger_2023_24_csv",
+      "path": "/data/rdti/ledger-2023-24.csv",
+      "schema": "csv",
+      "updated_at": null,
+      "description": "CSV export of the 2023-24 R&DTI ledger (sketch, not live)."
+    }
+  ]
+}

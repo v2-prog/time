@@ -3,72 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Time.vilo.au — Temporal Event Correlator</title>
-<meta name="description" content="Australian resources, semiconductor and ASX sector rotation events lined up against policy timelines. General information only, not personal financial advice.">
+<title>Time.vilo.au — Feed status</title>
+<meta name="description" content="Status of Australian government and regulatory data feeds used by Tic.">
 <link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/dash.css">
+<link rel="stylesheet" href="css/status.css">
 </head>
-<body>
+<body class="status-page">
 <header>
   <h1>Time.vilo.au</h1>
-  <p class="sub">Temporal correlation of commercial events with policy and regulatory signals · Australian resources, semiconductors, and ASX sector rotation</p>
-  <nav>
-    <a href="index.html" class="active">Overview</a>
-    <a href="resources/aus-dashboard.html">Resources</a>
-    <a href="chips/chip-dashboard.html">Semiconductors</a>
-    <a href="rotation/index.html">Rotation Verification</a>
-  </nav>
+  <p class="sub">Feed status · Australia</p>
 </header>
 <main>
-  <h2>Status (27 Nov 2026)</h2>
-  <div class="card">
-    <ul>
-      <li><strong>Live feeds:</strong> ASX company announcements (BHP, RIO, FMG, LYC, WHC, ARU, NTU), WA DMPE announcements and WA DMPE tenement grants now refresh on a weekday schedule. The other 20 feeds in the spec have no fetcher yet and show as never run. <a href="resources/aus-dashboard.html#health">Feed health</a></li>
-      <li><strong>Verification pass:</strong> 26 flagged items checked against primary sources: 17 confirmed, 6 corrected, 3 unverifiable. Items resting on press reports keep their flag. <a href="rotation/index.html#queues">Queues</a></li>
-      <li><strong>Rotation fixes:</strong> spreads against S&amp;P/ASX 200 sector indices, direction tags, z-scores, mechanical confidence, momentum baseline, non-overlapping hit rates and T+2 are in <code>rotation/logic.js</code>. A backtest still needs licensed index history.</li>
-    </ul>
-  </div>
-
-  <h2>Corrections and checked facts</h2>
-  <div class="card">
-    <ul>
-      <li><strong>Agencies:</strong> WA resource regulation sits with the Department of Mines, Petroleum and Exploration (DMPE), formerly DMIRS/DEMIRS, from 1 Jul 2025 (start date still to check against the Gazette). Qld: Department of Natural Resources and Mines, Manufacturing and Regional and Rural Development, from 1 Nov 2024. NT: Department of Mining and Energy, from Sep 2024. NSW: NSW Resources, a division of the Department of Primary Industries and Regional Development (reported from 1 Jul 2024). Only the WA change dates from 1 Jul 2025.</li>
-      <li><strong>Dates:</strong> China removed barley duties from 5 Aug 2023 and wine duties from 29 Mar 2024. CMPTI passed Parliament on 11 Feb 2025 (Royal Assent 14 Feb 2025) and applies to production from 1 Jul 2027 to 30 Jun 2040. The EPBC reform Act received Royal Assent on 1 Dec 2025.</li>
-      <li><strong>Entities:</strong> BHP's Chinese name is 必和必拓 (not 比利顿). Arafura has been Arafura Rare Earths since 2022. Northern Minerals and Arafura are on a watch list outside the ASX 200 Rotation scope. Whitehaven is GICS Energy, measured against the ASX 200 Energy index.</li>
-      <li><strong>Time-sensitive:</strong> China's suspension of its Oct 2025 rare earth export controls runs to <strong>10 Jan 2027</strong> (MOFCOM/GACC Ann. 58 of 2026). BHP told the ASX on 22 Apr 2026 that its CMRG negotiations had concluded. The second set of Northern Minerals disposal orders was registered on 18 May 2026 and commenced on 18 Jun 2026.</li>
-    </ul>
-  </div>
-
-  <h2>What this app contains</h2>
-  <div class="grid">
-    <div class="card">
-      <h3 style="margin-top:0">Resources Correlator</h3>
-      <p>Australian iron ore, coal and heavy rare earths events, set against policy timelines: China's informal bans, CMPTI, FIRB orders and EPBC.</p>
-      <p class="meta">2 sourced matches · 23 feeds (3 live) · same-origin JSON</p>
-      <p><a href="resources/aus-dashboard.html">Open Resources dashboard →</a></p>
-    </div>
-    <div class="card">
-      <h3 style="margin-top:0">Semiconductor Correlator</h3>
-      <p>US export controls (the H20 licence requirement) alongside NVIDIA commercial events.</p>
-      <p class="meta">Verified seed items only · chip feeds not yet built</p>
-      <p><a href="chips/chip-dashboard.html">Open Chip dashboard →</a></p>
-    </div>
-    <div class="card">
-      <h3 style="margin-top:0">Rotation Verification Queues</h3>
-      <p>Every claim flagged for verification, with its source, plus the measurement rules for ASX sector rotation. Iteration 042, with the iteration 040 review fixes.</p>
-      <p class="meta">Your review ticks and notes stay in your browser</p>
-      <p><a href="rotation/index.html">Open Rotation queues →</a></p>
-    </div>
-  </div>
-
-  <h2>How the data gets here</h2>
-  <div class="card">
-    <p>A scheduled GitHub Actions job runs the Python fetchers in <code>fetchers/</code> on weekdays. It writes JSON into <code>data/</code> and commits it, and Cloudflare Pages redeploys. The browser only reads same-origin files: no third-party calls, no API keys and no tracking.</p>
-    <p>Sources: ASX announcement lists (time, type, price-sensitive flag and a link; headlines are withheld because ASX's site terms bar republishing without consent); wa.gov.au DMPE announcements; WA Mining Tenements DMIRS-003 (© State of WA, CC BY 4.0). Tenements held only by individuals are left out.</p>
-  </div>
+  <section id="status" aria-live="polite">
+    <p class="meta">Loading status…</p>
+  </section>
+  <section id="tic" class="tic-block">
+    <p class="meta">Checking Tic…</p>
+  </section>
 </main>
 <footer>
   Australia only, general information, not personal financial advice
 </footer>
+<script src="js/status.js"></script>
 </body>
 </html>

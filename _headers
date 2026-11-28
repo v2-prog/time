@@ -1,8 +1,23 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://tic.vilo.au; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: geolocation=(), microphone=(), camera=()
 
 /data/*
   Cache-Control: public, max-age=300
+
+/audit/*
+  X-Robots-Tag: noindex, nofollow
+
+/resources/*
+  X-Robots-Tag: noindex, nofollow
+
+/chips/*
+  X-Robots-Tag: noindex, nofollow
+
+/rotation/*
+  X-Robots-Tag: noindex, nofollow
+
+/rdti/*
+  X-Robots-Tag: noindex, nofollow

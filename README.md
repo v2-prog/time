@@ -3,9 +3,12 @@
 Temporal event correlator for Australian resources, semiconductors, and ASX sector rotation verification.
 Live at https://time.vilo.au (Cloudflare Pages project `time`, production branch `main`).
 
-- **Resources** (`resources/aus-dashboard.html`): live ASX and WA DMPE records, feed health for all 23 spec feeds, sourced matches, policy timeline.
-- **Semiconductors** (`chips/chip-dashboard.html`): verified H20 export-control and NVIDIA items.
-- **Rotation Verification** (`rotation/`): verification queues (iteration 042) plus the iteration 040 measurement fixes in `rotation/logic.js`.
+The main view (`/`) is a mobile-first status strip: feed health and last run times, new signals today, items that still need a check, upcoming dates, and a link to Tic (`https://tic.vilo.au`). A hidden Audit section (`/audit/`, noindex, not in the main navigation) holds the signal list with collapsed “why” panels, excluded items, the fact-check log, matches and their reasoning, and links to the existing dashboards. Those dashboards stay at their current URLs and are not deleted.
+
+- **Resources** (`resources/aus-dashboard.html`, hidden): live ASX and WA DMPE records, feed health for all 23 spec feeds, sourced matches, policy timeline.
+- **Semiconductors** (`chips/chip-dashboard.html`, hidden): verified H20 export-control and NVIDIA items.
+- **Rotation Verification** (`rotation/`, hidden): verification queues (iteration 042) plus the iteration 040 measurement fixes in `rotation/logic.js`.
+- **Data index** (`/data/index.json`): catalogue of every data feed with its path, schema, last updated time and description. The signals feed stays at `/data/signals/signals.json` (`gov.signal.v1`).
 
 Matches record temporal proximity and shared scope only. No causation, no advice, no broker recommendations or entry points. Australia only; general information, not personal financial advice.
 
