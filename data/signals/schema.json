@@ -1,0 +1,230 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://time.vilo.au/data/signals/schema.json",
+ "title": "gov.signal.v1: government and regulatory signals (information only)",
+ "type": "object",
+ "required": [
+  "schema",
+  "generated_at",
+  "disclaimer",
+  "rubric",
+  "signals"
+ ],
+ "properties": {
+  "schema": {
+   "const": "gov.signal.v1"
+  },
+  "generated_at": {
+   "type": "string"
+  },
+  "disclaimer": {
+   "type": "string"
+  },
+  "rubric": {
+   "type": "object"
+  },
+  "sector_watch": {
+   "type": "object"
+  },
+  "signals": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "event",
+     "category",
+     "date",
+     "source_url",
+     "affected",
+     "gics_sectors",
+     "brackets",
+     "direction",
+     "strength",
+     "reasoning",
+     "timeframe",
+     "verification",
+     "heatmap",
+     "label"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "event": {
+      "type": "string"
+     },
+     "category": {
+      "enum": [
+       "tender",
+       "policy",
+       "asic",
+       "merger",
+       "approval",
+       "trade",
+       "ports",
+       "macro",
+       "company_regulatory_us"
+      ]
+     },
+     "date": {
+      "type": "string",
+      "format": "date"
+     },
+     "effect_date": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+     },
+     "source_kind": {
+      "enum": [
+       "primary",
+       "secondary"
+      ]
+     },
+     "sources": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "label",
+        "url",
+        "kind"
+       ]
+      }
+     },
+     "affected": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "required": [
+        "code",
+        "name",
+        "gics_sector",
+        "role",
+        "exposure_in_source",
+        "direction"
+       ],
+       "properties": {
+        "code": {
+         "type": "string"
+        },
+        "bracket": {
+         "enum": [
+          "Resources",
+          "Financials",
+          "Healthcare",
+          "Industrials",
+          "Energy",
+          null
+         ]
+        },
+        "asx200_member": {
+         "type": [
+          "boolean",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "gics_sectors": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "brackets": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "Resources",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Energy"
+       ]
+      }
+     },
+     "direction": {
+      "enum": [
+       "headwind",
+       "tailwind",
+       "mixed"
+      ]
+     },
+     "strength": {
+      "type": "object",
+      "required": [
+       "value",
+       "weighted_score",
+       "components",
+       "rubric_version"
+      ],
+      "properties": {
+       "value": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 5
+       }
+      }
+     },
+     "reasoning": {
+      "type": "string",
+      "minLength": 1
+     },
+     "timeframe": {
+      "enum": [
+       "days",
+       "weeks",
+       "months",
+       "years",
+       null
+      ]
+     },
+     "verification": {
+      "type": "object",
+      "required": [
+       "status",
+       "items"
+      ],
+      "properties": {
+       "status": {
+        "enum": [
+         "confirmed_primary",
+         "secondary_only",
+         "needs_human_verification"
+        ]
+       }
+      }
+     },
+     "heatmap": {
+      "type": "object",
+      "required": [
+       "status",
+       "intersects",
+       "join_key"
+      ],
+      "properties": {
+       "status": {
+        "enum": [
+         "joined",
+         "no_intersection",
+         "awaiting_sector_watch"
+        ]
+       }
+      }
+     },
+     "label": {
+      "const": "General information, not financial or legal advice."
+     }
+    }
+   }
+  }
+ }
+}

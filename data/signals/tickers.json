@@ -1,0 +1,117 @@
+{
+ "note": "Ticker reference for the signals feed: ASX code, company name and GICS industry group, checked against the ASX listed-companies list as at 28 Nov 2026 09:08 AEDT. Only the codes the signals use are kept here; the full ASX list is not republished (ASX terms). GICS sector is derived from the industry group by fetchers/signals.py. ASX 200 membership is NOT recorded here: S&P/ASX index constituents are licensed, so membership comes from Sector Watch when that data is joined.",
+ "source": "https://www.asx.com.au/asx/research/ASXListedCompanies.csv",
+ "as_at": "2026-11-28T09:08:13+11:00",
+ "tickers": [
+  {
+   "code": "STO",
+   "name": "SANTOS LIMITED",
+   "gics_industry_group": "Energy"
+  },
+  {
+   "code": "ORG",
+   "name": "ORIGIN ENERGY LIMITED",
+   "gics_industry_group": "Utilities"
+  },
+  {
+   "code": "WDS",
+   "name": "WOODSIDE ENERGY GROUP LTD",
+   "gics_industry_group": "Energy"
+  },
+  {
+   "code": "ORI",
+   "name": "ORICA LIMITED",
+   "gics_industry_group": "Materials"
+  },
+  {
+   "code": "DNL",
+   "name": "DYNO NOBEL LIMITED.",
+   "gics_industry_group": "Materials"
+  },
+  {
+   "code": "BSL",
+   "name": "BLUESCOPE STEEL LIMITED",
+   "gics_industry_group": "Materials"
+  },
+  {
+   "code": "AGL",
+   "name": "AGL ENERGY LIMITED.",
+   "gics_industry_group": "Utilities"
+  },
+  {
+   "code": "CBA",
+   "name": "COMMONWEALTH BANK OF AUSTRALIA.",
+   "gics_industry_group": "Banks"
+  },
+  {
+   "code": "MQG",
+   "name": "MACQUARIE GROUP LIMITED",
+   "gics_industry_group": "Financial Services"
+  },
+  {
+   "code": "RWC",
+   "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
+   "gics_industry_group": "Capital Goods"
+  },
+  {
+   "code": "CGF",
+   "name": "CHALLENGER LIMITED",
+   "gics_industry_group": "Financial Services"
+  },
+  {
+   "code": "MYX",
+   "name": "MAYNE PHARMA GROUP LIMITED",
+   "gics_industry_group": "Pharmaceuticals, Biotechnology & Life Sciences"
+  },
+  {
+   "code": "ALD",
+   "name": "AMPOL LIMITED",
+   "gics_industry_group": "Energy"
+  },
+  {
+   "code": "BHP",
+   "name": "BHP GROUP LIMITED",
+   "gics_industry_group": "Materials"
+  },
+  {
+   "code": "RIO",
+   "name": "RIO TINTO LIMITED",
+   "gics_industry_group": "Materials"
+  },
+  {
+   "code": "FMG",
+   "name": "FORTESCUE LTD",
+   "gics_industry_group": "Materials"
+  },
+  {
+   "code": "MPL",
+   "name": "MEDIBANK PRIVATE LIMITED",
+   "gics_industry_group": "Insurance"
+  },
+  {
+   "code": "NHF",
+   "name": "NIB HOLDINGS LIMITED",
+   "gics_industry_group": "Insurance"
+  },
+  {
+   "code": "GMD",
+   "name": "GENESIS MINERALS LIMITED",
+   "gics_industry_group": "Materials"
+  },
+  {
+   "code": "NEU",
+   "name": "NEUREN PHARMACEUTICALS LIMITED",
+   "gics_industry_group": "Pharmaceuticals, Biotechnology & Life Sciences"
+  },
+  {
+   "code": "PNV",
+   "name": "POLYNOVO LIMITED",
+   "gics_industry_group": "Health Care Equipment & Services"
+  },
+  {
+   "code": "RHC",
+   "name": "RAMSAY HEALTH CARE LIMITED",
+   "gics_industry_group": "Health Care Equipment & Services"
+  }
+ ]
+}

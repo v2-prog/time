@@ -1,0 +1,3412 @@
+{
+ "schema": "gov.signal.v1",
+ "generated_at": "2026-11-28T10:30:00+11:00",
+ "as_of": "2026-11-28T10:30:00+11:00",
+ "disclaimer": "General information only, Australia only. Not personal financial or legal advice. No buy, sell or hold calls, entry points or ladders. Verify against the linked primary source before relying on any item.",
+ "scope": "Australia only",
+ "rubric": {
+  "version": "strength-rubric-v1",
+  "weights": {
+   "materiality": 0.35,
+   "certainty": 0.25,
+   "directness": 0.25,
+   "source": 0.15
+  },
+  "component_ranges": {
+   "materiality": [
+    0,
+    3
+   ],
+   "certainty": [
+    0,
+    3
+   ],
+   "directness": [
+    0,
+    3
+   ],
+   "source": [
+    1,
+    3
+   ]
+  },
+  "bands": [
+   {
+    "min_weighted": 0.85,
+    "strength": 5
+   },
+   {
+    "min_weighted": 0.65,
+    "strength": 4
+   },
+   {
+    "min_weighted": 0.45,
+    "strength": 3
+   },
+   {
+    "min_weighted": 0.25,
+    "strength": 2
+   },
+   {
+    "min_weighted": 0.0,
+    "strength": 1
+   }
+  ],
+  "caps": {
+   "secondary_only": 3,
+   "needs_human_verification": 2,
+   "exposure_not_in_source": 4
+  },
+  "doc": "data/signals/README.md"
+ },
+ "sector_watch": {
+  "status": "joined",
+  "file": "signals-2026-11-27.json",
+  "generated_at": "2026-11-28T10:00:21+11:00",
+  "session_as_of": "2026-11-27",
+  "join": "instrument (ASX code) for ticker cells; S&P/ASX 200 sector index code or GICS sector for sector cells; timeframe days|weeks|months|years",
+  "fields_used": [
+   "id",
+   "instrument",
+   "sector",
+   "timeframe",
+   "colour",
+   "conviction",
+   "horizon_type",
+   "needs_verification"
+  ],
+  "fields_not_used": "observed_move_label, summary and sources (prices and index levels are not republished here); fast_move_candidate (trade-candidate flag, out of scope for an information-only feed)"
+ },
+ "counts": {
+  "signals": 25,
+  "intersecting_heatmap": 19,
+  "by_verification": {
+   "confirmed_primary": 16,
+   "secondary_only": 8,
+   "needs_human_verification": 1
+  },
+  "by_strength": {
+   "5": 0,
+   "4": 5,
+   "3": 14,
+   "2": 6,
+   "1": 0
+  }
+ },
+ "signals": [
+  {
+   "id": "gas-dgrs-exporters",
+   "event": "Domestic Gas Reservation Scheme law passed: exporters must supply up to 20% of annual export volumes to the domestic market from 1 Jan 2028",
+   "category": "policy",
+   "jurisdiction": "CTH",
+   "date": "2026-11-26",
+   "date_kind": "passed",
+   "time_precision": "date",
+   "effect_date": "2028-01-01",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2027-01-01",
+     "label": "Export licensing framework intended to start"
+    },
+    {
+     "date": "2028-01-01",
+     "label": "Domestic supply obligations apply"
+    }
+   ],
+   "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "DISR: Domestic Gas Reservation Scheme",
+     "url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+     "kind": "primary"
+    },
+    {
+     "label": "ABC: scheme passes parliament (26 Nov)",
+     "url": "https://www.abc.net.au/news/2026-11-26/gas-reservation-scheme-set-to-pass-parliament/107430804",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "STO",
+     "name": "SANTOS LIMITED",
+     "gics_industry_group": "Energy",
+     "gics_sector": "Energy",
+     "bracket": "Energy",
+     "role": "East-coast LNG exporter (GLNG)",
+     "exposure_in_source": false,
+     "direction": "headwind",
+     "asx200_member": null
+    },
+    {
+     "code": "ORG",
+     "name": "ORIGIN ENERGY LIMITED",
+     "gics_industry_group": "Utilities",
+     "gics_sector": "Utilities",
+     "bracket": null,
+     "role": "East-coast LNG exporter (APLNG upstream)",
+     "exposure_in_source": false,
+     "direction": "headwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Energy",
+    "Utilities"
+   ],
+   "brackets": [
+    "Energy"
+   ],
+   "outside_brackets": [
+    "Utilities"
+   ],
+   "direction": "headwind",
+   "strength": {
+    "value": 4,
+    "uncapped": 4,
+    "weighted_score": 0.833,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 3,
+      "basis": "Reserves up to 20% of export volumes for the domestic market; the ABC reports the policy aims to oversupply the domestic market to push prices down"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Law passed; obligations start 1 Jan 2028"
+     },
+     "directness": {
+      "value": 2,
+      "basis": "Applies to the class 'gas exporters'; the companies are not named in the source"
+     },
+     "source": {
+      "value": 3,
+      "basis": "Department of Industry scheme page"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "A binding domestic supply obligation on east-coast exporters can lower the price they realise on reserved volumes. The impact depends on licence terms that are not set yet, and the obligation starts in 2028.",
+   "timeframe": "years",
+   "timeframe_basis": "Effect or decision date 2028-01-01 is 399 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "Passage date: DISR says 27 Nov 2026; ABC reported the Senate vote on the evening of 26 Nov. Check the Senate Journals.",
+     "Which listed companies hold export licences, and their volumes, is not in the source.",
+     "Ticker exposure is general knowledge, not stated in the source: STO, ORG"
+    ]
+   },
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "STO",
+      "ORG"
+     ],
+     "gics_sectors": [
+      "Energy",
+      "Utilities"
+     ],
+     "sector_index_codes": [
+      "XEJ",
+      "XUJ"
+     ],
+     "timeframe": "years"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xej-days",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xej-weeks",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 1
+  },
+  {
+   "id": "rhc-ramsay-sante-distribution",
+   "event": "Ramsay Health Care: shareholders approved distribution of 52.79% Ramsay Santé stake (24 Nov); NSW Supreme Court hearing 27 Nov; distribution scheduled 9 Dec",
+   "category": "approval",
+   "jurisdiction": "NSW",
+   "date": "2026-11-24",
+   "date_kind": "approved_by_shareholders",
+   "time_precision": "date",
+   "effect_date": "2026-12-09",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2026-11-27",
+     "label": "Court hearing; scheme effective on lodgement with ASIC"
+    },
+    {
+     "date": "2026-12-01",
+     "label": "Ramsay Santé CDIs trade on deferred settlement"
+    },
+    {
+     "date": "2026-12-09",
+     "label": "Distribution completes"
+    },
+    {
+     "date": "2026-12-10",
+     "label": "CDIs trade under standard settlement"
+    }
+   ],
+   "source_url": "https://press.ramsaysante.fr/news/ramsay-health-care-shareholders-approve-the-distribution-of-the-stake-of-ramsay-health-care-in-ramsay-sante-3bd03-48d84.html",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "Ramsay Santé release, 24 Nov 2026",
+     "url": "https://press.ramsaysante.fr/news/ramsay-health-care-shareholders-approve-the-distribution-of-the-stake-of-ramsay-health-care-in-ramsay-sante-3bd03-48d84.html",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "RHC",
+     "name": "RAMSAY HEALTH CARE LIMITED",
+     "gics_industry_group": "Health Care Equipment & Services",
+     "gics_sector": "Health Care",
+     "bracket": "Healthcare",
+     "role": "Distributing company",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Health Care"
+   ],
+   "brackets": [
+    "Healthcare"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 4,
+    "uncapped": 4,
+    "weighted_score": 0.833,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 3,
+      "basis": "Distributes a 52.79% stake in a major subsidiary"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Court approval and effectiveness not yet confirmed from a primary source"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "RHC named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "Release from a party to the scheme"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "RHC's structure changes when the Ramsay Santé stake is distributed as ASX CDIs. RHC's own price reflects the distribution, and CDI trading starts 1 Dec.",
+   "timeframe": "weeks",
+   "timeframe_basis": "Effect or decision date 2026-12-09 is 11 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "Sector Watch says the scheme took effect 27 Nov. This feed has not seen the court order or ASIC lodgement, so it needs checking.",
+     "RHC's -5.68% weekly move has no separate explanation."
+    ],
+    "origin": "Suggested by ASX 200 Sector Watch; checked here."
+   },
+   "earliest_actionable_at": "2026-11-25T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "RHC"
+     ],
+     "gics_sectors": [
+      "Health Care"
+     ],
+     "sector_index_codes": [
+      "XHJ"
+     ],
+     "timeframe": "weeks"
+    },
+    "intersects": true,
+    "level": "ticker",
+    "ticker_cells": [
+     {
+      "id": "rhc-weeks",
+      "instrument": "RHC",
+      "sector": "Health Care",
+      "timeframe": "weeks",
+      "colour": "red",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": true
+     }
+    ],
+    "sector_cells": [
+     {
+      "id": "xhj-days",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "days",
+      "colour": "amber",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xhj-weeks",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "rhc-weeks",
+     "xhj-weeks"
+    ]
+   },
+   "rank": 2
+  },
+  {
+   "id": "rwc-firb-cleared",
+   "event": "Brookfield scheme for Reliance Worldwide: FIRB no objection; all regulatory conditions satisfied",
+   "category": "approval",
+   "jurisdiction": "CTH",
+   "date": "2026-11-24",
+   "date_kind": "announced",
+   "time_precision": "date",
+   "effect_date": "2026-12-04",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2026-12-04",
+     "label": "Scheme meeting, 10 am AEDT"
+    }
+   ],
+   "source_url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03165803-3A707295",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "RWC ASX announcement, 24 Nov 2026",
+     "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03165803-3A707295",
+     "kind": "primary"
+    },
+    {
+     "label": "RWC scheme meeting page",
+     "url": "https://www.rwc.com/scheme-meeting",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "RWC",
+     "name": "RELIANCE WORLDWIDE CORPORATION LIMITED",
+     "gics_industry_group": "Capital Goods",
+     "gics_sector": "Industrials",
+     "bracket": "Industrials",
+     "role": "Scheme target",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Industrials"
+   ],
+   "brackets": [
+    "Industrials"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 4,
+    "uncapped": 4,
+    "weighted_score": 0.8,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "Removes the last regulatory condition on a control transaction (US$3.38 cash per share)"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Approvals obtained; shareholder vote and court approval pending"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "RWC named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ASX announcement"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "Regulatory risk to the scheme is gone. Price behaviour is anchored to the cash consideration, and the stock would delist if the scheme is implemented.",
+   "timeframe": "days",
+   "timeframe_basis": "Effect or decision date 2026-12-04 is 6 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "Deal value is reported inconsistently (Law360 A$4.1bn; Reuters US$2.53bn). No value is used here."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-25T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "no_intersection",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "RWC"
+     ],
+     "gics_sectors": [
+      "Industrials"
+     ],
+     "sector_index_codes": [
+      "XNJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": false,
+    "level": null,
+    "ticker_cells": [],
+    "sector_cells": [],
+    "same_timeframe_cells": []
+   },
+   "rank": 3
+  },
+  {
+   "id": "myx-accc-general-pharma",
+   "event": "ACCC Phase 1: General Pharma (Genesis Capital) to acquire Mayne Pharma International from Mayne Pharma Group",
+   "category": "merger",
+   "jurisdiction": "CTH",
+   "date": "2026-11-25",
+   "date_kind": "notified",
+   "time_precision": "date",
+   "effect_date": "2027-01-25",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2026-12-02",
+     "label": "ACCC consultation closes"
+    },
+    {
+     "date": "2027-01-25",
+     "label": "End of Phase 1 determination period"
+    }
+   ],
+   "source_url": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/general-pharma-mayne-pharma",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "ACCC register MN-50043",
+     "url": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/general-pharma-mayne-pharma",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "MYX",
+     "name": "MAYNE PHARMA GROUP LIMITED",
+     "gics_industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+     "gics_sector": "Health Care",
+     "bracket": "Healthcare",
+     "role": "Vendor (Mayne Pharma Group Limited is named as target/vendor)",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Health Care"
+   ],
+   "brackets": [
+    "Healthcare"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 4,
+    "uncapped": 4,
+    "weighted_score": 0.717,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "Sale of an operating subsidiary; its size relative to the group has not been checked"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Notified; under Phase 1 assessment"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "MYX named on the ACCC register"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ACCC register"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "ACCC clearance is a gating step for the sale. It combines Mayne's Australian generics with Evaris, so overlap in generics and OTC is the competition question.",
+   "timeframe": "months",
+   "timeframe_basis": "Effect or decision date 2027-01-25 is 58 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "MYX's ASX 200 membership is unverified and possibly outside it.",
+     "Sale terms and their materiality to MYX have not been opened."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "MYX"
+     ],
+     "gics_sectors": [
+      "Health Care"
+     ],
+     "sector_index_codes": [
+      "XHJ"
+     ],
+     "timeframe": "months"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xhj-days",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "days",
+      "colour": "amber",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xhj-weeks",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 4
+  },
+  {
+   "id": "pnv-fda-pma-submitted",
+   "event": "PolyNovo submits FDA Premarket Approval application for NovoSorb BTM in full-thickness burns (US regulator; ASX-listed company event)",
+   "category": "company_regulatory_us",
+   "jurisdiction": "US (regulator) / ASX-listed company",
+   "date": "2026-11-23",
+   "date_kind": "submitted",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://investors.polynovo.com/announcements/nJgvQ8-novosorb-btm-achieves-pivotal-trial-endpoints-pma-submitted",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "PNV ASX announcement, 23 Nov 2026",
+     "url": "https://investors.polynovo.com/announcements/nJgvQ8-novosorb-btm-achieves-pivotal-trial-endpoints-pma-submitted",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "PNV",
+     "name": "POLYNOVO LIMITED",
+     "gics_industry_group": "Health Care Equipment & Services",
+     "gics_sector": "Health Care",
+     "bracket": "Healthcare",
+     "role": "Applicant",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Health Care"
+   ],
+   "brackets": [
+    "Healthcare"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 4,
+    "uncapped": 4,
+    "weighted_score": 0.717,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "US sales already A$89.9m in FY26 without the on-label indication; the PMA would allow on-label marketing"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Submitted; FDA acceptance review first; no timing given"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "PolyNovo named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ASX announcement"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "The pivotal trial met non-inferiority and the filing is in. Approval and timing are uncertain, and the company says current sales are unaffected. This is a US regulator matter for an ASX-listed company.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 5 days before as-of)",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "PNV is likely outside the ASX 200 (Sector Watch includes it as a non-200 name). Check before treating it as in scope."
+    ],
+    "origin": "Suggested by ASX 200 Sector Watch; checked here.",
+    "regulator": "US FDA (not Australian)"
+   },
+   "earliest_actionable_at": "2026-11-24T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "PNV"
+     ],
+     "gics_sectors": [
+      "Health Care"
+     ],
+     "sector_index_codes": [
+      "XHJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xhj-days",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "days",
+      "colour": "amber",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xhj-weeks",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xhj-days"
+    ]
+   },
+   "rank": 5
+  },
+  {
+   "id": "abs-cpi-october",
+   "event": "October CPI 4.9% y/y (from 4.3%); trimmed mean 3.8%; RBA meets 7-8 Dec",
+   "category": "macro",
+   "jurisdiction": "CTH",
+   "date": "2026-11-25",
+   "date_kind": "released",
+   "time_precision": "date",
+   "effect_date": "2026-12-08",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2026-12-08",
+     "label": "RBA Monetary Policy Board decision"
+    }
+   ],
+   "source_url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-49-year-october-2026",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "ABS media release",
+     "url": "https://www.abs.gov.au/media-centre/media-releases/cpi-rose-49-year-october-2026",
+     "kind": "primary"
+    },
+    {
+     "label": "RBA 3 Nov decision",
+     "url": "https://www.rba.gov.au/media-releases/2026/mr-26-30.html",
+     "kind": "primary"
+    }
+   ],
+   "affected": [],
+   "gics_sectors": [
+    "Financials"
+   ],
+   "brackets": [
+    "Financials"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.633,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "Headline driven by electricity after rebates ended (+25.2%) and fuel"
+     },
+     "certainty": {
+      "value": 3,
+      "basis": "Released data"
+     },
+     "directness": {
+      "value": 0,
+      "basis": "Macro"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ABS"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "Higher inflation keeps rate pressure up ahead of the RBA on 8 Dec. For banks that is mixed: margins against credit quality.",
+   "timeframe": "days",
+   "timeframe_basis": "Effect or decision date 2026-12-08 is 10 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": []
+   },
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [],
+     "gics_sectors": [
+      "Financials"
+     ],
+     "sector_index_codes": [
+      "XFJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xfj-days",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xfj-weeks",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xfj-days"
+    ]
+   },
+   "rank": 6
+  },
+  {
+   "id": "gas-dgrs-users",
+   "event": "Gas reservation law passed: policy aimed at domestic gas supply and prices for industry",
+   "category": "policy",
+   "jurisdiction": "CTH",
+   "date": "2026-11-26",
+   "date_kind": "passed",
+   "time_precision": "date",
+   "effect_date": "2028-01-01",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2028-01-01",
+     "label": "Domestic supply obligations apply"
+    }
+   ],
+   "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "DISR: Domestic Gas Reservation Scheme",
+     "url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+     "kind": "primary"
+    },
+    {
+     "label": "ABC: scheme passes parliament (26 Nov)",
+     "url": "https://www.abc.net.au/news/2026-11-26/gas-reservation-scheme-set-to-pass-parliament/107430804",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "ORI",
+     "name": "ORICA LIMITED",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Large industrial gas user",
+     "exposure_in_source": false,
+     "direction": "tailwind",
+     "asx200_member": null
+    },
+    {
+     "code": "DNL",
+     "name": "DYNO NOBEL LIMITED.",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Large industrial gas user (formerly Incitec Pivot)",
+     "exposure_in_source": false,
+     "direction": "tailwind",
+     "asx200_member": null
+    },
+    {
+     "code": "BSL",
+     "name": "BLUESCOPE STEEL LIMITED",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Industrial energy user",
+     "exposure_in_source": false,
+     "direction": "tailwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Materials"
+   ],
+   "brackets": [
+    "Resources"
+   ],
+   "outside_brackets": [],
+   "direction": "tailwind",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.633,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "The stated aim is more affordable, reliable gas for households and industry"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Law passed; supply effect from 2028"
+     },
+     "directness": {
+      "value": 1,
+      "basis": "Indirect: gas buyers in general"
+     },
+     "source": {
+      "value": 3,
+      "basis": "DISR page"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "If the scheme does lower east-coast gas prices, large industrial users benefit. That depends on future price settings, and the companies' gas exposure is not verified here.",
+   "timeframe": "years",
+   "timeframe_basis": "Effect or decision date 2028-01-01 is 399 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "Passage date: DISR says 27 Nov 2026; ABC reported the Senate vote on the evening of 26 Nov. Check the Senate Journals.",
+     "Gas cost as a share of each company's costs has not been checked.",
+     "Ticker exposure is general knowledge, not stated in the source: ORI, DNL, BSL"
+    ]
+   },
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "ORI",
+      "DNL",
+      "BSL"
+     ],
+     "gics_sectors": [
+      "Materials"
+     ],
+     "sector_index_codes": [
+      "XMJ"
+     ],
+     "timeframe": "years"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xmj-days",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xmj-weeks",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 7
+  },
+  {
+   "id": "ald-accc-evie",
+   "event": "ACCC Phase 1: Ampol to acquire Evie Networks (EV charging)",
+   "category": "merger",
+   "jurisdiction": "CTH",
+   "date": "2026-11-13",
+   "date_kind": "notified",
+   "time_precision": "date",
+   "effect_date": "2027-01-13",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2027-01-13",
+     "label": "End of Phase 1 determination period"
+    }
+   ],
+   "source_url": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/ampol-%E2%80%93-evie-networks",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "ACCC register MN-30044",
+     "url": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/ampol-%E2%80%93-evie-networks",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "ALD",
+     "name": "AMPOL LIMITED",
+     "gics_industry_group": "Energy",
+     "gics_sector": "Energy",
+     "bracket": "Energy",
+     "role": "Acquirer (via Ampol Energy Pty Ltd)",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Energy"
+   ],
+   "brackets": [
+    "Energy"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.6,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "Adds about 1,000 bays to about 400; small relative to Ampol's fuel business"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Under Phase 1 assessment"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "Ampol named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ACCC register"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "This is a strategic EV-charging step for Ampol. The deal size is not public and is likely small for the group. The ACCC decision is due 13 Jan 2027.",
+   "timeframe": "weeks",
+   "timeframe_basis": "Effect or decision date 2027-01-13 is 46 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "Price not disclosed in the source."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-16T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "ALD"
+     ],
+     "gics_sectors": [
+      "Energy"
+     ],
+     "sector_index_codes": [
+      "XEJ"
+     ],
+     "timeframe": "weeks"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xej-days",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xej-weeks",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xej-weeks"
+    ]
+   },
+   "rank": 8
+  },
+  {
+   "id": "asic-cba-commbiz",
+   "event": "ASIC civil penalty proceedings against Commonwealth Bank over CommBiz fees",
+   "category": "asic",
+   "jurisdiction": "CTH",
+   "date": "2026-11-27",
+   "date_kind": "reported_in_statement",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-27-november-2026",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "ASIC opening statement to the PJC, 27 Nov 2026",
+     "url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-27-november-2026",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "CBA",
+     "name": "COMMONWEALTH BANK OF AUSTRALIA.",
+     "gics_industry_group": "Banks",
+     "gics_sector": "Financials",
+     "bracket": "Financials",
+     "role": "Defendant",
+     "exposure_in_source": true,
+     "direction": "headwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Financials"
+   ],
+   "brackets": [
+    "Financials"
+   ],
+   "outside_brackets": [],
+   "direction": "headwind",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.6,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "Penalty not stated; small relative to CBA's size"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Proceedings commenced; these are allegations"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "CBA named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ASIC statement"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "A named enforcement action with reputational and remediation cost. The amounts are not public, so the materiality is likely low for a bank of CBA's size.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 1 days before as-of)",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "The filing date and ASIC media release number for the CommBiz case have not been located."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "CBA"
+     ],
+     "gics_sectors": [
+      "Financials"
+     ],
+     "sector_index_codes": [
+      "XFJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xfj-days",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xfj-weeks",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xfj-days"
+    ]
+   },
+   "rank": 9
+  },
+  {
+   "id": "gas-dgrs-wa-exempt",
+   "event": "Gas reservation law passed with Western Australia exempt (WA keeps its own policy)",
+   "category": "policy",
+   "jurisdiction": "CTH",
+   "date": "2026-11-26",
+   "date_kind": "passed",
+   "time_precision": "date",
+   "effect_date": "2028-01-01",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2028-01-01",
+     "label": "Domestic supply obligations apply"
+    }
+   ],
+   "source_url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "DISR: Domestic Gas Reservation Scheme",
+     "url": "https://www.industry.gov.au/mining-oil-and-gas/oil-and-gas/domestic-gas-reservation-scheme",
+     "kind": "primary"
+    },
+    {
+     "label": "ABC: scheme passes parliament (26 Nov)",
+     "url": "https://www.abc.net.au/news/2026-11-26/gas-reservation-scheme-set-to-pass-parliament/107430804",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "WDS",
+     "name": "WOODSIDE ENERGY GROUP LTD",
+     "gics_industry_group": "Energy",
+     "gics_sector": "Energy",
+     "bracket": "Energy",
+     "role": "LNG exporter, mainly from WA",
+     "exposure_in_source": false,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Energy"
+   ],
+   "brackets": [
+    "Energy"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.6,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "Most of Woodside's LNG is WA-based and WA is exempt, so the incremental effect is likely small"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Law passed"
+     },
+     "directness": {
+      "value": 2,
+      "basis": "Exporter class; Woodside not named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "DISR page; the WA exemption is from the ABC"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "WA's exemption limits the direct effect on WA-based LNG. The ABC reports the Coalition wanted safeguards on that exemption, so it may remain a political variable.",
+   "timeframe": "years",
+   "timeframe_basis": "Effect or decision date 2028-01-01 is 399 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "Passage date: DISR says 27 Nov 2026; ABC reported the Senate vote on the evening of 26 Nov. Check the Senate Journals.",
+     "Woodside's east-coast export exposure, if any, needs checking.",
+     "Ticker exposure is general knowledge, not stated in the source: WDS"
+    ]
+   },
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "WDS"
+     ],
+     "gics_sectors": [
+      "Energy"
+     ],
+     "sector_index_codes": [
+      "XEJ"
+     ],
+     "timeframe": "years"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xej-days",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xej-weeks",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 10
+  },
+  {
+   "id": "asic-mqg-welcome-rate",
+   "event": "Macquarie admits Welcome Rate contravention; $14m penalty jointly proposed",
+   "category": "asic",
+   "jurisdiction": "NSW",
+   "date": "2026-11-27",
+   "date_kind": "reported_in_statement",
+   "time_precision": "date",
+   "effect_date": "2027-02-17",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2027-02-17",
+     "label": "NSW Supreme Court hearing"
+    }
+   ],
+   "source_url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-275mr-macquarie-admits-failures-over-savings-account-welcome-rate-offer",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "ASIC 26-275MR",
+     "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-275mr-macquarie-admits-failures-over-savings-account-welcome-rate-offer",
+     "kind": "primary"
+    },
+    {
+     "label": "ASIC opening statement to the PJC",
+     "url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-27-november-2026",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "MQG",
+     "name": "MACQUARIE GROUP LIMITED",
+     "gics_industry_group": "Financial Services",
+     "gics_sector": "Financials",
+     "bracket": "Financials",
+     "role": "Parent of Macquarie Bank Limited (respondent)",
+     "exposure_in_source": true,
+     "direction": "headwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Financials"
+   ],
+   "brackets": [
+    "Financials"
+   ],
+   "outside_brackets": [],
+   "direction": "headwind",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.567,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 0,
+      "basis": "$14m proposed penalty, immaterial to MQG"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Admitted; penalty subject to court"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "Macquarie named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ASIC release"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "The admission and agreed penalty make the outcome near-certain, but the amount is negligible for MQG. This is mainly a conduct-record item.",
+   "timeframe": "months",
+   "timeframe_basis": "Effect or decision date 2027-02-17 is 81 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "The original publication date of 26-275MR was not visible; the 27 Nov PJC statement is used as the dated reference."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "MQG"
+     ],
+     "gics_sectors": [
+      "Financials"
+     ],
+     "sector_index_codes": [
+      "XFJ"
+     ],
+     "timeframe": "months"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xfj-days",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xfj-weeks",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 11
+  },
+  {
+   "id": "asic-2027-priorities",
+   "event": "ASIC to the PJC: 2027 enforcement priorities are audit, private credit, superannuation and harmful lead generation; six interim stop orders on private credit funds",
+   "category": "asic",
+   "jurisdiction": "CTH",
+   "date": "2026-11-27",
+   "date_kind": "statement",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-27-november-2026",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "ASIC opening statement to the PJC, 27 Nov 2026",
+     "url": "https://www.asic.gov.au/about-asic/news-centre/speeches/parliamentary-joint-committee-on-corporations-and-financial-services-opening-statement-27-november-2026",
+     "kind": "primary"
+    }
+   ],
+   "affected": [],
+   "gics_sectors": [
+    "Financials"
+   ],
+   "brackets": [
+    "Financials"
+   ],
+   "outside_brackets": [],
+   "direction": "headwind",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.55,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "Private credit sector of $213bn (2025) per ASIC; a review of 24 funds holding $18bn led to six interim stop orders"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Priorities announced; stop orders already made"
+     },
+     "directness": {
+      "value": 0,
+      "basis": "Sector-wide; no listed company named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "ASIC statement"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "ASIC says its posture will shift to enforcement in private credit. That raises compliance and distribution risk for managers and platforms in that segment. No listed firm is named.",
+   "timeframe": "months",
+   "timeframe_basis": "2027 enforcement priorities; no dated milestone",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "No ASX 200 company is named. Any listed private-credit exposure needs mapping by a human."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [],
+     "gics_sectors": [
+      "Financials"
+     ],
+     "sector_index_codes": [
+      "XFJ"
+     ],
+     "timeframe": "months"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xfj-days",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xfj-weeks",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 12
+  },
+  {
+   "id": "cis-tender-12",
+   "event": "Capacity Investment Scheme Tender 12 opened: up to 5 GW of NEM renewable generation (excluding NSW)",
+   "category": "tender",
+   "jurisdiction": "CTH",
+   "date": "2026-11-27",
+   "date_kind": "opened",
+   "time_precision": "date",
+   "effect_date": "2027-06-30",
+   "effect_date_precision": "month (source: June 2027)",
+   "key_dates": [
+    {
+     "date": null,
+     "when": "early December 2026",
+     "label": "CIS Tender 9 results expected (indicative)"
+    },
+    {
+     "date": "2027-02-05",
+     "label": "Tender 12 bids close"
+    },
+    {
+     "date": "2027-06-30",
+     "precision": "month",
+     "when": "June 2027",
+     "label": "Tender 12 outcomes expected"
+    }
+   ],
+   "source_url": "https://minister.dcceew.gov.au/wilson/media-releases/more-clean-reliable-energy-australias-electricity-grid",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "Minister Wilson: CIS Tender 12 opens",
+     "url": "https://minister.dcceew.gov.au/wilson/media-releases/more-clean-reliable-energy-australias-electricity-grid",
+     "kind": "primary"
+    },
+    {
+     "label": "DCCEEW: open CIS tenders",
+     "url": "https://www.dcceew.gov.au/energy/renewable/capacity-investment-scheme/open-cis-tenders",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "AGL",
+     "name": "AGL ENERGY LIMITED.",
+     "gics_industry_group": "Utilities",
+     "gics_sector": "Utilities",
+     "bracket": null,
+     "role": "NEM generator-retailer; possible bidder",
+     "exposure_in_source": false,
+     "direction": "tailwind",
+     "asx200_member": null
+    },
+    {
+     "code": "ORG",
+     "name": "ORIGIN ENERGY LIMITED",
+     "gics_industry_group": "Utilities",
+     "gics_sector": "Utilities",
+     "bracket": null,
+     "role": "NEM generator-retailer; possible bidder",
+     "exposure_in_source": false,
+     "direction": "tailwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Utilities"
+   ],
+   "brackets": [],
+   "outside_brackets": [
+    "Utilities"
+   ],
+   "direction": "tailwind",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.55,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "Up to 5 GW of government-underwritten generation"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Tender open; outcomes June 2027"
+     },
+     "directness": {
+      "value": 1,
+      "basis": "Bidders are not public"
+     },
+     "source": {
+      "value": 3,
+      "basis": "Ministerial release"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "Underwriting lowers revenue risk for successful bidders. Who bids and wins is unknown until June 2027. The new Developer Rating Scheme and First Nations requirements add bid conditions.",
+   "timeframe": "months",
+   "timeframe_basis": "Effect or decision date 2027-06-30 is 214 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "Whether AGL or Origin bid is unknown. They are listed only as NEM generator-retailers.",
+     "Tender 9 results are indicative for early December; no date is set.",
+     "Ticker exposure is general knowledge, not stated in the source: AGL, ORG"
+    ]
+   },
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "no_intersection",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "AGL",
+      "ORG"
+     ],
+     "gics_sectors": [
+      "Utilities"
+     ],
+     "sector_index_codes": [
+      "XUJ"
+     ],
+     "timeframe": "months"
+    },
+    "intersects": false,
+    "level": null,
+    "ticker_cells": [],
+    "sector_cells": [],
+    "same_timeframe_cells": []
+   },
+   "rank": 13
+  },
+  {
+   "id": "gmd-vault-scheme-implemented",
+   "event": "Genesis Minerals completes Vault Minerals scheme (court-approved): implemented 26 Nov; Vault delisted 27 Nov",
+   "category": "merger",
+   "jurisdiction": "WA",
+   "date": "2026-11-26",
+   "date_kind": "implemented",
+   "time_precision": "date",
+   "effect_date": "2026-11-26",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2026-11-27",
+     "label": "Vault removed from the official list at close"
+    }
+   ],
+   "source_url": "https://mining.com.au/genesis-minerals-completes-vault-gold-takeover/",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "Mining.com.au, 27 Nov 2026",
+     "url": "https://mining.com.au/genesis-minerals-completes-vault-gold-takeover/",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "GMD",
+     "name": "GENESIS MINERALS LIMITED",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Acquirer",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Materials"
+   ],
+   "brackets": [
+    "Resources"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 3,
+    "uncapped": 5,
+    "weighted_score": 0.9,
+    "caps_applied": [
+     "secondary_only caps strength at 3"
+    ],
+    "components": {
+     "materiality": {
+      "value": 3,
+      "basis": "Transformational merger; the scheme booklet gives combined FY27 output of 625-675 koz"
+     },
+     "certainty": {
+      "value": 3,
+      "basis": "Implemented"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "Genesis named"
+     },
+     "source": {
+      "value": 1,
+      "basis": "Trade press"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "The merger is complete, so deal risk is gone and integration risk takes over. The combined plan is due in the June quarter of 2027. Vault holders received GMD shares, which can bring register turnover.",
+   "timeframe": "days",
+   "timeframe_basis": "Effect or decision date 2026-11-26 is -2 days from as-of",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "The GMD ASX implementation announcement has not been opened.",
+     "GMD's ASX 200 membership is unverified."
+    ],
+    "origin": "Suggested by ASX 200 Sector Watch; checked here."
+   },
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "GMD"
+     ],
+     "gics_sectors": [
+      "Materials"
+     ],
+     "sector_index_codes": [
+      "XMJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xmj-days",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xmj-weeks",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xmj-days"
+    ]
+   },
+   "rank": 14
+  },
+  {
+   "id": "cgf-tal-revised-proposal",
+   "event": "TAL Dai-ichi lifts its Challenger proposal to $12.20 a share; board says it does not reflect fair value",
+   "category": "merger",
+   "jurisdiction": "CTH",
+   "date": "2026-11-19",
+   "date_kind": "announced",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.capitalbrief.com/briefing/tal-daiichi-life-lobs-improved-82b-bid-for-challenger-805c2389-9a56-4a8a-ae3f-32f553c3b263/",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "Capital Brief, 19 Nov 2026 (cites ASX)",
+     "url": "https://www.capitalbrief.com/briefing/tal-daiichi-life-lobs-improved-82b-bid-for-challenger-805c2389-9a56-4a8a-ae3f-32f553c3b263/",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "CGF",
+     "name": "CHALLENGER LIMITED",
+     "gics_industry_group": "Financial Services",
+     "gics_sector": "Financials",
+     "bracket": "Financials",
+     "role": "Target of a control proposal",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Financials"
+   ],
+   "brackets": [
+    "Financials"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 3,
+    "uncapped": 4,
+    "weighted_score": 0.733,
+    "caps_applied": [
+     "secondary_only caps strength at 3"
+    ],
+    "components": {
+     "materiality": {
+      "value": 3,
+      "basis": "Control proposal for the 79.5% TAL does not already own"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Non-binding proposal rejected by the board"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "Challenger named"
+     },
+     "source": {
+      "value": 1,
+      "basis": "Secondary report of an ASX release"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "A live control contest with a rejected improved offer. The next step depends on TAL and the board. Any deal would also need regulatory approvals (FIRB, APRA, ACCC) that are not yet sought publicly.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 9 days before as-of)",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "The original CGF ASX release has not been opened.",
+     "The regulatory approvals needed are an inference; they are not in the source."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-20T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "CGF"
+     ],
+     "gics_sectors": [
+      "Financials"
+     ],
+     "sector_index_codes": [
+      "XFJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xfj-days",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xfj-weeks",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xfj-days"
+    ]
+   },
+   "rank": 15
+  },
+  {
+   "id": "wds-browse-epbc",
+   "event": "Woodside Browse: federal EPBC decision expected early 2027, assessed under pre-1 Dec rules",
+   "category": "approval",
+   "jurisdiction": "CTH",
+   "date": "2026-11-26",
+   "date_kind": "reported",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [
+    {
+     "date": "2026-12-01",
+     "label": "Reformed EPBC rules apply to new referrals"
+    }
+   ],
+   "source_url": "https://www.theguardian.com/australia-news/2026/nov/27/hugh-jackman-woodside-gas-project-wa-reef-murray-watt",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "Guardian, 26/27 Nov 2026",
+     "url": "https://www.theguardian.com/australia-news/2026/nov/27/hugh-jackman-woodside-gas-project-wa-reef-murray-watt",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "WDS",
+     "name": "WOODSIDE ENERGY GROUP LTD",
+     "gics_industry_group": "Energy",
+     "gics_sector": "Energy",
+     "bracket": "Energy",
+     "role": "Proponent",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Energy"
+   ],
+   "brackets": [
+    "Energy"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 3,
+    "uncapped": 4,
+    "weighted_score": 0.65,
+    "caps_applied": [
+     "secondary_only caps strength at 3"
+    ],
+    "components": {
+     "materiality": {
+      "value": 3,
+      "basis": "Major undeveloped gas resource for Woodside"
+     },
+     "certainty": {
+      "value": 0,
+      "basis": "Pending decision; timing reported only"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "Woodside named"
+     },
+     "source": {
+      "value": 1,
+      "basis": "Guardian report"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "A binary approval event for Woodside is due early 2027. Staying under the old rules avoids the tougher reformed tests, according to the minister as reported.",
+   "timeframe": "months",
+   "timeframe_basis": "Decision reported as expected early 2027",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "Decision timing comes from a media report. Check the EPBC portal."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "WDS"
+     ],
+     "gics_sectors": [
+      "Energy"
+     ],
+     "sector_index_codes": [
+      "XEJ"
+     ],
+     "timeframe": "months"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xej-days",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xej-weeks",
+      "instrument": "XEJ",
+      "sector": "Energy",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 16
+  },
+  {
+   "id": "phi-rebate-changes",
+   "event": "Private health insurance rebate changes passed both houses with a pensioner carve-out",
+   "category": "policy",
+   "jurisdiction": "CTH",
+   "date": "2026-11-25",
+   "date_kind": "passed",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.abc.net.au/news/2026-11-25/pensioners-carved-out-of-cuts-to-private-health-insurance-rebate/107424452",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "ABC, 25 Nov 2026",
+     "url": "https://www.abc.net.au/news/2026-11-25/pensioners-carved-out-of-cuts-to-private-health-insurance-rebate/107424452",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "MPL",
+     "name": "MEDIBANK PRIVATE LIMITED",
+     "gics_industry_group": "Insurance",
+     "gics_sector": "Financials",
+     "bracket": "Financials",
+     "role": "Private health insurer",
+     "exposure_in_source": false,
+     "direction": "headwind",
+     "asx200_member": null
+    },
+    {
+     "code": "NHF",
+     "name": "NIB HOLDINGS LIMITED",
+     "gics_industry_group": "Insurance",
+     "gics_sector": "Financials",
+     "bracket": "Financials",
+     "role": "Private health insurer",
+     "exposure_in_source": false,
+     "direction": "headwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Financials"
+   ],
+   "brackets": [
+    "Financials"
+   ],
+   "outside_brackets": [],
+   "direction": "headwind",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.617,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "Government savings were put at about $3bn; about half was given up in the deal"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Passed; royal assent pending"
+     },
+     "directness": {
+      "value": 2,
+      "basis": "Insurer class; companies not named"
+     },
+     "source": {
+      "value": 1,
+      "basis": "ABC report"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "A lower rebate raises net premiums for affected members, which can push downgrades or lapses. The pensioner carve-out softens this, and start dates are not confirmed here.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 3 days before as-of)",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "The bill text and commencement dates have not been opened on the APH site.",
+     "Ticker exposure is general knowledge, not stated in the source: MPL, NHF"
+    ]
+   },
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "MPL",
+      "NHF"
+     ],
+     "gics_sectors": [
+      "Financials"
+     ],
+     "sector_index_codes": [
+      "XFJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xfj-days",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xfj-weeks",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xfj-days"
+    ]
+   },
+   "rank": 17
+  },
+  {
+   "id": "pilbara-ports-october",
+   "event": "Pilbara Ports October throughput 69.7 Mt, down 2% y/y (Port Hedland 48.6 Mt, down 4%)",
+   "category": "ports",
+   "jurisdiction": "WA",
+   "date": "2026-11-16",
+   "date_kind": "reported",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.thedcn.com.au/news/pilbara-ports-tonnage-down-in-october",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "DCN, 16 Nov 2026 (cites Pilbara Ports)",
+     "url": "https://www.thedcn.com.au/news/pilbara-ports-tonnage-down-in-october",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "BHP",
+     "name": "BHP GROUP LIMITED",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Pilbara iron ore exporter",
+     "exposure_in_source": false,
+     "direction": "headwind",
+     "asx200_member": null
+    },
+    {
+     "code": "RIO",
+     "name": "RIO TINTO LIMITED",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Pilbara iron ore exporter",
+     "exposure_in_source": false,
+     "direction": "headwind",
+     "asx200_member": null
+    },
+    {
+     "code": "FMG",
+     "name": "FORTESCUE LTD",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Pilbara iron ore exporter",
+     "exposure_in_source": false,
+     "direction": "headwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Materials"
+   ],
+   "brackets": [
+    "Resources"
+   ],
+   "outside_brackets": [],
+   "direction": "headwind",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.5,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "One month, -2% y/y; the port authority cites weather, maintenance and customer factors"
+     },
+     "certainty": {
+      "value": 3,
+      "basis": "Reported data"
+     },
+     "directness": {
+      "value": 1,
+      "basis": "Port-level, not company-level"
+     },
+     "source": {
+      "value": 1,
+      "basis": "Trade press"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "This is a soft monthly volume read for the Pilbara iron ore chain. One month is noisy and does not split by company.",
+   "timeframe": "weeks",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 12 days before as-of)",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "Pilbara Ports' own monthly statistics page has not been opened.",
+     "Which miner ships through which port has not been checked here.",
+     "Ticker exposure is general knowledge, not stated in the source: BHP, RIO, FMG"
+    ]
+   },
+   "earliest_actionable_at": "2026-11-17T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "BHP",
+      "RIO",
+      "FMG"
+     ],
+     "gics_sectors": [
+      "Materials"
+     ],
+     "sector_index_codes": [
+      "XMJ"
+     ],
+     "timeframe": "weeks"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xmj-days",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xmj-weeks",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xmj-weeks"
+    ]
+   },
+   "rank": 18
+  },
+  {
+   "id": "bhp-copper-sa-northern-water",
+   "event": "BHP Copper South Australia expansion depends on Northern Water (SA FID due 2027) and transmission upgrades not yet committed by governments",
+   "category": "approval",
+   "jurisdiction": "SA",
+   "date": "2026-11-23",
+   "date_kind": "announced",
+   "time_precision": "date",
+   "effect_date": "2027-06-30",
+   "effect_date_precision": "half-year (source: FID first half of 2027)",
+   "key_dates": [
+    {
+     "date": "2027-06-30",
+     "precision": "half",
+     "when": "first half of 2027",
+     "label": "BHP FID targeted (Reuters)"
+    }
+   ],
+   "source_url": "https://mining.com.au/bhp-unveils-26-billion-plan-to-double-south-australian-copper-output-by-2040/",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "Reuters via Mining.com.au, 23 Nov 2026",
+     "url": "https://mining.com.au/bhp-unveils-26-billion-plan-to-double-south-australian-copper-output-by-2040/",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "BHP",
+     "name": "BHP GROUP LIMITED",
+     "gics_industry_group": "Materials",
+     "gics_sector": "Materials",
+     "bracket": "Resources",
+     "role": "Proponent",
+     "exposure_in_source": true,
+     "direction": "mixed",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Materials"
+   ],
+   "brackets": [
+    "Resources"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 3,
+    "uncapped": 3,
+    "weighted_score": 0.45,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 2,
+      "basis": "A plan of up to US$17.4bn (Reuters); water and power are external dependencies"
+     },
+     "certainty": {
+      "value": 0,
+      "basis": "State and federal governments have not committed to the desalination and pipeline"
+     },
+     "directness": {
+      "value": 2,
+      "basis": "BHP named; the dependency is on government infrastructure"
+     },
+     "source": {
+      "value": 1,
+      "basis": "Reuters report"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "Timing of the expansion is tied to government infrastructure decisions, including the SA Northern Water FID next year. Delays there would push the project back.",
+   "timeframe": "months",
+   "timeframe_basis": "Effect or decision date 2027-06-30 is 214 days from as-of",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "Sector Watch cites BHP's ASX slides (23 Nov); this feed has not opened them.",
+     "The US$17.4bn capex figure is Reuters reporting, not confirmed from the slides."
+    ],
+    "origin": "Suggested by ASX 200 Sector Watch; checked here against Reuters."
+   },
+   "earliest_actionable_at": "2026-11-24T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "BHP"
+     ],
+     "gics_sectors": [
+      "Materials"
+     ],
+     "sector_index_codes": [
+      "XMJ"
+     ],
+     "timeframe": "months"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xmj-days",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xmj-weeks",
+      "instrument": "XMJ",
+      "sector": "Materials",
+      "timeframe": "weeks",
+      "colour": "green",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": []
+   },
+   "rank": 19
+  },
+  {
+   "id": "trade-consultation-act",
+   "event": "Trade and Investment Agreements (Consultation) Bill 2026 passed: framework for FTA negotiation, consultation and review; new Trade Advisory Group",
+   "category": "trade",
+   "jurisdiction": "CTH",
+   "date": "2026-11-26",
+   "date_kind": "passed",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.dfat.gov.au/news/trade-and-investment-agreements-consultation-bill-2026-passes-parliament",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "DFAT, 27 Nov 2026",
+     "url": "https://www.dfat.gov.au/news/trade-and-investment-agreements-consultation-bill-2026-passes-parliament",
+     "kind": "primary"
+    }
+   ],
+   "affected": [],
+   "gics_sectors": [
+    "Industrials"
+   ],
+   "brackets": [
+    "Industrials"
+   ],
+   "outside_brackets": [],
+   "direction": "mixed",
+   "strength": {
+    "value": 2,
+    "uncapped": 2,
+    "weighted_score": 0.433,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "Process change, not a tariff change"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Passed"
+     },
+     "directness": {
+      "value": 0,
+      "basis": "No company named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "DFAT"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "More consultation may slow or shape future FTAs (the EU deal is in play) but changes no market access now.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 2 days before as-of)",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "EU FTA gain figures ($10bn rising to $30bn) rest on a 23 Nov Financial Register report and are not used here."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "no_intersection",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [],
+     "gics_sectors": [
+      "Industrials"
+     ],
+     "sector_index_codes": [
+      "XNJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": false,
+    "level": null,
+    "ticker_cells": [],
+    "sector_cells": [],
+    "same_timeframe_cells": []
+   },
+   "rank": 20
+  },
+  {
+   "id": "ato-debt-rft",
+   "event": "ATO request for tender PROC-17649: External Collection Agency mercantile debt management services",
+   "category": "tender",
+   "jurisdiction": "CTH",
+   "date": "2026-11-23",
+   "date_kind": "published",
+   "time_precision": "date",
+   "effect_date": "2026-12-21",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2026-12-21",
+     "label": "Tender closes 2 pm ACT time"
+    },
+    {
+     "date": "2027-07-01",
+     "label": "Proposed initial term starts"
+    }
+   ],
+   "source_url": "https://www.tenders.gov.au/Atm/Show/a94e7587-7471-40f8-9351-1a37c93a64d1",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "AusTender PROC-17649",
+     "url": "https://www.tenders.gov.au/Atm/Show/a94e7587-7471-40f8-9351-1a37c93a64d1",
+     "kind": "primary"
+    }
+   ],
+   "affected": [],
+   "gics_sectors": [
+    "Financials"
+   ],
+   "brackets": [
+    "Financials"
+   ],
+   "outside_brackets": [],
+   "direction": "tailwind",
+   "strength": {
+    "value": 2,
+    "uncapped": 2,
+    "weighted_score": 0.35,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "Multi-year contract value is not stated"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Open tender"
+     },
+     "directness": {
+      "value": 0,
+      "basis": "Bidders are not public"
+     },
+     "source": {
+      "value": 3,
+      "basis": "AusTender"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "Government debt-collection work runs from Jul 2027 to as late as 2032 with extensions. This matters only to collection firms that bid, and none are public.",
+   "timeframe": "weeks",
+   "timeframe_basis": "Effect or decision date 2026-12-21 is 23 days from as-of",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": [
+     "No listed bidder has been identified."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-24T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [],
+     "gics_sectors": [
+      "Financials"
+     ],
+     "sector_index_codes": [
+      "XFJ"
+     ],
+     "timeframe": "weeks"
+    },
+    "intersects": true,
+    "level": "sector",
+    "ticker_cells": [],
+    "sector_cells": [
+     {
+      "id": "xfj-days",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "days",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xfj-weeks",
+      "instrument": "XFJ",
+      "sector": "Financials",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "xfj-weeks"
+    ]
+   },
+   "rank": 21
+  },
+  {
+   "id": "etrade-bill",
+   "event": "Electronic Transactions Amendment (eTRADE) Bill introduced: legal recognition of electronic transferable records such as bills of lading",
+   "category": "trade",
+   "jurisdiction": "CTH",
+   "date": "2026-11-25",
+   "date_kind": "introduced",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://ministers.ag.gov.au/media-centre/albanese-government-lays-foundation-potential-44-billion-paperless-trade-economic-boost-25-11-2026",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "Attorney-General release, 25 Nov 2026",
+     "url": "https://ministers.ag.gov.au/media-centre/albanese-government-lays-foundation-potential-44-billion-paperless-trade-economic-boost-25-11-2026",
+     "kind": "primary"
+    }
+   ],
+   "affected": [],
+   "gics_sectors": [
+    "Industrials"
+   ],
+   "brackets": [
+    "Industrials"
+   ],
+   "outside_brackets": [],
+   "direction": "tailwind",
+   "strength": {
+    "value": 2,
+    "uncapped": 2,
+    "weighted_score": 0.35,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "The release cites an APEC study estimate of about $44bn over ten years for the economy; that is a study estimate"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Introduced only"
+     },
+     "directness": {
+      "value": 0,
+      "basis": "Economy-wide; no company named"
+     },
+     "source": {
+      "value": 3,
+      "basis": "Ministerial release"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "Paperless trade documents could cut friction for logistics and trade-heavy businesses over time. The bill is only introduced and use is optional.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 3 days before as-of)",
+   "verification": {
+    "status": "confirmed_primary",
+    "items": []
+   },
+   "earliest_actionable_at": "2026-11-26T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "no_intersection",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [],
+     "gics_sectors": [
+      "Industrials"
+     ],
+     "sector_index_codes": [
+      "XNJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": false,
+    "level": null,
+    "ticker_cells": [],
+    "sector_cells": [],
+    "same_timeframe_cells": []
+   },
+   "rank": 22
+  },
+  {
+   "id": "western-downs-epbc",
+   "event": "Western Downs Digital Park ($32bn, Anthropic-backed, near Dalby QLD) not likely to have significant impact: no further federal assessment",
+   "category": "approval",
+   "jurisdiction": "CTH",
+   "date": "2026-11-26",
+   "date_kind": "decision_reported",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.abc.net.au/news/2026-11-26/western-downs-digital-park-federal-environmental-approval/107428970",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "ABC, 26 Nov 2026",
+     "url": "https://www.abc.net.au/news/2026-11-26/western-downs-digital-park-federal-environmental-approval/107428970",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [],
+   "gics_sectors": [
+    "Utilities"
+   ],
+   "brackets": [],
+   "outside_brackets": [
+    "Utilities"
+   ],
+   "direction": "mixed",
+   "strength": {
+    "value": 2,
+    "uncapped": 2,
+    "weighted_score": 0.333,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "Very large proposed power load (about a quarter of Queensland's daily electricity use, per ABC); developer Zerra DC is private"
+     },
+     "certainty": {
+      "value": 2,
+      "basis": "Federal step cleared; council and state approvals pending"
+     },
+     "directness": {
+      "value": 0,
+      "basis": "No listed party named"
+     },
+     "source": {
+      "value": 1,
+      "basis": "ABC report"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "This shows a fast federal pathway (about two months) for hyperscale data centres. Listed exposure such as power supply or grid is not identified. Council and state approvals are still needed.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 2 days before as-of)",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "The EPBC portal decision record has not been opened.",
+     "No ASX-listed counterparty has been verified."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-27T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "no_intersection",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [],
+     "gics_sectors": [
+      "Utilities"
+     ],
+     "sector_index_codes": [
+      "XUJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": false,
+    "level": null,
+    "ticker_cells": [],
+    "sector_cells": [],
+    "same_timeframe_cells": []
+   },
+   "rank": 23
+  },
+  {
+   "id": "port-landside-charges-2027",
+   "event": "2027 landside terminal charges well above CPI (Patrick 8-38%, DP World 4.5-8.9%); NTC guidelines from 1 Jan 2027",
+   "category": "ports",
+   "jurisdiction": "CTH",
+   "date": "2026-11-19",
+   "date_kind": "reported",
+   "time_precision": "date",
+   "effect_date": "2027-01-01",
+   "effect_date_precision": "day",
+   "key_dates": [
+    {
+     "date": "2026-12-01",
+     "label": "MUA stop-works (Patrick Botany; DP World West Swanson)"
+    },
+    {
+     "date": "2026-12-03",
+     "label": "MUA stop-work (Patrick Fisherman Islands)"
+    },
+    {
+     "date": "2027-01-01",
+     "label": "NTC landside guidelines commence"
+    }
+   ],
+   "source_url": "https://www.thedcn.com.au/news/new-landside-pricing-rules-face-their-first-test",
+   "source_kind": "secondary",
+   "sources": [
+    {
+     "label": "DCN opinion, 19 Nov 2026",
+     "url": "https://www.thedcn.com.au/news/new-landside-pricing-rules-face-their-first-test",
+     "kind": "secondary"
+    },
+    {
+     "label": "KLN advisory: terminal closures",
+     "url": "https://info.oceania.kln.com/customer-advisory/au-vic/nsw/qld-planned-container-terminal-closures-november-27-december-3-2026",
+     "kind": "secondary"
+    }
+   ],
+   "affected": [],
+   "gics_sectors": [
+    "Industrials"
+   ],
+   "brackets": [
+    "Industrials"
+   ],
+   "outside_brackets": [],
+   "direction": "headwind",
+   "strength": {
+    "value": 2,
+    "uncapped": 2,
+    "weighted_score": 0.25,
+    "caps_applied": [],
+    "components": {
+     "materiality": {
+      "value": 1,
+      "basis": "A cost line for importers and exporters"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Proposed notices; finals due early December"
+     },
+     "directness": {
+      "value": 0,
+      "basis": "No listed terminal operator verified"
+     },
+     "source": {
+      "value": 1,
+      "basis": "Trade press"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "Higher landside charges and stop-works add cost and delay for container users. The listed exposure is diffuse.",
+   "timeframe": "weeks",
+   "timeframe_basis": "Effect or decision date 2027-01-01 is 34 days from as-of",
+   "verification": {
+    "status": "secondary_only",
+    "items": [
+     "Final 2027 charge notices are not yet seen.",
+     "Whether any ASX-listed company owns Patrick has not been checked; Qube is not on the 28 Nov ASX list."
+    ]
+   },
+   "earliest_actionable_at": "2026-11-20T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "no_intersection",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [],
+     "gics_sectors": [
+      "Industrials"
+     ],
+     "sector_index_codes": [
+      "XNJ"
+     ],
+     "timeframe": "weeks"
+    },
+    "intersects": false,
+    "level": null,
+    "ticker_cells": [],
+    "sector_cells": [],
+    "same_timeframe_cells": []
+   },
+   "rank": 24
+  },
+  {
+   "id": "neu-fda-pitt-hopkins",
+   "event": "Neuren update on Pitt Hopkins Phase 3: FDA reportedly prefers a placebo-controlled design Neuren says is not executable (US regulator; ASX-listed company event)",
+   "category": "company_regulatory_us",
+   "jurisdiction": "US (regulator) / ASX-listed company",
+   "date": "2026-11-27",
+   "date_kind": "announced",
+   "time_precision": "date",
+   "effect_date": null,
+   "effect_date_precision": null,
+   "key_dates": [],
+   "source_url": "https://www.marketindex.com.au/asx/neu/announcements/neuren-updates-on-pitt-hopkins-phase-3-development-program-2A1713364",
+   "source_kind": "primary",
+   "sources": [
+    {
+     "label": "NEU ASX announcement listing, 27 Nov 2026 (title only read)",
+     "url": "https://www.marketindex.com.au/asx/neu/announcements/neuren-updates-on-pitt-hopkins-phase-3-development-program-2A1713364",
+     "kind": "primary"
+    }
+   ],
+   "affected": [
+    {
+     "code": "NEU",
+     "name": "NEUREN PHARMACEUTICALS LIMITED",
+     "gics_industry_group": "Pharmaceuticals, Biotechnology & Life Sciences",
+     "gics_sector": "Health Care",
+     "bracket": "Healthcare",
+     "role": "Sponsor",
+     "exposure_in_source": true,
+     "direction": "headwind",
+     "asx200_member": null
+    }
+   ],
+   "gics_sectors": [
+    "Health Care"
+   ],
+   "brackets": [
+    "Healthcare"
+   ],
+   "outside_brackets": [],
+   "direction": "headwind",
+   "strength": {
+    "value": 2,
+    "uncapped": 4,
+    "weighted_score": 0.733,
+    "caps_applied": [
+     "needs_human_verification caps strength at 2"
+    ],
+    "components": {
+     "materiality": {
+      "value": 3,
+      "basis": "Development path for a pipeline indication"
+     },
+     "certainty": {
+      "value": 1,
+      "basis": "Regulatory feedback; no decision"
+     },
+     "directness": {
+      "value": 3,
+      "basis": "Neuren named"
+     },
+     "source": {
+      "value": 1,
+      "basis": "The announcement body has not been read; the content is from Sector Watch's summary"
+     }
+    },
+    "rubric_version": "strength-rubric-v1"
+   },
+   "reasoning": "If the FDA requires a trial design Neuren cannot run, the Pitt Hopkins pathway is delayed or uncertain. This is a US regulatory matter for an ASX-listed company, not an Australian government action.",
+   "timeframe": "days",
+   "timeframe_basis": "No dated effect or decision in the source; bucketed by recency (event 1 days before as-of)",
+   "verification": {
+    "status": "needs_human_verification",
+    "items": [
+     "Read the NEU announcement PDF; this feed confirmed only its title and date.",
+     "NEU's ASX 200 membership is unverified."
+    ],
+    "origin": "Suggested by ASX 200 Sector Watch.",
+    "regulator": "US FDA (not Australian)"
+   },
+   "earliest_actionable_at": "2026-11-30T10:00:00+11:00",
+   "related_engine_matches": [],
+   "label": "General information, not financial or legal advice.",
+   "heatmap": {
+    "status": "joined",
+    "sector_watch_file": {
+     "file": "signals-2026-11-27.json",
+     "generated_at": "2026-11-28T10:00:21+11:00",
+     "session_as_of": "2026-11-27"
+    },
+    "join_key": {
+     "instruments": [
+      "NEU"
+     ],
+     "gics_sectors": [
+      "Health Care"
+     ],
+     "sector_index_codes": [
+      "XHJ"
+     ],
+     "timeframe": "days"
+    },
+    "intersects": true,
+    "level": "ticker",
+    "ticker_cells": [
+     {
+      "id": "neu-days",
+      "instrument": "NEU",
+      "sector": "Health Care",
+      "timeframe": "days",
+      "colour": "red",
+      "conviction": "high",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "neu-weeks",
+      "instrument": "NEU",
+      "sector": "Health Care",
+      "timeframe": "weeks",
+      "colour": "red",
+      "conviction": "high",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "sector_cells": [
+     {
+      "id": "xhj-days",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "days",
+      "colour": "amber",
+      "conviction": "low",
+      "horizon_type": "near_term",
+      "needs_verification": false
+     },
+     {
+      "id": "xhj-weeks",
+      "instrument": "XHJ",
+      "sector": "Health Care",
+      "timeframe": "weeks",
+      "colour": "blue",
+      "conviction": "low",
+      "horizon_type": "position_building",
+      "needs_verification": false
+     }
+    ],
+    "same_timeframe_cells": [
+     "neu-days",
+     "xhj-days"
+    ]
+   },
+   "rank": 25
+  }
+ ],
+ "excluded": [
+  {
+   "item": "Defence $292.6m missiles via US FMS (CN4290849)",
+   "reason": "Counterparty is the US Government FMS account; no ASX-listed party.",
+   "source": "https://www.tenders.gov.au/Cn/Show/272a7898-9260-4494-8690-8899f01db752"
+  },
+  {
+   "item": "Barron River Bridge $490m D&C (Seymour Whyte, VSL, Arup JV)",
+   "reason": "No ASX-listed JV member has been verified.",
+   "source": "https://minister.infrastructure.gov.au/c-king/media-release/contract-awarded-design-and-construct-new-barron-river-bridge"
+  },
+  {
+   "item": "ACCC waiver: Waterfront Logistics acquires Monson Logistics",
+   "reason": "Private parties.",
+   "source": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register/waterfront-logistics-monson-logistics"
+  },
+  {
+   "item": "Defence $100.2m Viasat and Home Affairs $82.5m Teradata",
+   "reason": "Only a commercial-site report; the AusTender originals have not been opened. Both are US-listed.",
+   "source": null
+  },
+  {
+   "item": "The Star / FEC / CTF asset swap notification (24 Nov)",
+   "reason": "The ACCC register entry has not been opened, so there is no primary URL yet. Needs human verification before SGR is added.",
+   "source": "https://www.accc.gov.au/public-registers/acquisitions-and-mergers-registers/acquisitions-register"
+  },
+  {
+   "item": "Reported A$8.4bn SGX offer for ASX",
+   "reason": "Terms match the 2010 deal; treated as stale and not news.",
+   "source": null
+  },
+  {
+   "item": "Victorian state election (28 Nov)",
+   "reason": "No result at build time.",
+   "source": null
+  },
+  {
+   "item": "NSW fire-ant Biosecurity Control Order (Auburn)",
+   "reason": "No listed exposure identified.",
+   "source": "https://www.nsw.gov.au/ministerial-releases/nsw-government-introduces-biosecurity-control-order-as-part-of-fire-ant-escalation-effort"
+  },
+  {
+   "item": "WA acreage release; WA approvals analysis FY2025-26",
+   "reason": "No company named; the approvals item is performance reporting.",
+   "source": "https://www.wa.gov.au/government/announcements/acreage-release-boost-exploration-and-greenhouse-gas-storage"
+  },
+  {
+   "item": "ACT 2027 school budgets",
+   "reason": "Not market-relevant (community-project item for the daily briefing).",
+   "source": "https://www.act.gov.au/education-and-training/supporting-education-in-the-act/act-public-school-budgets"
+  }
+ ],
+ "problems": []
+}
